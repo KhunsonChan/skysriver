@@ -14,7 +14,7 @@ description: 天幕的账号角色与其拥有的权限
 
 天幕将创建主体的账号默认赋予了超级管理员的权限，成员等级如下图所示：
 
-![&#x6210;&#x5458;&#x4F53;&#x7CFB;.png](https://cdn.nlark.com/yuque/0/2019/png/254569/1557052235188-a99798fb-3427-4189-be00-7c0fad63d16c.png)
+![](https://cdn.nlark.com/yuque/0/2019/png/254569/1557052235188-a99798fb-3427-4189-be00-7c0fad63d16c.png)
 
 每个天幕主体拥有**1个超级管理员**，可设置**多个管理员**，加入**多个普通成员**。
 
@@ -24,7 +24,7 @@ description: 天幕的账号角色与其拥有的权限
 
 #### **超级管理员**
 
-![image.png](https://cdn.nlark.com/yuque/0/2019/png/254569/1557053351609-1ad06374-abb2-4aef-a455-d1d19ed7d1c4.png?x-oss-process=image/resize,w_2000)
+![](https://cdn.nlark.com/yuque/0/2019/png/254569/1557053351609-1ad06374-abb2-4aef-a455-d1d19ed7d1c4.png?x-oss-process=image/resize,w_2000)
 
 1. 设置管理员；
 2. 可将管理员、普通成员移出主体；
@@ -35,7 +35,7 @@ description: 天幕的账号角色与其拥有的权限
 
 #### **管理员**
 
-![image.png](https://cdn.nlark.com/yuque/0/2019/png/254569/1557053351609-1ad06374-abb2-4aef-a455-d1d19ed7d1c4.png?x-oss-process=image/resize,w_2000)
+![](https://cdn.nlark.com/yuque/0/2019/png/254569/1557053351609-1ad06374-abb2-4aef-a455-d1d19ed7d1c4.png?x-oss-process=image/resize,w_2000)
 
 1. 将普通成员移出主体；
 2. 设置普通成员查看游戏权限；
@@ -45,7 +45,7 @@ description: 天幕的账号角色与其拥有的权限
 
 #### **普通成员**
 
-![image.png](https://cdn.nlark.com/yuque/0/2019/png/254569/1557053027358-c27ce6b3-bc9c-4180-8a1e-d1c8c88db520.png?x-oss-process=image/resize,w_2000)
+![](https://cdn.nlark.com/yuque/0/2019/png/254569/1557053027358-c27ce6b3-bc9c-4180-8a1e-d1c8c88db520.png?x-oss-process=image/resize,w_2000)
 
 查看主体下有权限游戏有权限游戏的广告主、流量主、财务中心数据；
 

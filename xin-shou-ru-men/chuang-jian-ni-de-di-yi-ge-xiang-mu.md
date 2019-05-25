@@ -10,11 +10,11 @@ description: 拥有天幕账号后，在你的天幕账号中添加第一个项�
 
 若你是通过手机号注册，并登录成功后，可通过以下方式注册你的第一个项目。
 
-![&#x521B;&#x5EFA;&#x5C0F;&#x6E38;&#x620F;.png](https://cdn.nlark.com/yuque/0/2019/png/254569/1557053818713-7e5fb50e-b9b2-4a34-972b-81634f9d1974.png)
+![](https://cdn.nlark.com/yuque/0/2019/png/254569/1557053818713-7e5fb50e-b9b2-4a34-972b-81634f9d1974.png)
 
 点击「开始创建」按钮，在弹出的页面中填写需要的资料。
 
-![&#x521B;&#x5EFA;&#x6E38;&#x620F;.png](https://cdn.nlark.com/yuque/0/2019/png/254569/1557042991402-b2f28bf6-75d9-4d1c-b843-2ebc0f19d926.png)
+![](https://cdn.nlark.com/yuque/0/2019/png/254569/1557042991402-b2f28bf6-75d9-4d1c-b843-2ebc0f19d926.png)
 
 按以上要求填写好以下信息，点击创建项目即可：
 
@@ -26,7 +26,7 @@ description: 拥有天幕账号后，在你的天幕账号中添加第一个项�
 
 通过已有账号邀请加入，可点击头像，下拉框内的「创建主体」，在弹出的页面填写主体名称即可。
 
-![&#x65B0;&#x5EFA;&#x4E3B;&#x4F53;.png](https://cdn.nlark.com/yuque/0/2019/png/254569/1557043565815-b8579ef4-c3c8-4ea3-af74-edc00a19a81e.png)
+![](https://cdn.nlark.com/yuque/0/2019/png/254569/1557043565815-b8579ef4-c3c8-4ea3-af74-edc00a19a81e.png)
 
 
 

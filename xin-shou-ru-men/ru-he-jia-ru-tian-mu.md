@@ -18,7 +18,7 @@ description: 本篇将讲述如何创建您的天幕账号
 
 您只需对天幕的账号体系有个大致的概念即可，后续我们会结合具体的业务场景进行解说。
 
-![&#x8D26;&#x53F7;.png](https://cdn.nlark.com/yuque/0/2019/png/254569/1556542245035-45d4252e-26da-47c9-bbf9-d491c2bafca7.png)
+![](https://cdn.nlark.com/yuque/0/2019/png/254569/1556542245035-45d4252e-26da-47c9-bbf9-d491c2bafca7.png)
 
 ### 加入天幕的方式
 
@@ -31,15 +31,15 @@ description: 本篇将讲述如何创建您的天幕账号
 
 天幕已开放注册，用户可通过进入[天幕的官网](https://www.skysriver.com/)，点击右上角的注册按钮，使用手机号注册即可。
 
-![login.jpg](https://cdn.nlark.com/yuque/0/2019/jpeg/254569/1556533973614-f8bae4e4-13f4-46c8-b32c-c9dfe4cc33a3.jpeg?x-oss-process=image/resize,w_2000)
+![](https://cdn.nlark.com/yuque/0/2019/jpeg/254569/1556533973614-f8bae4e4-13f4-46c8-b32c-c9dfe4cc33a3.jpeg?x-oss-process=image/resize,w_2000)
 
 #### **已有账号用户邀请加入**
 
 已有账号用户登录天幕系统，创建主体后，可通过成员管理模块，点击添加成员，在弹出的页面填写成员手机号进行邀请。
 
-![image.png](https://cdn.nlark.com/yuque/0/2019/png/254569/1556543520065-6063aa96-3b48-42e8-a141-3a9d859dc394.png?x-oss-process=image/resize,w_2000)
+![](https://cdn.nlark.com/yuque/0/2019/png/254569/1556543520065-6063aa96-3b48-42e8-a141-3a9d859dc394.png?x-oss-process=image/resize,w_2000)
 
-![image.png](https://cdn.nlark.com/yuque/0/2019/png/254569/1556543431322-5231f79b-d33d-42d7-95fb-39f6ac5b8114.png?x-oss-process=image/resize,w_2000)
+![](https://cdn.nlark.com/yuque/0/2019/png/254569/1556543431322-5231f79b-d33d-42d7-95fb-39f6ac5b8114.png?x-oss-process=image/resize,w_2000)
 
 请注意：
 

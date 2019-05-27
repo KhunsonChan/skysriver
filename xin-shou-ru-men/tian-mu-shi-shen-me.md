@@ -9,7 +9,7 @@ description: >-
 
 ‌
 
-![image.png](https://cdn.nlark.com/yuque/0/2019/png/254569/1556527435257-8fca7c3f-71b9-4bf1-a1a5-b913443e683a.png)
+![](https://cdn.nlark.com/yuque/0/2019/png/254569/1556527435257-8fca7c3f-71b9-4bf1-a1a5-b913443e683a.png)
 
 帮助流量主进行流量变现，以及集中管理自身的游戏项目。
 
@@ -25,7 +25,7 @@ description: >-
 
 ‌
 
-![image.png](https://cdn.nlark.com/yuque/0/2019/png/254569/1556528548247-196b8db6-a05c-4ec9-a2c3-3142c86e8b3e.png)
+![](https://cdn.nlark.com/yuque/0/2019/png/254569/1556528548247-196b8db6-a05c-4ec9-a2c3-3142c86e8b3e.png)
 
 帮助广告主进行便捷的广告投放。
 

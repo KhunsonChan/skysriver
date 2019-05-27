@@ -3,7 +3,7 @@
 * [介绍](README.md)
 * [新手入门](xin-shou-ru-men/README.md)
   * [天幕是什么](xin-shou-ru-men/tian-mu-shi-shen-me.md)
-  * [天幕解决的问题](xin-shou-ru-men/tian-mu-jie-jue-de-wen-ti.md)
+  * [天幕解决的问题](xin-shou-ru-men/tian-mu-jie-jue-de-wen-ti-1.md)
   * [天幕的数据来源](xin-shou-ru-men/tian-mu-de-shu-ju-lai-yuan.md)
   * [如何加入天幕](xin-shou-ru-men/ru-he-jia-ru-tian-mu.md)
   * [账户角色与权限说明](xin-shou-ru-men/zhang-hu-jiao-se-yu-quan-xian-shuo-ming.md)
@@ -36,4 +36,9 @@
     * [广告主](gong-neng-jie-shao/zhi-biao-shuo-ming/guang-gao-zhu.md)
     * [流量主](gong-neng-jie-shao/zhi-biao-shuo-ming/liu-liang-zhu.md)
     * [性能分析](gong-neng-jie-shao/zhi-biao-shuo-ming/xing-neng-fen-xi.md)
+* [云配置服务](yun-pei-zhi-fu-wu.md)
+* [转发素材管理](zhuan-fa-su-cai-guan-li.md)
+* [功能开关](gong-neng-kai-guan.md)
+* [米大师支付](mi-da-shi-zhi-fu.md)
+* [渠道管理](qu-dao-guan-li.md)
 

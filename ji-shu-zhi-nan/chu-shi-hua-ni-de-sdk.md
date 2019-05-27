@@ -7,17 +7,17 @@
 ### **关联接口**
 
 * [onShareAppMessage](https://www.yuque.com/eqrk37/gk0pcl/ntp4sq)
-* [shareAppMessage](https://www.yuque.com/eqrk37/gk0pcl/in50nh)
-* [createFlow](https://www.yuque.com/eqrk37/gk0pcl/gpcbyk)
-* [checkFlowIsOpen](https://www.yuque.com/eqrk37/gk0pcl/xvu16v)
-* [getFlowConfig](https://www.yuque.com/eqrk37/gk0pcl/okpygt)
-* [getJudgeConfig](https://www.yuque.com/eqrk37/gk0pcl/tdc95r)
+* [shareAppMessage](zhuan-fa-su-cai/shareappmessage.md)
+* [createFlow](zai-you-xi-zhong-chuang-jian-guang-gao-wei/shi-yong-createflow-ran.md)
+* [checkFlowIsOpen](zai-you-xi-zhong-chuang-jian-guang-gao-wei/huo-qu-guang-gao-wei-kai-qi-zhuang-tai.md)
+* [getFlowConfig](zai-you-xi-zhong-chuang-jian-guang-gao-wei/huo-qu-guang-gao-wei-id-dui-ying-pei-zhi.md)
+* [getJudgeConfig](gong-neng-kai-guan.md)
 
 ### **调用方法**
 
-调用.init方法实现，示例如下
+调用[.init](chu-shi-hua-ni-de-sdk.md)方法实现，示例如下
 
-```text
+```java
 wx.tmSDK.init({
      hideRequestLog: false,
      appVersion: '1.0.0'

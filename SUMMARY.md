@@ -57,4 +57,12 @@
   * [登录](ji-shu-zhi-nan/deng-lu/README.md)
     * [使用login获取登录用户信息](ji-shu-zhi-nan/deng-lu/shi-yong-login-huo-qu-deng-lu-yong-hu-xin-xi.md)
     * [从微信获取用户信息](ji-shu-zhi-nan/deng-lu/cong-wei-xin-huo-qu-yong-hu-xin-xi.md)
+  * [为你的游戏接入SDK](ji-shu-zhi-nan/wei-ni-de-you-xi-jie-ru-sdk.md)
+  * [在游戏中创建广告位](ji-shu-zhi-nan/zai-you-xi-zhong-chuang-jian-guang-gao-wei/README.md)
+    * [使用createFlow渲染](ji-shu-zhi-nan/zai-you-xi-zhong-chuang-jian-guang-gao-wei/shi-yong-createflow-ran.md)
+    * [渲染浮动窗广告](ji-shu-zhi-nan/zai-you-xi-zhong-chuang-jian-guang-gao-wei/ran-fu-dong-chuang-guang-gao.md)
+    * [渲染猜你喜欢广告](ji-shu-zhi-nan/zai-you-xi-zhong-chuang-jian-guang-gao-wei/ran-cai-ni-xi-huan-guang-gao.md)
+    * [获取广告位开启状态](ji-shu-zhi-nan/zai-you-xi-zhong-chuang-jian-guang-gao-wei/huo-qu-guang-gao-wei-kai-qi-zhuang-tai.md)
+    * [获取广告位id对应配置](ji-shu-zhi-nan/zai-you-xi-zhong-chuang-jian-guang-gao-wei/huo-qu-guang-gao-wei-id-dui-ying-pei-zhi.md)
+    * [点击推广创意后跳转到落地页](ji-shu-zhi-nan/zai-you-xi-zhong-chuang-jian-guang-gao-wei/dian-ji-tui-guang-chuang-yi-hou-tiao-zhuan-dao-luo-di-ye.md)
 

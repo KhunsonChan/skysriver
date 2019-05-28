@@ -22,9 +22,9 @@
 
 {% page-ref page="guang-gao-shu-ju.md" %}
 
-{% page-ref page="guang-gao-zhu.md" %}
+{% page-ref page="ad-master-data.md" %}
 
-{% page-ref page="liu-liang-zhu.md" %}
+{% page-ref page="traffic-master-data.md" %}
 
 {% page-ref page="xing-neng-fen-xi.md" %}
 

@@ -25,7 +25,7 @@
 
 可参阅以下说明，了解直投广告计划是如何创建的。
 
-{% page-ref page="../zuo-wei-liu-liang-zhu-jie-shou-guang-gao-ding-dan/jie-ru-tian-mu-sdk.md" %}
+{% page-ref page="../traffic-start-order/access-sdk.md" %}
 
 #### **通投**
 

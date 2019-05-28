@@ -6,16 +6,16 @@
 * 接收广告创意
 * 统计曝光，点击等数据
 * 统计计费数据
-* [管理转发素材](https://www.yuque.com/eqrk37/gk0pcl/qe85sm)
-* [功能开关](https://www.yuque.com/eqrk37/gk0pcl/qwg6c4)
-* [米大师支付](https://www.yuque.com/eqrk37/gk0pcl/eiyld4)
-* [渠道配置管理](https://www.yuque.com/eqrk37/gk0pcl/hth9az)
+* [管理转发素材](../../gong-neng-jie-shao/yun-pei-zhi-fu-wu/zhuan-fa-su-cai-guan-li.md)
+* [功能开关](../../gong-neng-jie-shao/yun-pei-zhi-fu-wu/gong-neng-kai-guan.md)
+* [米大师支付](../../gong-neng-jie-shao/yun-pei-zhi-fu-wu/mi-da-shi-zhi-fu.md)
+* [渠道配置管理](../../gong-neng-jie-shao/yun-pei-zhi-fu-wu/qu-dao-guan-li.md)
 
 因此，请务必接入天幕的SDK，下面将说明如何获取与接入SDK
 
 请在主体中，找到需要接入SDK的游戏，点击游戏名称，进入游戏详情页面开始SDK的接入流程。
 
-以下内容会涉及到技术人员方面的工作，若为运营人员，简单了解即可，在SDK接入完成后，可开始执行[广告位创建工作。](https://www.yuque.com/eqrk37/gk0pcl/cwqp9o)
+以下内容会涉及到技术人员方面的工作，若为运营人员，简单了解即可，在SDK接入完成后，可开始执行[广告位创建工作。](create-ad-position.md)
 
 ![](https://cdn.nlark.com/yuque/0/2019/png/254569/1557215260667-68f2f25d-bbc3-4584-99c4-00537d035698.png?x-oss-process=image/resize,w_2000)
 
@@ -57,7 +57,9 @@
 
 ![](https://cdn.nlark.com/yuque/0/2019/png/254569/1557215697929-34c9e611-57d1-4050-8665-ba91bad3bb99.png)
 
-SDK接入完成后，可进行广告位的接入，请参阅在[游戏中创建广告位](https://www.yuque.com/eqrk37/gk0pcl/weu8s9)。
+SDK接入完成后，可进行广告位的接入，请参阅以下文章，将会阐述如何在游戏中创建广告位，请注意，仅适合开发人员阅读，若您不是开发人员，想了解相关的内容，请与开发人员进行沟通。
+
+{% page-ref page="../../ji-shu-zhi-nan/zai-you-xi-zhong-chuang-jian-guang-gao-wei/" %}
 
  
 

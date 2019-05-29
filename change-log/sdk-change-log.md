@@ -1,20 +1,35 @@
 # SDK更新日志
 
-## 15.0.0 - 2042-12-03
+## 2.1.1 - 2019-05-29
 
 ### Fixed
 
-* Removed humans, they weren't doing fine with animals.
-
-### Changed
-
-* Animals are now super cute, all of them.
-
-## 14.0.0 - 2042-10-06
+* 支付要求appSecret的问题
+* 无appSecret时日志无指纹问题
 
 ### Added
 
-* Introduced animals into the world, we believe they're going to be a neat addition.
+* 支持使用ES5规范的代码结构
+
+## 2.1.0 - 2019-05-15
+
+### Fixed
+
+* 没有断网重试网络请求的问题
+* 自定义事件修复增加成功与失败回调问题
+
+### Added
+
+* 新增支持无appSecret应用的情况，支持开发者自行传入openId
+* 分享加入支持自定义标题, getShareTempltes接口新增缓存所有模版
+* 统一浮动窗广告的UI渲染和猜你喜欢渲染的坐标系，按照实际画布尺寸渲染，使用微信标准坐标系
+
+### Changed
+
+* updateUserInfo失败无用户名或头像时，从wx.getUserInfo中获取并返回
+* getJudgeConfig接口优化，支持只传入id获取对应结果
+* 域名校验优化，不校验备用域名
+* 优化加载时长统计的调用时机
 
 
 

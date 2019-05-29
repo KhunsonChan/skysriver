@@ -59,7 +59,7 @@
 
 SDK接入完成后，可进行广告位的接入，请参阅以下文章，将会阐述如何在游戏中创建广告位，请注意，仅适合开发人员阅读，若您不是开发人员，想了解相关的内容，请与开发人员进行沟通。
 
-{% page-ref page="../../ji-shu-zhi-nan/zai-you-xi-zhong-chuang-jian-guang-gao-wei/" %}
+{% page-ref page="../../dev-guide/zai-you-xi-zhong-chuang-jian-guang-gao-wei/" %}
 
  
 

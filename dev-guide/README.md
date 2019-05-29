@@ -8,7 +8,7 @@
 
 {% page-ref page="xing-neng-fen-xi.md" %}
 
-{% page-ref page="zhuan-fa-su-cai/" %}
+{% page-ref page="dev-sharing/" %}
 
 {% page-ref page="gong-neng-kai-guan.md" %}
 

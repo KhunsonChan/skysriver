@@ -7,7 +7,7 @@
 ### **关联接口**
 
 * [onShareAppMessage](https://www.yuque.com/eqrk37/gk0pcl/ntp4sq)
-* [shareAppMessage](zhuan-fa-su-cai/shareappmessage.md)
+* [shareAppMessage](dev-sharing/shareappmessage.md)
 * [createFlow](zai-you-xi-zhong-chuang-jian-guang-gao-wei/shi-yong-createflow-ran.md)
 * [checkFlowIsOpen](zai-you-xi-zhong-chuang-jian-guang-gao-wei/huo-qu-guang-gao-wei-kai-qi-zhuang-tai.md)
 * [getFlowConfig](zai-you-xi-zhong-chuang-jian-guang-gao-wei/huo-qu-guang-gao-wei-id-dui-ying-pei-zhi.md)

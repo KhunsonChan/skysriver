@@ -1,6 +1,6 @@
 # 技术指南
 
-{% page-ref page="chu-shi-hua-ni-de-sdk.md" %}
+{% page-ref page="init.md" %}
 
 {% page-ref page="deng-lu/" %}
 

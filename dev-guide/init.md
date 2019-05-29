@@ -15,7 +15,7 @@
 
 ### **调用方法**
 
-调用[.init](chu-shi-hua-ni-de-sdk.md)方法实现，示例如下
+调用[.init](init.md)方法实现，示例如下
 
 ```java
 wx.tmSDK.init({

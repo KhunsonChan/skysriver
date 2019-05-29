@@ -8,11 +8,11 @@
 
 {% page-ref page="data-statistics/" %}
 
-{% page-ref page="guang-gao-zhu.md" %}
+{% page-ref page="ad-master.md" %}
 
-{% page-ref page="liu-liang-zhu.md" %}
+{% page-ref page="traffic-master.md" %}
 
-{% page-ref page="cai-wu-zhong-xin.md" %}
+{% page-ref page="financial-center.md" %}
 
-{% page-ref page="cheng-yuan-guan-li.md" %}
+{% page-ref page="member-management.md" %}
 

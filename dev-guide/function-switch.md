@@ -30,7 +30,7 @@ description: 小游戏中的很多功能，通过天幕可以进行云端配置�
 
 ### **前置条件**
 
-使用该接口前，必须先使用[init](chu-shi-hua-ni-de-sdk.md)方法初始化SDK
+使用该接口前，必须先使用[init](init.md)方法初始化SDK
 
 ### **调用方法**
 

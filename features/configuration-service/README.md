@@ -4,7 +4,7 @@
 
 {% page-ref page="switch.md" %}
 
-{% page-ref page="mi-da-shi-zhi-fu.md" %}
+{% page-ref page="mi-da-shi-payment.md" %}
 
 {% page-ref page="channel-management.md" %}
 

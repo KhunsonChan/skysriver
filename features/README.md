@@ -6,7 +6,7 @@
 
 {% page-ref page="configuration-service/" %}
 
-{% page-ref page="shu-ju-tong-ji/" %}
+{% page-ref page="data-statistics/" %}
 
 {% page-ref page="guang-gao-zhu.md" %}
 

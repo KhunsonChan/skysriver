@@ -8,7 +8,7 @@
 * 统计计费数据
 * [管理转发素材](../../features/configuration-service/sharing-management.md)
 * [功能开关](../../features/configuration-service/switch.md)
-* [米大师支付](../../features/configuration-service/mi-da-shi-zhi-fu.md)
+* [米大师支付](../../features/configuration-service/mi-da-shi-payment.md)
 * [渠道配置管理](../../features/configuration-service/channel-management.md)
 
 因此，请务必接入天幕的SDK，下面将说明如何获取与接入SDK

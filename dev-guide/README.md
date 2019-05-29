@@ -2,9 +2,9 @@
 
 {% page-ref page="init.md" %}
 
-{% page-ref page="deng-lu/" %}
+{% page-ref page="login/" %}
 
-{% page-ref page="wei-ni-de-you-xi-jie-ru-sdk.md" %}
+{% page-ref page="access-sdk.md" %}
 
 {% page-ref page="xing-neng-fen-xi.md" %}
 

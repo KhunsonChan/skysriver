@@ -6,13 +6,13 @@
 
 {% page-ref page="access-sdk.md" %}
 
-{% page-ref page="xing-neng-fen-xi.md" %}
+{% page-ref page="performance-analysis.md" %}
 
 {% page-ref page="dev-sharing/" %}
 
 {% page-ref page="function-switch.md" %}
 
-{% page-ref page="zhi-fu-yu-nei-gou/" %}
+{% page-ref page="payment/" %}
 
-{% page-ref page="kai-fa-demo.md" %}
+{% page-ref page="dev-demo.md" %}
 

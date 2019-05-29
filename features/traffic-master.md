@@ -32,7 +32,7 @@
 
 对流量主下所有游戏的广告位进行集中管理，可删除和为某个应用新增广告位，以及查看广告位id。
 
-如何新增广告位，请参阅[创建广告位](https://www.yuque.com/eqrk37/gk0pcl/cwqp9o)
+如何新增广告位，请参阅[创建广告位](../start/traffic-start-order/create-ad-position.md)
 
 ![](https://cdn.nlark.com/yuque/0/2019/png/254569/1557234287767-0fc86274-f345-43a5-849f-685e0ca270e9.png?x-oss-process=image/resize,w_2000)
 
@@ -42,7 +42,7 @@
 
 #### **广告市场**
 
-可在此查看可接收的广告订单，并进行[接单操作](https://www.yuque.com/eqrk37/gk0pcl/oz23ro)。
+可在此查看可接收的广告订单，并进行[接单操作](../start/traffic-start-order/)。
 
 ![](https://cdn.nlark.com/yuque/0/2019/png/254569/1557234457248-110d635c-a517-4ea8-be6a-fb3d90a5bc8c.png?x-oss-process=image/resize,w_2000)
 
@@ -50,7 +50,7 @@
 
 查看所有你接收的广告订单，可对订单状态进行修改。
 
-具体操作，请参阅[接单操作](https://www.yuque.com/eqrk37/gk0pcl/oz23ro)。
+具体操作，请参阅[接单操作](../start/traffic-start-order/)。
 
 ![](https://cdn.nlark.com/yuque/0/2019/png/254569/1557234842287-533d6efd-b73b-42c5-94df-5b573ca07f9c.png?x-oss-process=image/resize,w_2000)
 

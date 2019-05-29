@@ -16,7 +16,7 @@
 
 关于上述指标的说明，请参阅：
 
-{% page-ref page="../../gong-neng-jie-shao/zhi-biao-shuo-ming/traffic-master-data.md" %}
+{% page-ref page="../../features/indicator-description/traffic-master-data.md" %}
 
 ### **停止广告订单合作**
 

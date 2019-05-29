@@ -11,7 +11,7 @@
 * [createFlow](zai-you-xi-zhong-chuang-jian-guang-gao-wei/shi-yong-createflow-ran.md)
 * [checkFlowIsOpen](zai-you-xi-zhong-chuang-jian-guang-gao-wei/huo-qu-guang-gao-wei-kai-qi-zhuang-tai.md)
 * [getFlowConfig](zai-you-xi-zhong-chuang-jian-guang-gao-wei/huo-qu-guang-gao-wei-id-dui-ying-pei-zhi.md)
-* [getJudgeConfig](gong-neng-kai-guan.md)
+* [getJudgeConfig](function-switch.md)
 
 ### **调用方法**
 

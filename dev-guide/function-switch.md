@@ -18,11 +18,11 @@ description: 小游戏中的很多功能，通过天幕可以进行云端配置�
 
 功能开关的配置，均可通过天幕控制台的功能开关入口进行操作。
 
-请参阅[功能开关配置](https://www.yuque.com/eqrk37/gk0pcl/qwg6c4)
+请参阅[功能开关配置](../features/configuration-service/gong-neng-kai-guan.md)
 
 ### **接入方式**
 
-使用SDK的 [**getJudgeConfig**](https://www.yuque.com/eqrk37/gk0pcl/okpygt) ****接口来实现。
+使用SDK的 [**getJudgeConfig**](zai-you-xi-zhong-chuang-jian-guang-gao-wei/huo-qu-guang-gao-wei-id-dui-ying-pei-zhi.md) ****接口来实现。
 
 ### **描述**
 
@@ -30,7 +30,7 @@ description: 小游戏中的很多功能，通过天幕可以进行云端配置�
 
 ### **前置条件**
 
-使用该接口前，必须先使用[init](https://www.yuque.com/eqrk37/gk0pcl/xbni48)方法初始化SDK
+使用该接口前，必须先使用[init](chu-shi-hua-ni-de-sdk.md)方法初始化SDK
 
 ### **调用方法**
 

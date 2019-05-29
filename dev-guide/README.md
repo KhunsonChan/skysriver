@@ -10,7 +10,7 @@
 
 {% page-ref page="dev-sharing/" %}
 
-{% page-ref page="gong-neng-kai-guan.md" %}
+{% page-ref page="function-switch.md" %}
 
 {% page-ref page="zhi-fu-yu-nei-gou/" %}
 

@@ -69,7 +69,7 @@
   * [转发素材](dev-guide/dev-sharing/README.md)
     * [onShareAppMessage](dev-guide/dev-sharing/onshareappmessage.md)
     * [shareAppMessage](dev-guide/dev-sharing/shareappmessage.md)
-  * [功能开关](dev-guide/gong-neng-kai-guan.md)
+  * [功能开关](dev-guide/function-switch.md)
   * [支付与内购](dev-guide/zhi-fu-yu-nei-gou/README.md)
     * [业务流程](dev-guide/zhi-fu-yu-nei-gou/ye-wu-liu-cheng.md)
     * [.pay](dev-guide/zhi-fu-yu-nei-gou/.pay.md)

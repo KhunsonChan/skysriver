@@ -2,7 +2,7 @@
 
 在广告订单开始跑量后，想要查询订单跑量的数据，可在流量主后台，数据报表的订单数据中查看订单数据。
 
-![](../../.gitbook/assets/image%20%2828%29.png)
+![](../../.gitbook/assets/image%20%2829%29.png)
 
 ![](../../.gitbook/assets/image%20%2818%29.png)
 

@@ -22,7 +22,7 @@ description: 在了解天幕上接单的流程后，正式接了单，只是其�
 
 点击新建应用，即可开始添加。
 
-![](https://cdn.nlark.com/yuque/0/2019/png/254569/1557213144695-2c41d449-fa61-4aac-9e06-31f12dd5dad1.png?x-oss-process=image/resize,w_2000)
+![](../../.gitbook/assets/image%20%2823%29.png)
 
 输入需要添加的小游戏的appid，验证有效性后，即可添加成流量主下的应用。
 
@@ -37,5 +37,5 @@ description: 在了解天幕上接单的流程后，正式接了单，只是其�
 
 ### **3. 接入SDK**
 
-通过以上步骤后，小游戏项目在流量主后台即创建完成，可以进行下一步，[接入SDK](https://www.yuque.com/eqrk37/gk0pcl/dg7c7s)
+通过以上步骤后，小游戏项目在流量主后台即创建完成，可以进行下一步，[接入SDK](access-sdk.md)
 

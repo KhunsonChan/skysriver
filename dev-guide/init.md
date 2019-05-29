@@ -6,7 +6,7 @@
 
 ### **关联接口**
 
-* [onShareAppMessage](https://www.yuque.com/eqrk37/gk0pcl/ntp4sq)
+* [onShareAppMessage](dev-sharing/onshareappmessage.md)
 * [shareAppMessage](dev-sharing/shareappmessage.md)
 * [createFlow](create-ad-position/createflow.md)
 * [checkFlowIsOpen](create-ad-position/get-ad-position-status.md)

@@ -102,7 +102,7 @@ description: 通投可以一次性将广告计划投放至符合某些条件的�
 
 **7. 支付你的广告计划订单**
 
-在规定的时间内支付完成即可，若需要了解充值的相关信息，请查阅[充值与预付款](https://www.yuque.com/eqrk37/gk0pcl/vdse0g)
+在规定的时间内支付完成即可，若需要了解充值的相关信息，请查阅[充值与预付款](recharge.md)
 
 ![image.png](https://cdn.nlark.com/yuque/0/2019/png/254569/1557209990532-789ce771-1d49-4605-8eb8-895d0633a028.png?x-oss-process=image/resize,w_2000)
 

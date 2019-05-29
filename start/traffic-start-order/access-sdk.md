@@ -7,9 +7,9 @@
 * 统计曝光，点击等数据
 * 统计计费数据
 * [管理转发素材](../../features/configuration-service/sharing-management.md)
-* [功能开关](../../features/configuration-service/gong-neng-kai-guan.md)
+* [功能开关](../../features/configuration-service/switch.md)
 * [米大师支付](../../features/configuration-service/mi-da-shi-zhi-fu.md)
-* [渠道配置管理](../../features/configuration-service/qu-dao-guan-li.md)
+* [渠道配置管理](../../features/configuration-service/channel-management.md)
 
 因此，请务必接入天幕的SDK，下面将说明如何获取与接入SDK
 
@@ -59,7 +59,7 @@
 
 SDK接入完成后，可进行广告位的接入，请参阅以下文章，将会阐述如何在游戏中创建广告位，请注意，仅适合开发人员阅读，若您不是开发人员，想了解相关的内容，请与开发人员进行沟通。
 
-{% page-ref page="../../dev-guide/zai-you-xi-zhong-chuang-jian-guang-gao-wei/" %}
+{% page-ref page="../../dev-guide/create-ad-position/" %}
 
  
 

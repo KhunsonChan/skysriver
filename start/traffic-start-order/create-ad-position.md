@@ -18,7 +18,7 @@
 
 创建完成后，开发人员即可在游戏中加入相应的广告位，具体如何接入，请参阅以下说明：
 
-{% page-ref page="../../dev-guide/zai-you-xi-zhong-chuang-jian-guang-gao-wei/" %}
+{% page-ref page="../../dev-guide/create-ad-position/" %}
 
 
 

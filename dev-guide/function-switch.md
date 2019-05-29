@@ -18,11 +18,11 @@ description: 小游戏中的很多功能，通过天幕可以进行云端配置�
 
 功能开关的配置，均可通过天幕控制台的功能开关入口进行操作。
 
-请参阅[功能开关配置](../features/configuration-service/gong-neng-kai-guan.md)
+请参阅[功能开关配置](../features/configuration-service/switch.md)
 
 ### **接入方式**
 
-使用SDK的 [**getJudgeConfig**](zai-you-xi-zhong-chuang-jian-guang-gao-wei/huo-qu-guang-gao-wei-id-dui-ying-pei-zhi.md) ****接口来实现。
+使用SDK的 [**getJudgeConfig**](create-ad-position/huo-qu-guang-gao-wei-id-dui-ying-pei-zhi.md) ****接口来实现。
 
 ### **描述**
 

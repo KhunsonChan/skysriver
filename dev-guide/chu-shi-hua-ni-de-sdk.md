@@ -8,9 +8,9 @@
 
 * [onShareAppMessage](https://www.yuque.com/eqrk37/gk0pcl/ntp4sq)
 * [shareAppMessage](dev-sharing/shareappmessage.md)
-* [createFlow](zai-you-xi-zhong-chuang-jian-guang-gao-wei/shi-yong-createflow-ran.md)
-* [checkFlowIsOpen](zai-you-xi-zhong-chuang-jian-guang-gao-wei/huo-qu-guang-gao-wei-kai-qi-zhuang-tai.md)
-* [getFlowConfig](zai-you-xi-zhong-chuang-jian-guang-gao-wei/huo-qu-guang-gao-wei-id-dui-ying-pei-zhi.md)
+* [createFlow](create-ad-position/shi-yong-createflow-ran.md)
+* [checkFlowIsOpen](create-ad-position/huo-qu-guang-gao-wei-kai-qi-zhuang-tai.md)
+* [getFlowConfig](create-ad-position/huo-qu-guang-gao-wei-id-dui-ying-pei-zhi.md)
 * [getJudgeConfig](function-switch.md)
 
 ### **调用方法**

@@ -20,8 +20,6 @@
 
 ![](https://cdn.nlark.com/yuque/0/2019/png/254569/1557232495507-aa2fbf93-c804-43d5-b42d-489cc538fe08.png?x-oss-process=image/resize,w_2000)
 
-### \*\*\*\*
-
 ## **创建计划**
 
 可新建广告计划，具体请参阅[如何创建广告计划](https://skysriver.gitbook.io/skysriver/kai-shi-shi-yong/zuo-wei-guang-gao-zhu-kai-shi-tou-fang-guang-gao/ru-he-chuang-jian-guang-gao-tui-guang-ji-hua)
@@ -34,8 +32,6 @@
 
 ![](../.gitbook/assets/image%20%2815%29.png)
 
-### \*\*\*\*
-
 ## **数据报表**
 
 ### **整体数据**
@@ -43,8 +39,6 @@
 可直观的了解到当前所有广告计划总体消耗和转化的情况。
 
 ![](../.gitbook/assets/image%20%2816%29.png)
-
-### 
 
 ### 广告计划数据
 
@@ -60,8 +54,6 @@
 
 ![](../.gitbook/assets/image%20%2825%29.png)
 
-### 
-
 ### 渠道分析
 
 若需要对某条渠道进行深入分析，可以通过渠道分析栏目提供数据，了解某条渠道的具体数据表现。
@@ -75,8 +67,6 @@
 {% page-ref page="indicator-description/" %}
 
 ![](../.gitbook/assets/image%20%2811%29.png)
-
-
 
 ### 创意数据
 

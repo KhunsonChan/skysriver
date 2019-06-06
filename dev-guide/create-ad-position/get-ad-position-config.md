@@ -2,7 +2,13 @@
 
 ### **getFlowConfig**
 
-该接口用于获取广告位id对应配置详情
+该接口用于获取广告位id对应配置详情。
+
+创意ID的获取方式为：
+
+调用了getFlowConfig后，返回的creativeId的值即为创意ID
+
+
 
 #### **注意**
 
@@ -122,4 +128,5 @@ wx.tmSDK.getFlowConfig({
 | show\_config | object | 广告位素材详情 |
 | show\_config.title | string | 素材对应渲染的标题 |
 | show\_config.image | string | 素材图片 |
+| title | string | 猜你喜欢的广告文案 |
 

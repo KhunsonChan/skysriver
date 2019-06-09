@@ -8,9 +8,9 @@
 
 * [onShareAppMessage](dev-sharing/onshareappmessage.md)
 * [shareAppMessage](dev-sharing/shareappmessage.md)
-* [createFlow](create-ad-position/createflow.md)
-* [checkFlowIsOpen](create-ad-position/get-ad-position-status.md)
-* [getFlowConfig](create-ad-position/get-ad-position-config.md)
+* [createFlow](create-ad-position/zhu-jian-hua/createflow.md)
+* [checkFlowIsOpen](create-ad-position/zhu-jian-hua/get-ad-position-status.md)
+* [getFlowConfig](create-ad-position/zhu-jian-hua/get-ad-position-config.md)
 * [getJudgeConfig](function-switch.md)
 
 ### **调用方法**

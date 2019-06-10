@@ -50,6 +50,8 @@ wx.tmSDK.login().then(res=>{
 }
 ```
 
+### \*\*\*\*
+
 ### **返回值详解**
 
 | 字段 | 字段类型 | 字段说明 |
@@ -58,16 +60,24 @@ wx.tmSDK.login().then(res=>{
 | app\_id | string | 应用的appid |
 | open\_id | string | 用户在该应用下的openid |
 | union\_id | string | 用户的unionid,默认为空字符串，绑定主体后大授权方可获得。[`绑定主体`](https://developers.weixin.qq.com/miniprogram/dev/api/uinionID.html) |
-| nick\_name | string | 用户的微信昵称，为空时需要调用 [`updateUserinfo`](get-user-info-from-wx.md) 获取 |
-| avatar\_url | string | 用户的微信头像，为空时需要调用 [`updateUserinfo`](get-user-info-from-wx.md) 获取 |
+| nick\_name | string | 用户的微信昵称，为空时需要调用 `updateUserinfo` 获取 |
+| nick\_name | string | 用户的微信昵称，为空时需要调用 `updateUserinfo` 获取 |
+| avatar\_url | string | 用户的微信头像，为空时需要调用 `updateUserinfo` 获取 |
 | gold | number | 用户在平台的金币数 |
 | diamond | number | 用户在平台的钻石数 |
-| is\_new | bool | 用户是否新注册的用户 |
+| is\_new | bool | 是否新注册的用户 |
 | gender | number | 男：1 / 女：0 |
 | language | string | 用户微信中设置的语言 |
 | country | string | 用户微信中设置的国家 |
 | province | string | 用户微信中设置的省份 |
 | city | string | 用户微信中设置的城市 |
-| ofp | string | 用户指纹 |
-| online\_duration | number | 累计在线时长（单位：秒）  |
+| login\_province | string | 根据用户ip判断用户所在的省份 |
+| login\_city | string | 根据用户ip判断用户所在的城市 |
+| login\_district | string | 根据用户ip判断用户所在的区县 |
+| share\_new | number | 用户在当前游戏的分享引入新用户的数量 |
+| share\_times | number | 用户在当前游戏的分享次数 |
+| online\_days | number | 用户在当前游戏在线的天数 |
+| online\_duration | number | 累计在线时长（单位：秒） |
+
+### \*\*\*\*
 

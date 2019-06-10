@@ -4,7 +4,7 @@ description: 使用updateUserInfo接口从微信获取用户信息（昵称、�
 
 # .updateUserInfo
 
-调用此接口后，下次调用 [`login`](https://www.yuque.com/eqrk37/gk0pcl/deg7e3) 时，即可从天幕sdk获取上一次 `updateUserInfo` 中返回的用户信息。 关于用户信息的更新策略，开发者可参考 [用户信息授权](https://doc.skysriver.com/dev-guide/login#he-shi-chu-fa-da-shou-quan) 中的 **何时触发大授权** 。
+调用此接口后，下次调用 [`login`](get-user-info.md) 时，即可从天幕sdk获取上一次 `updateUserInfo` 中返回的用户信息。 关于用户信息的更新策略，开发者可参考 [用户信息授权](https://doc.skysriver.com/dev-guide/login#he-shi-chu-fa-da-shou-quan) 中的 **何时触发大授权** 。
 
 ### **调用方法**
 

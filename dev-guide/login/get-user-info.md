@@ -2,7 +2,7 @@
 description: 该接口用于获取已经存放在天幕平台的用户信息，包含头像、昵称等。
 ---
 
-# 使用login获取登录用户信息
+# .login
 
 {% hint style="info" %}
 若该接口返回值中没有头像、昵称等微信信息，请调用 [`updateUserinfo`](get-user-info-from-wx.md) 更新用户信息。

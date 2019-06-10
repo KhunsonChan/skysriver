@@ -55,7 +55,7 @@
 * [技术指南](dev-guide/README.md)
   * [初始化你的SDK](dev-guide/init.md)
   * [登录](dev-guide/login/README.md)
-    * [使用login获取登录用户信息](dev-guide/login/get-user-info.md)
+    * [.login](dev-guide/login/get-user-info.md)
     * [.updateUserInfo](dev-guide/login/get-user-info-from-wx.md)
   * [为你的游戏接入SDK](dev-guide/access-sdk.md)
   * [在游戏中创建广告位](dev-guide/create-ad-position/README.md)

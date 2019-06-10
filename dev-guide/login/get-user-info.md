@@ -5,12 +5,12 @@ description: 该接口用于获取已经存放在天幕平台的用户信息，�
 # 使用login获取登录用户信息
 
 {% hint style="info" %}
-若该接口返回值中没有头像、昵称等微信信息，请调用 [`updateUserinfo`](https://www.yuque.com/eqrk37/gk0pcl/dfbwkf) 更新用户信息。
+若该接口返回值中没有头像、昵称等微信信息，请调用 [`updateUserinfo`](get-user-info-from-wx.md) 更新用户信息。
 {% endhint %}
 
 ### **调用方法**
 
-```text
+```java
 wx.tmSDK.login().then(res=>{
     console.log(res)
 })
@@ -18,7 +18,7 @@ wx.tmSDK.login().then(res=>{
 
 ### **返回值样例**
 
-```text
+```java
 {
     "pid": "",
     "app_id": "wxa73fd8e544880e89",
@@ -58,8 +58,5 @@ wx.tmSDK.login().then(res=>{
 | province | string | 用户微信中设置的省份 |
 | city | string | 用户微信中设置的城市 |
 | ofp | string | 用户指纹 |
-| online\_duration | number | 累计在线时长（单位：秒） |
-
-若有收获，就赏束稻谷吧0 颗稻谷[观生](https://www.yuque.com/guansheng)05-07 18:2000分享到：[上一篇登录](https://www.yuque.com/eqrk37/gk0pcl/besc2s)[下一篇从微信获取用户信息](https://www.yuque.com/eqrk37/gk0pcl/dfbwkf)  
-
+| online\_duration | number | 累计在线时长（单位：秒）  |
 

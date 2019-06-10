@@ -4,11 +4,7 @@ description: 使用updateUserInfo接口从微信获取用户信息（昵称、�
 
 # 从微信获取用户信息
 
-{% hint style="info" %}
-调用此接口后，下次调用 [`login`](https://www.yuque.com/eqrk37/gk0pcl/deg7e3) 时，即可从天幕sdk获取上一次 `updateUserInfo` 中返回的用户信息。 关于用户信息的更新策略，开发者可参考 [用户信息授权](https://www.yuque.com/eqrk37/gk0pcl/besc2s) 中的 **何时触发大授权** 。
-{% endhint %}
-
-调用此接口后，下次调用 [`login`](https://www.yuque.com/eqrk37/gk0pcl/deg7e3) 时，即可从天幕sdk获取上一次 `updateUserInfo` 中返回的用户信息。 关于用户信息的更新策略，开发者可参考 [用户信息授权](https://www.yuque.com/eqrk37/gk0pcl/besc2s) 中的 **何时触发大授权** 。
+调用此接口后，下次调用 [`login`](https://www.yuque.com/eqrk37/gk0pcl/deg7e3) 时，即可从天幕sdk获取上一次 `updateUserInfo` 中返回的用户信息。 关于用户信息的更新策略，开发者可参考 [用户信息授权](https://doc.skysriver.com/dev-guide/login#he-shi-chu-fa-da-shou-quan) 中的 **何时触发大授权** 。
 
 ### **调用方法**
 
@@ -26,7 +22,7 @@ wx.tmSDK.updateUserInfo({encryptedData,iv,signature}).then(res=>{})
 
 ### **示例（小游戏）**
 
-```text
+```java
 let button = wx.createUserInfoButton({
     ...
 })
@@ -44,12 +40,12 @@ button.onTap(res = > {
 
 ### **示例（小程序）**
 
-```text
+```java
 <!-- wxml -->
 <button open-type="getUserInfo" bindlogin="bindUserLogin">登录</button>
 ```
 
-```text
+```java
 //js
 bindUserLogin: function(e) {
     if( e.detail.encryptedData ){
@@ -67,7 +63,7 @@ bindUserLogin: function(e) {
 
 ### **返回值样例**
 
-```text
+```java
 {
     "pid": "",
     "app_id": "wxa73fd8e544880e89",
@@ -107,7 +103,7 @@ bindUserLogin: function(e) {
 | app\_id | string | 应用的appid |
 | open\_id | string | 用户在该应用下的openid |
 | union\_id | string | 用户的unionid,默认为空字符串，绑定主体后大授权方可获得。[`绑定主体`](https://developers.weixin.qq.com/miniprogram/dev/api/uinionID.html) |
-| nick\_name | string | 用户的微信昵称，为空时需要调用 [`updateUserinfo`](https://www.skysriver.com/tianmu_sdk/api/dev_login_updateuserinfo.html) 获取 |
+| nick\_name | string | 用户的微信昵称，为空时需要调用 `updateUserinfo` 获取 |
 | nick\_name | string | 用户的微信昵称，为空时需要调用 `updateUserinfo` 获取 |
 | avatar\_url | string | 用户的微信头像，为空时需要调用 `updateUserinfo` 获取 |
 | gold | number | 用户在平台的金币数 |

@@ -67,7 +67,7 @@
       * [获取广告位开启状态](dev-guide/create-ad-position/zhu-jian-hua/get-ad-position-status.md)
       * [获取广告位id对应配置](dev-guide/create-ad-position/zhu-jian-hua/get-ad-position-config.md)
       * [点击推广创意后跳转到落地页](dev-guide/create-ad-position/zhu-jian-hua/landing.md)
-    * [广告位API方式接入](dev-guide/create-ad-position/api.md)
+    * [API方式接入广告位](dev-guide/create-ad-position/api.md)
   * [性能分析](dev-guide/performance-analysis.md)
   * [转发素材](dev-guide/dev-sharing/README.md)
     * [onShareAppMessage](dev-guide/dev-sharing/onshareappmessage.md)

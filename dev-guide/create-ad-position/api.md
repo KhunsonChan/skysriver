@@ -1,27 +1,37 @@
-# 广告位API方式接入
+# API方式接入广告位
 
 {% hint style="warning" %}
-目前，天幕广告位接入的方式有两种：1、组件化的方式接入（仅支持cocos、laya引擎）2、api方式接入。
+目前，天幕广告位接入的方式有两种：  
+1、组件化的方式接入（仅支持cocos、laya引擎）  
+2、api方式接入；
 {% endhint %}
+
+我们建议使用[组件化的方式接入广告位](zhu-jian-hua/)，若你的游戏引擎非cocos，laya，或是有其他特殊的需求，SDK组件无法满足，则可通过API的方式接入。
+
+下面将会针对API的接入的方式进行详细说明。
 
 涉及到的接口：
 
 * [getFlowConfig](https://doc.skysriver.com/dev-guide/create-ad-position/get-ad-position-config)
 * [flowNavigate](https://doc.skysriver.com/dev-guide/create-ad-position/landing)
 
-### **显示规则**
+## **显示规则**
 
-当需要展示广告的时候，调用SDK的getFlowConfig接口，传入广告位ID。  
+当你需要在游戏中展示广告的时候，可以通过调用SDK的getFlowConfig接口，传入广告位ID，获取广告位的配置。  
 注意：在调用SDK的getFlowConfig接口前，请先[初始化](https://doc.skysriver.com/dev-guide/init)。  
 
 
+## 返回值说明
+
+当你调用了getFlowConfig，返回值中有几个值是需要注意的，要根据这些值来确定广告位的类型，并根据不同类型的广告位才有对应的处理方式。
+
 ###  **type=1** 
 
-type为1时，positionId对应的是浮动窗类型，图片尺寸为：190\*270  
+若返回值type为1时，positionId对应的广告位类型是浮动窗类型中的静态图，图片尺寸为：190\*270  
  ![](https://uploader.shimo.im/f/nQvWLNArkEMNVUDJ.png!thumbnail)  
 如果创意列表creatives的show\_config中，只有image，则只需渲染该静态图。  
   
-
+ ![](../../.gitbook/assets/guang-gao-wei-xiao-guo-shi-yi-tu-22.jpg) 
 
 ### **若返回值中存在fps**
 

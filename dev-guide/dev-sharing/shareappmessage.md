@@ -1,6 +1,6 @@
-# shareAppMessage
+# .shareAppMessage
 
-具体业务详情，请参阅[转发素材管理](https://www.yuque.com/eqrk37/gk0pcl/qe85sm)
+具体业务详情，请参阅[转发素材管理](https://www.yuque.com/eqrk37/gk0pcl/qe85sm)。
 
 使用前，请[初始化SDK](https://www.yuque.com/eqrk37/gk0pcl/xbni48)。
 

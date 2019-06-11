@@ -1,4 +1,4 @@
-# onShareAppMessage
+# .onShareAppMessage
 
 具体业务详情，请参阅[转发素材管理](https://skysriver.gitbook.io/skysriver/gong-neng-jie-shao/yun-pei-zhi-fu-wu/zhuan-fa-su-cai-guan-li)
 

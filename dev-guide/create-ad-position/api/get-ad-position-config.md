@@ -1,20 +1,16 @@
-# 获取广告位id对应配置
+# .getFlowConfig
 
-### **getFlowConfig**
+{% hint style="warning" %}
+使用该接口前，请先进行[SDK初始化](https://skysriver.gitbook.io/skysriver/ji-shu-zhi-nan/chu-shi-hua-ni-de-sdk)
+{% endhint %}
 
-该接口用于获取广告位id对应配置详情。
+该接口用于获取广告位id对应配置详情，调用该接口后，请根据接口的返回值，采用对应的方式处理，下方会针对浮动窗广告和猜你喜欢广告位进行说明。
 
-创意ID的获取方式为：
+#### 创意ID的获取
 
 调用了getFlowConfig后，返回的creativeId的值即为创意ID
 
-
-
-#### **注意**
-
-使用该接口前，请先进行[SDK初始化](https://skysriver.gitbook.io/skysriver/ji-shu-zhi-nan/chu-shi-hua-ni-de-sdk)
-
-### **调用方法**
+## **调用方法**
 
 ```java
 wx.tmSDK.getFlowConfig({
@@ -24,7 +20,7 @@ wx.tmSDK.getFlowConfig({
 });
 ```
 
-### **传入参数**
+## **传入参数**
 
 positionId将对应的不同类型返回值，使用前请确认当前使用的positionId类型
 
@@ -32,9 +28,9 @@ wx.tmSDK.getFlowConfig({
 | :--- | :--- | :--- |
 | positionId | string | 广告位id |
 
-### **返回值与广告类型**
+## **返回值与广告类型**
 
-#### **浮动窗广告**
+### **浮动窗广告**
 
 * type为1时，positionId对应的是浮动窗类型
 * 如果创意列表creatives的show\_config中，只有image，则只需渲染该静态图
@@ -82,12 +78,12 @@ wx.tmSDK.getFlowConfig({
 
 #### \*\*\*\*
 
-#### **猜你喜欢**
+### **猜你喜欢**
 
 * type为7时，positionId对应的是猜你喜欢类型
 * 猜你喜欢拥有多个创意，需要全部渲染处理
 
-```text
+```java
 {
     "isOpen":true,
     "type": 1, // 浮动icon类型
@@ -115,7 +111,7 @@ wx.tmSDK.getFlowConfig({
 
 #### \*\*\*\*
 
-#### **返回参数**
+### **返回参数**
 
 | 字段 | 字段类型 | 说明 |
 | :--- | :--- | :--- |

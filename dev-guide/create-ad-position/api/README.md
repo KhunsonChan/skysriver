@@ -6,13 +6,13 @@
 2、api方式接入；
 {% endhint %}
 
-我们建议使用[组件化的方式接入广告位](zhu-jian-hua/)，若你的游戏引擎非cocos，laya，或是有其他特殊的需求，SDK组件无法满足，则可通过API的方式接入。
+我们建议使用[组件化的方式接入广告位](../zhu-jian-hua/)，若你的游戏引擎非cocos，laya，或是有其他特殊的需求，SDK组件无法满足，则可通过API的方式接入。
 
 下面将会针对API的接入的方式进行详细说明。
 
 涉及到的接口：
 
-* [getFlowConfig](https://doc.skysriver.com/dev-guide/create-ad-position/get-ad-position-config)
+* [getFlowConfig](get-ad-position-config.md)
 * [flowNavigate](https://doc.skysriver.com/dev-guide/create-ad-position/landing)
 
 ## **显示规则**
@@ -33,7 +33,7 @@
   
  
 
-![&#x6D6E;&#x52A8;&#x7A97;&#x5E7F;&#x544A;&#x6548;&#x679C;](../../.gitbook/assets/image%20%2813%29.png)
+![&#x6D6E;&#x52A8;&#x7A97;&#x5E7F;&#x544A;&#x6548;&#x679C;](../../../.gitbook/assets/image%20%2813%29.png)
 
 ### **若返回值中存在fps**
 
@@ -51,7 +51,7 @@ type为7时，positionId对应的是猜你喜欢类型，图片尺寸为：200\
 
 为了能使猜你喜欢广告展示效率达到最高，请按上述说明的需求对展示的猜你喜欢创意进行排序，位置需根据游戏实际情况确定，若未能确定或无特殊需求，可使用我们返回的创意顺序展示即可。
 
-![&#x731C;&#x4F60;&#x559C;&#x6B22;&#x5E7F;&#x544A;&#x6548;&#x679C;](../../.gitbook/assets/image%20%2835%29.png)
+![&#x731C;&#x4F60;&#x559C;&#x6B22;&#x5E7F;&#x544A;&#x6548;&#x679C;](../../../.gitbook/assets/image%20%2835%29.png)
 
 ## **数据刷新规则**
 
@@ -88,7 +88,7 @@ type为7时，positionId对应的是猜你喜欢类型，图片尺寸为：200\
 
 在天幕-流量主后台的广告位管理页面，可找到对应广告位ID。
 
-![](../../.gitbook/assets/image%20%281%29.png)
+![](../../../.gitbook/assets/image%20%281%29.png)
 
 #### 创意ID的获取
 
@@ -97,12 +97,12 @@ type为7时，positionId对应的是猜你喜欢类型，图片尺寸为：200\
 ### **flowNavigate**
 
 {% hint style="info" %}
-此功能的使用前提：调用了获取广告推广配置的getFlowConfig；
+此功能的使用前提：调用了获取广告推广配置的[getFlowConfig](get-ad-position-config.md)；
 {% endhint %}
 
 这个接口是用于在用户点击了广告位上的创意后，实现跳转到该创意指定的落地页功能。
 
-例如，用户在a游戏某广告位上点击了推广b产品的创意，那么在用户点击后，可以跳转至b产品，这个跳转需要通过flowNavigate接口来实现。
+例如，用户在a游戏某广告位上点击了推广b产品的创意，那么在用户点击后，可以跳转至b产品，这个跳转需要通过[flowNavigate](landing.md)接口来实现。
 
 这里需要注意：请提前将需要跳转的appid添加只game.json配置列表中，若对此不了解请参阅[微信小程序跳转的规则文档](https://developers.weixin.qq.com/miniprogram/dev/api/open-api/miniprogram-navigate/wx.navigateToMiniProgram.html)，否则会导致跳转不成功
 

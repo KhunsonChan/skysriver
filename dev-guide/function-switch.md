@@ -22,7 +22,7 @@ description: 小游戏中的很多功能，通过天幕可以进行云端配置�
 
 ### **接入方式**
 
-使用SDK的 [**getJudgeConfig**](create-ad-position/zhu-jian-hua/get-ad-position-config.md) ****接口来实现。
+使用SDK的 [**getJudgeConfig**](create-ad-position/api/get-ad-position-config.md) ****接口来实现。
 
 ### **描述**
 

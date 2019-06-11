@@ -1,12 +1,12 @@
-# 使用createFlow渲染
-
-
+# .createFlow
 
 {% hint style="info" %}
 使用该接口前，请先进行[SDK初始化](https://skysriver.gitbook.io/skysriver/ji-shu-zhi-nan/chu-shi-hua-ni-de-sdk)
 {% endhint %}
 
-### **描述**
+该组件是用来实现广告位自动渲染，只要确定广告位的参数与需要渲染的位置即可，SDK会根据广告位ID自动渲染出对应类型的广告位，并支持点击后自动跳转，自动刷新创意等功能。
+
+### **接口描述**
 
 * 调用该组件后，自动按照推广位类型渲染UI，并支持点击、动态效果等
 * cocos引擎中，请在画布初始化完毕后才调用createFlow
@@ -17,7 +17,7 @@
 
 ### **使用实例**
 
-```text
+```java
 let flowUI = wx.tmSDK.createFlow({
     positionId: 1260，
     x: 0,     
@@ -60,7 +60,7 @@ flowUI.destroy();
 * 1、浮动icon类型下，可等比例设置渲染宽度，最小值为100，比例固定为190:270。
 * 2、设置的宽度类型会根据当前尺寸画布与1080\*1920的标准尺寸画布进行缩放。
 
-```text
+```java
 let flowUI = tm_sdk.createFlow({
     ...,  
     width: 250, // 自定义浮动icon宽度为：在1080*1920尺寸下的宽度为250px。
@@ -73,7 +73,7 @@ let flowUI = tm_sdk.createFlow({
 * 2、闪屏类型默认值则为加999999999 + 1，其他类型默认值为999999999。
 * 3、实际显示的层级数会被引擎自动调整
 
-```text
+```java
 let flowUI = wx.tmSDK.createFlow({
     ...,  
     zIndex: 250, // 设置组件层级为250, 实际显示的层级会被引擎所调整。
@@ -86,7 +86,7 @@ let flowUI = wx.tmSDK.createFlow({
 * 2、可多个监听
 * 3、返回message，销毁成功信息
 
-```text
+```java
 flowUI.onDestroy(function({from, message}){
     console.log(from, message)
 });
@@ -97,7 +97,7 @@ flowUI.onDestroy(function({from, message}){
 1. 取消监听组件的销毁事件
 2. 传入与监听相同的回调函数只取消该回调
 
-```text
+```java
 let destroyCallBack = function({from, message}){ // 假设onDestroy的时候绑定的为该函数
     console.log(from, message)
 };
@@ -111,7 +111,7 @@ flowUI.offDestroy(destroyCallBack);  // 取消某个监听事件
 2. 可多个监听
 3. 返回message，初始化成功信息
 
-```text
+```java
 flowUI.onRender(function({message}){
     console.log(message)
 });
@@ -122,7 +122,7 @@ flowUI.onRender(function({message}){
 1. 取消监听组件的初始化
 2. 传入与监听相同的回调函数只取消该回调
 
-```text
+```java
 let renderCallBack = function({message}){ // 假设onDestroy的时候绑定的为该函数
     console.log(message)
 };
@@ -136,7 +136,7 @@ flowUI.offRender(renderCallBack);  // 取消某个监听事件
 2. 可多个监听
 3. 返回message错误详情
 
-```text
+```java
 flowUI.onError(function({message}) {
     console.log(message)
 });
@@ -147,7 +147,7 @@ flowUI.onError(function({message}) {
 1. 取消监听组件的初始化
 2. 传入与监听相同的回调函数只取消该回调
 
-```text
+```java
 let errorCallBack = function({message}){ // 假设onDestroy的时候绑定的为该函数
     console.log(message)
 };

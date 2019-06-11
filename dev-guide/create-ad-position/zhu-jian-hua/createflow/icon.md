@@ -14,7 +14,7 @@
 
 ### **使用实例**
 
-```text
+```java
 let flowUI = wx.tmSDK.createFlow({
     positionId: 1260，
     width: 200, // 可设置浮动 icon 尺寸
@@ -31,7 +31,7 @@ flowUI.onError(function({message}){
 
 正常情况下，游戏场景切换时，该UI组件会自动销毁。如果需要在某些场景销毁该组件，请使用destroy方法。
 
-```text
+```java
 flowUI.destroy();
 ```
 
@@ -40,7 +40,7 @@ flowUI.destroy();
 1. 浮动窗类型下，可等比例设置渲染宽度，最小值为100，比例固定为190:270。
 2. 设置的宽度类型会根据当前尺寸画布与1080\*1920的标准尺寸画布进行缩放。
 
-```text
+```java
 let flowUI = wx.tmSDK.createFlow({
     ...,  
     width: 250, // 自定义浮动icon宽度为：在1080*1920尺寸下的宽度为250px。
@@ -53,7 +53,7 @@ let flowUI = wx.tmSDK.createFlow({
 2. 闪屏类型默认值则为加999999999 + 1，其他类型默认值为999999999。
 3. 实际显示的层级数会被引擎自动调整
 
-```text
+```java
 let flowUI = wx.tmSDK.createFlow({
     ...,  
     zIndex: 250, // 设置组件层级为250, 实际显示的层级会被引擎所调整。

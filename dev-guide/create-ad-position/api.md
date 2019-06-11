@@ -21,9 +21,9 @@
 注意：在调用SDK的getFlowConfig接口前，请先[初始化](https://doc.skysriver.com/dev-guide/init)。  
 
 
-## 返回值说明
+## 返回值注意事项
 
-当你调用了getFlowConfig，返回值中有几个值是需要注意的，要根据这些值来确定广告位的类型，并根据不同类型的广告位才有对应的处理方式。
+当你调用了getFlowConfig，有几个返回值是需要特别注意的，要根据这些值来确定广告位的类型，并根据不同类型的广告位采用对应的处理方式。
 
 ###  **type=1** 
 
@@ -33,49 +33,50 @@
   
  
 
-![](../../.gitbook/assets/image%20%2819%29.png)
+![&#x6D6E;&#x52A8;&#x7A97;&#x5E7F;&#x544A;&#x6548;&#x679C;](../../.gitbook/assets/image%20%2813%29.png)
 
 ### **若返回值中存在fps**
 
-如果创意列表creatives中，有fps，多个图片素材则需渲染为动态图片，按照fps的值进行图片轮播。
+如果创意列表creatives中有fps，那么对应的广告类型是浮动窗的多帧动图，返回的多个图片素材则需渲染为动态图片，按照fps的值进行图片轮播。
+
+该广告创意实现的效果类似GIF。
 
 ### **type=7**
 
-type为7时，positionId对应的是猜你喜欢类型，图片尺寸为：200\*200  
- ![](https://uploader.shimo.im/f/IMQJYgTrvXsRk6p8.png!thumbnail)  
-请注意，猜你喜欢拥有多个创意，需要全部渲染处理  
+type为7时，positionId对应的是猜你喜欢类型，图片尺寸为：200\*200，请注意，猜你喜欢拥有多个创意，需要全部渲染处理。
 
+这里有个非常重要的注意事项需要说明：
 
-![](../../.gitbook/assets/image%20%2817%29.png)
+> 接口返回的创意数组，是根据预估收益从高到底进行排序，请将排序靠前的创意展示在游戏中点击率高（开发者根据游戏实际情况确定）的位置，以获取最大收益。
 
+为了能使猜你喜欢广告展示效率达到最高，请按上述说明的需求对展示的猜你喜欢创意进行排序，位置需根据游戏实际情况确定，若未能确定或无特殊需求，可使用我们返回的创意顺序展示即可。
 
+![&#x731C;&#x4F60;&#x559C;&#x6B22;&#x5E7F;&#x544A;&#x6548;&#x679C;](../../.gitbook/assets/image%20%2835%29.png)
 
-### **数据刷新规则**
+## **数据刷新规则**
 
-  
-1）**自动刷新**
+### **自动刷新**
 
 根据auto\_change的返回值，自动刷新广告内容；
 
-**实现方法**
+#### **实现方法**
 
 每次调用getFlowConfig，根据auto\_change的返回值，设置一个Timer，调用getFlowConfig，展示接口返回的广告配置。
 
-**自测方法**
+#### **自测方法**
 
 观察游戏中的广告，是否按照接口的返回值自动切换，可通过观察广告图片上的文字内容得知是否切换了广告。
 
-2）**点击刷新**
+### **点击刷新**
 
-根据在上述1中的auto\_change返回值设定的时间内，点击广告，自动刷新广告内容。
+根据在上述自动刷新说明的auto\_change返回值设定的时间内，点击广告，自动刷新广告内容。
 
 **实现方法**
 
-a、点击后调用flowNavigate，使用flowNavigate接口的返回值，展示接口返回的广告配置。
+1. 点击后调用flowNavigate，使用flowNavigate接口的返回值，展示接口返回的广告配置。
+2. 执行了此刷新后，自动刷新中的timer重新计时。
 
-b、执行了此刷新后，自动刷新中的timer重新计时。
-
-**自测方法**
+#### **自测方法**
 
 点击游戏中的广告，可通过观察广告图片上的文字内容得知是否切换了广告。
 
@@ -83,13 +84,27 @@ b、执行了此刷新后，自动刷新中的timer重新计时。
 
 点击后跳转的功能由SDK实现，开发者只需调用SDK中的flowNavigate接口，传入对应的广告位ID和创意ID即可。
 
-创意ID的获取：
+#### 广告位ID获取
+
+在天幕-流量主后台的广告位管理页面，可找到对应广告位ID。
+
+![](../../.gitbook/assets/image%20%281%29.png)
+
+#### 创意ID的获取
 
 在调用了getFlowConfig后，返回的creativeId的值即为创意ID。
 
 ### **flowNavigate**
 
-* 用于实现点击推广创意后跳转到落地页的功能；
-* 此功能的使用前提：调用了获取广告推广配置getFlowConfig；
-* 此接口需将当前需要跳转的appid添加到game.json配置列表中，请参阅[微信小程序跳转的规则文档](https://developers.weixin.qq.com/miniprogram/dev/api/open-api/miniprogram-navigate/wx.navigateToMiniProgram.html)；
+{% hint style="info" %}
+此功能的使用前提：调用了获取广告推广配置的getFlowConfig；
+{% endhint %}
+
+这个接口是用于在用户点击了广告位上的创意后，实现跳转到该创意指定的落地页功能。
+
+例如，用户在a游戏某广告位上点击了推广b产品的创意，那么在用户点击后，可以跳转至b产品，这个跳转需要通过flowNavigate接口来实现。
+
+这里需要注意：请提前将需要跳转的appid添加只game.json配置列表中，若对此不了解请参阅[微信小程序跳转的规则文档](https://developers.weixin.qq.com/miniprogram/dev/api/open-api/miniprogram-navigate/wx.navigateToMiniProgram.html)，否则会导致跳转不成功
+
+
 

@@ -31,19 +31,23 @@
  ![](https://uploader.shimo.im/f/nQvWLNArkEMNVUDJ.png!thumbnail)  
 如果创意列表creatives的show\_config中，只有image，则只需渲染该静态图。  
   
- ![](../../.gitbook/assets/guang-gao-wei-xiao-guo-shi-yi-tu-22.jpg) 
+ 
+
+![](../../.gitbook/assets/image%20%2819%29.png)
 
 ### **若返回值中存在fps**
 
 如果创意列表creatives中，有fps，多个图片素材则需渲染为动态图片，按照fps的值进行图片轮播。
 
-
-
 ### **type=7**
 
 type为7时，positionId对应的是猜你喜欢类型，图片尺寸为：200\*200  
  ![](https://uploader.shimo.im/f/IMQJYgTrvXsRk6p8.png!thumbnail)  
-猜你喜欢拥有多个创意，需要全部渲染处理  
+请注意，猜你喜欢拥有多个创意，需要全部渲染处理  
+
+
+![](../../.gitbook/assets/image%20%2817%29.png)
+
 
 
 ### **数据刷新规则**

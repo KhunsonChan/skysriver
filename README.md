@@ -4,7 +4,7 @@ description: 天幕是一个微信小游戏的综合服务平台
 
 # 介绍
 
-![](.gitbook/assets/image%20%2813%29.png)
+![](.gitbook/assets/image%20%2815%29.png)
 
 天幕是面向微信小游戏开发者/运营者的综合服务系统。
 

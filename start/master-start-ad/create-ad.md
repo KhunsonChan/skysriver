@@ -14,11 +14,11 @@ description: 创建你的推广计划
 
 2.点击左边菜单栏中的「创建计划」或是首页的「创建广告计划」也可进行广告计划的创建。
 
-![](../../.gitbook/assets/image%20%2826%29.png)
+![](../../.gitbook/assets/image%20%2830%29.png)
 
 3.在「创建计划」页面中开始广告推广计划的创建
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
 ### **基本流程**
 

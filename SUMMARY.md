@@ -54,7 +54,7 @@
   * [财务中心](features/financial-center.md)
   * [成员管理](features/member-management.md)
 * [技术指南](dev-guide/README.md)
-  * [初始化你的SDK](dev-guide/init.md)
+  * [初始化SDK](dev-guide/init.md)
   * [登录](dev-guide/login/README.md)
     * [.login](dev-guide/login/get-user-info.md)
     * [.updateUserInfo](dev-guide/login/get-user-info-from-wx.md)

@@ -106,5 +106,9 @@ type为7时，positionId对应的是猜你喜欢类型，图片尺寸为：200\
 
 这里需要注意：请提前将需要跳转的appid添加只game.json配置列表中，若对此不了解请参阅[微信小程序跳转的规则文档](https://developers.weixin.qq.com/miniprogram/dev/api/open-api/miniprogram-navigate/wx.navigateToMiniProgram.html)，否则会导致跳转不成功
 
+## 广告位开启状态
 
+需要获取广告位的开启状态，请参阅以下接口：
+
+{% page-ref page="../zhu-jian-hua/get-ad-position-status.md" %}
 

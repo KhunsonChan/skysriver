@@ -124,11 +124,11 @@ wx.tmSDK.getFlowConfig({
 | isOpen | boolean | 广告位是否开启 |
 | type | string | 该广告位的类型 |
 | auto\_change | number | 自动切换时间 |
-| borderStyle | object | 边框样式属性  *仅当后台配置开启时|
+| borderStyle | object | 边框样式属性  \*仅当后台配置开启时 |
 | borderStyle.imageUrl | string | 边框图片 |
-| borderStyle.size | number | 边框尺寸，通常比show_config中的图片大 |
-| borderStyle.left | number | show_config中图片相对边框的左位置 |
-| borderStyle.top | number | show_config中图片相对边框的上位置 |
+| borderStyle.size | number | 边框尺寸，通常比show\_config中的图片大 |
+| borderStyle.left | number | show\_config中图片相对边框的左位置 |
+| borderStyle.top | number | show\_config中图片相对边框的上位置 |
 | creatives | array | 该广告位可渲染的创意列表, 浮动icon类型该数组有且只有一个 |
 | creativeId | string | 创意id |
 | positionId | string | 广告位id |

@@ -40,6 +40,12 @@ wx.tmSDK.getFlowConfig({
     "isOpen":true,
     "type": 1, // 浮动icon类型
     "auto_change":10,
+    "borderStyle": { // 当天幕后台配置了边框时，此处会出现边框样式属性
+        "imageUrl": "https://cdn.kuaiyugo.com/plat/SDK/sdk_img_res/border3_title.png",
+        "left": 32, // show_config中图片相对边框的左位置
+        "size": "254x368", // 边框尺寸，通常比show_config中的图片大
+        "top": 66 // show_config中图片相对边框的上位置
+    },
     "creatives":[
         {
             "creativeId":162,
@@ -118,7 +124,12 @@ wx.tmSDK.getFlowConfig({
 | isOpen | boolean | 广告位是否开启 |
 | type | string | 该广告位的类型 |
 | auto\_change | number | 自动切换时间 |
-| creatives | Array | 该广告位可渲染的创意列表, 浮动icon类型该数组有且只有一个 |
+| borderStyle | object | 边框样式属性  *仅当后台配置开启时|
+| borderStyle.imageUrl | string | 边框图片 |
+| borderStyle.size | number | 边框尺寸，通常比show_config中的图片大 |
+| borderStyle.left | number | show_config中图片相对边框的左位置 |
+| borderStyle.top | number | show_config中图片相对边框的上位置 |
+| creatives | array | 该广告位可渲染的创意列表, 浮动icon类型该数组有且只有一个 |
 | creativeId | string | 创意id |
 | positionId | string | 广告位id |
 | show\_config | object | 广告位素材详情 |

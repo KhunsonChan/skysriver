@@ -1,12 +1,14 @@
 # 广告主相关
 
-## Can I become who I want to be?
+## 在跑量中的广告计划，可以调整出价、预算吗？
 
-That's a tough question but thankfully, our team is on it. Please bear with us while we're investigating.
+可以的，只可以调高，不可调低出价。
 
-## Have you had a chance to answer the previous question?
+调整方式：广告主-投放管理界面。在对应的广告计划详情中，点击出价或者预算旁的编辑按钮，即可调整。
 
-Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
+![&#x8C03;&#x6574;&#x51FA;&#x4EF7;](../.gitbook/assets/image%20%287%29.png)
 
+## 需要投放广告，怎么进行充值？
 
+目前暂未开放自主充值，请联系我们的对接人，说明您的需求，这边会有专人为您处理。
 

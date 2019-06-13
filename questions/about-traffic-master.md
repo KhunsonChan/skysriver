@@ -1,12 +1,20 @@
 # 流量主相关
 
-## Can I become who I want to be?
+## 怎样查看已经接的订单数据情况？
 
-That's a tough question but thankfully, our team is on it. Please bear with us while we're investigating.
+流量主后台，数据报表中的订单数据页面可查看已接订单的数据情况。
 
-## Have you had a chance to answer the previous question?
+## 为什么我的主体里有的游戏，在流量主后台找不到？
 
-Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
+游戏在主体中添加后，还需在流量主后台创建该游戏应用，才可作为流量主游戏进行接单。
+
+具体的操作为：流量主后台-广告位管理-应用管理，点击新建应用，按要求填写appid，通过超级管理员的手机号或是app\_secret验证即可添加成功。
+
+![](../.gitbook/assets/image%20%2840%29.png)
+
+## 广告位ID要怎么查看？
+
+流量主后台-广告位管理，在页面中的筛选条件选上你需要查看广告位的游戏，即可找到该游戏下所以的广告信息，包括id、广告位类型、状态、边框等。
 
 
 

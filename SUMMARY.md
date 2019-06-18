@@ -2,6 +2,7 @@
 
 * [介绍](README.md)
 * [新手入门](guide/README.md)
+  * [名词解释](guide/ming-ci-jie-shi.md)
   * [天幕是什么](guide/about-skysriver.md)
   * [天幕解决的问题](guide/solution-skysriver.md)
   * [天幕的数据来源](guide/data-sources.md)
@@ -22,7 +23,7 @@
     * [创建广告位](start/traffic-start-order/create-ad-position.md)
     * [查看订单数据](start/traffic-start-order/view-order-data.md)
 * [功能介绍](features/README.md)
-  * [指标说明](features/indicator-description/README.md)
+  * [数据指标说明](features/indicator-description/README.md)
     * [概览与核心数据](features/indicator-description/core-data.md)
     * [活跃用户](features/indicator-description/dau.md)
     * [新增用户](features/indicator-description/increased-user.md)

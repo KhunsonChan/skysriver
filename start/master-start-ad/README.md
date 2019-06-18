@@ -67,3 +67,15 @@
 
 ![](https://cdn.nlark.com/yuque/0/2019/png/254569/1557143738912-29156a95-c15d-4700-9cbf-51a85f0ba76e.png)
 
+#### 伪视频广告
+
+支持创意的尺寸为：960\*540
+
+样式如下
+
+![](../../.gitbook/assets/wei-shi-pin-xiao-guo-tu.png)
+
+#### 插屏广告
+
+支持的创意样式尺寸为：
+

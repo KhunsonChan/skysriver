@@ -122,7 +122,7 @@ wx.tmSDK.getFlowConfig({
 | auto\_change | number | 自动切换时间 |
 | borderStyle | object | 边框样式属性  \*仅当后台配置开启时 |
 | borderStyle.imageUrl | string | 边框图片 |
-| borderStyle.size | number | 边框尺寸，通常比show\_config中的图片大 |
+| borderStyle.size | string | 边框尺寸，通常比show\_config中的图片大 |
 | borderStyle.left | number | show\_config中图片相对边框的左位置 |
 | borderStyle.top | number | show\_config中图片相对边框的上位置 |
 | creatives | array | 该广告位可渲染的创意列表, 浮动icon类型该数组有且只有一个 |

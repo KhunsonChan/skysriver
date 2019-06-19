@@ -6,12 +6,14 @@
 
 ### **调用方法**
 
-```java
-wx.tmSDK.onShareAppMessage({
-    scene: 'scene1',
-    success: function() {},
-    cancel: function() {},
-    query: 'a=b&c=d', // 自行定义传入分享的参数, 可在卡片打开后获取到自己的参数
+```javascript
+wx.tmSDK.onShareAppMessage(function() {
+    return {
+        scene: 'scene1',
+        success: function() {},
+        cancel: function() {},
+        query: 'a=b&c=d', // 自行定义传入分享的参数, 可在卡片打开后获取到自己的参数
+    }
 });
 ```
 

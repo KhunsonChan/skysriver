@@ -55,7 +55,9 @@ wx.tmSDK.getJudgeConfig().then(res=>{
 
 ### 返回值详解
 
+
 | 字段 | 字段类型 | 字段说明 |
+| :--- | :--- | :--- |
 | id | number | 当前配置项唯一的id |
 | key | string | 当前配置项配置的功能名称 |
 | description | string | 当前配置项配置的功能说明 |

@@ -1,12 +1,12 @@
 # .shareAppMessage
 
-具体业务详情，请参阅[转发素材管理](https://www.yuque.com/eqrk37/gk0pcl/qe85sm)。
+本篇内容为技术说明文档，具体业务详情，请参阅[转发素材配置](../../features/configuration-service/sharing-management.md)
 
 使用前，请[初始化SDK](https://www.yuque.com/eqrk37/gk0pcl/xbni48)。
 
 ### **调用方法**
 
-```java
+```javascript
 wx.tmSDK.shareAppMessage({
     scene: 'scene1',
     success: function() {},

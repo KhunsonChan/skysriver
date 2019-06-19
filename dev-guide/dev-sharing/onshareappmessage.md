@@ -1,8 +1,10 @@
 # .onShareAppMessage
 
-具体业务详情，请参阅[转发素材管理](https://skysriver.gitbook.io/skysriver/gong-neng-jie-shao/yun-pei-zhi-fu-wu/zhuan-fa-su-cai-guan-li)
+本篇为技术说明文档，具体业务详情，请参阅[转发素材配置](../../features/configuration-service/sharing-management.md)**，**使用前，请[初始化SDK](https://skysriver.gitbook.io/skysriver/ji-shu-zhi-nan/chu-shi-hua-ni-de-sdk)。
 
-使用前，请[初始化SDK](https://skysriver.gitbook.io/skysriver/ji-shu-zhi-nan/chu-shi-hua-ni-de-sdk)。
+此方式适用于用户点击右上角菜单的转发按钮，传入参数与 [`wx.onShareAppMessage`](https://developers.weixin.qq.com/minigame/dev/api/wx.onShareAppMessage.html?search-key=wx.onShareAppMessage) 基本一致，额外增加天幕sdk中 [`getShareTemplates`](http://docs.kuaiyugo.com/sdkdoc2/api/dev_share_getsharetemplates.html) 方法获取的 `channelCode`字段。
+
+**\#**
 
 ## **调用方法**
 

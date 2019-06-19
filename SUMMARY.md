@@ -42,7 +42,7 @@
     * [转发素材配置](features/configuration-service/sharing-management.md)
     * [功能开关](features/configuration-service/switch.md)
     * [米大师支付](features/configuration-service/mi-da-shi-payment.md)
-    * [渠道管理](features/configuration-service/channel-management.md)
+    * [渠道配置](features/configuration-service/channel-management.md)
   * [数据统计](features/data-statistics/README.md)
     * [产品概况](features/data-statistics/product-overview.md)
     * [用户分析](features/data-statistics/user-analysis.md)

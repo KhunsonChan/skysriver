@@ -39,7 +39,7 @@
     * [性能分析](features/indicator-description/performance-analysis.md)
   * [云配置服务](features/configuration-service/README.md)
     * [在线参数](features/configuration-service/json.md)
-    * [转发素材管理](features/configuration-service/sharing-management.md)
+    * [转发素材配置](features/configuration-service/sharing-management.md)
     * [功能开关](features/configuration-service/switch.md)
     * [米大师支付](features/configuration-service/mi-da-shi-payment.md)
     * [渠道管理](features/configuration-service/channel-management.md)

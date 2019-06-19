@@ -42,16 +42,21 @@ wx.tmSDK.getJudgeConfig().then(res=>{
 
 ### **返回值样例**
 
-```java
+```javascript
 {
     "1" : {
         id: 1,
-        key: share,
-        desc: '分享',
-        status: true
+        key: 'share',
+        description: '分享',
+        status: 1
      }
 }
 ```
 
-这些字段true/false如何控制小游戏中的功能，需要开发者根据实际业务进行开发，如隐藏ui展示等。
+### 返回值详解
 
+| 字段 | 字段类型 | 字段说明 |
+| id | number | 当前配置项唯一的id |
+| key | string | 当前配置项配置的功能名称 |
+| description | string | 当前配置项配置的功能说明 |
+| status | number | 当前配置项的开关状态， 1 - 开启， 0 - 关闭 |

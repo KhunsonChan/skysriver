@@ -17,7 +17,7 @@
 
 调用[.init](init.md)方法实现，示例如下
 
-```java
+```javascript
 wx.tmSDK.init({
      hideRequestLog: false,
      appVersion: '1.0.0'

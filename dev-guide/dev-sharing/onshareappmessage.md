@@ -4,7 +4,7 @@
 
 使用前，请[初始化SDK](https://skysriver.gitbook.io/skysriver/ji-shu-zhi-nan/chu-shi-hua-ni-de-sdk)。
 
-### **调用方法**
+## **调用方法**
 
 ```javascript
 wx.tmSDK.onShareAppMessage(function() {
@@ -17,7 +17,7 @@ wx.tmSDK.onShareAppMessage(function() {
 });
 ```
 
-### **callback函数返回的对象说明**
+## **callback函数返回的对象说明**
 
 | 字段 | 字段类型 | 字段说明 |
 | :--- | :--- | :--- |
@@ -26,12 +26,10 @@ wx.tmSDK.onShareAppMessage(function() {
 | cancel | Function | 微信分享取消时触发的回调 |
 | success | Function | 微信分享成功后触发的回调 |
 
-### **分享成功后回调参数详解**
+## **分享成功后回调参数详解**
 
 | 字段 | 字段类型 | 字段说明 |
 | :--- | :--- | :--- |
 | shareEventId | String | 本次分享卡片的唯一id |
 | errMsg | String | 本次分享的回调信息 |
-
-
 

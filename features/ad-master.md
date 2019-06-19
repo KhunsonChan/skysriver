@@ -30,7 +30,7 @@
 
 在数据方面，提供了核心的花费，曝光次数，点击，点击率三个数据指标，可快速了解相应广告计划与创意的最新消耗状况。
 
-![](../.gitbook/assets/image%20%2823%29.png)
+![](../.gitbook/assets/image%20%2826%29.png)
 
 ## **数据报表**
 
@@ -38,7 +38,7 @@
 
 可直观的了解到当前所有广告计划总体消耗和转化的情况。
 
-![](../.gitbook/assets/image%20%2826%29.png)
+![](../.gitbook/assets/image%20%2829%29.png)
 
 ### 广告计划数据
 
@@ -52,7 +52,7 @@
 
 ![](https://cdn.nlark.com/yuque/0/2019/png/254569/1557233356515-24d78a52-587e-4ec1-a4b5-a740eda56603.png?x-oss-process=image/resize,w_2000)
 
-![](../.gitbook/assets/image%20%2835%29.png)
+![](../.gitbook/assets/image%20%2840%29.png)
 
 ### 渠道分析
 
@@ -66,7 +66,7 @@
 
 {% page-ref page="indicator-description/" %}
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
 ### 创意数据
 
@@ -74,5 +74,5 @@
 
 在数据方面我们提供了每条创意的曝光次数，花费，点击次数，点击率，二次确认数，以此快速的了解该条创意的表现情况如何。
 
-![](../.gitbook/assets/image%20%2844%29.png)
+![](../.gitbook/assets/image%20%2849%29.png)
 

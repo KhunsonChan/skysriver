@@ -27,7 +27,7 @@ description: 本篇将说明如何编辑你的广告计划
 
 可以在后台查看所有广告计划中的创意，简单了解创意的曝光情况，详细数据，可在报表页面查看。
 
-![](../../.gitbook/assets/image%20%2832%29.png)
+![](../../.gitbook/assets/image%20%2837%29.png)
 
 ## **2. 编辑计划**
 
@@ -41,19 +41,19 @@ description: 本篇将说明如何编辑你的广告计划
 * 点击计划名字，即可进入计划的详情页面
 * 在详情页面中，可以对计划的「名字」「路径」等信息进行编辑
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image%20%289%29.png)
 
 ### **2.1 计划名称与路径**
 
 直接点击编辑按钮，直接在文本框中修改后，点击确定即可。
 
-![](../../.gitbook/assets/image%20%2810%29.png)
+![](../../.gitbook/assets/image%20%2811%29.png)
 
 ### **2.2 编辑创意**
 
 如下图，点击操作一栏中的「编辑创意」按钮即可进入编辑状态，编辑完毕后，点击「保存」按钮即可。
 
-![](../../.gitbook/assets/image%20%2816%29.png)
+![](../../.gitbook/assets/image%20%2819%29.png)
 
-![](../../.gitbook/assets/image%20%289%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 

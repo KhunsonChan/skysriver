@@ -4,8 +4,6 @@
 
 此方式适用于用户点击右上角菜单的转发按钮，传入参数与 [`wx.onShareAppMessage`](https://developers.weixin.qq.com/minigame/dev/api/wx.onShareAppMessage.html?search-key=wx.onShareAppMessage) 基本一致，额外增加天幕SDK中 [`getShareTemplates`](http://docs.kuaiyugo.com/sdkdoc2/api/dev_share_getsharetemplates.html) 方法获取的 `channelCode`字段。
 
-
-
 ## **调用方法**
 
 ```javascript

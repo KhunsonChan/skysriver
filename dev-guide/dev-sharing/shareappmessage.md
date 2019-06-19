@@ -1,10 +1,10 @@
 # .shareAppMessage
 
-本篇内容为技术说明文档，具体业务详情，请参阅[转发素材配置](../../features/configuration-service/sharing-management.md)
+本篇内容为技术说明文档，具体业务详情，请参阅[转发素材配置](../../features/configuration-service/sharing-management.md)，使用前，请[初始化SDK](https://www.yuque.com/eqrk37/gk0pcl/xbni48)。
 
-使用前，请[初始化SDK](https://www.yuque.com/eqrk37/gk0pcl/xbni48)。
+此方式用于小游戏主动分享时调用，传入参数与 [`wx.shareAppMessage`](https://developers.weixin.qq.com/minigame/dev/api/wx.shareAppMessage.html?search-key=wx.ShareAppMessage) 基本一致，额外增加天幕SDK中 [`getShareTemplates`](http://docs.kuaiyugo.com/sdkdoc2/api/dev_share_getsharetemplates.html) 方法获取的 `channelCode`字段。
 
-### **调用方法**
+## **调用方法**
 
 ```javascript
 wx.tmSDK.shareAppMessage({

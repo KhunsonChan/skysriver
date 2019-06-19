@@ -1,21 +1,12 @@
 ---
-description: 小游戏中的很多功能，通过天幕可以进行云端配置功能的开关，如微信审核过程中，开发者可以对一些功能进行隐藏，以提高通过审核的成功率。
+description: 开发者需通过该配置表来控制前端的功能是否开启，常见的处理方式是在ui层面隐藏部分功能。
 ---
 
 # 功能开关
 
-使用SDK的 [**getJudgeConfig**](create-ad-position/api/get-ad-position-config.md) 接口来实现。
+本篇内容为功能开关开发内容说明，关于功能开关的功能介绍请参阅：[功能开关功能说明](../features/configuration-service/switch.md)
 
-| 字段 | 字段类型 | 字段说明 |
-| :--- | :--- | :--- |
-| id | number | 当前配置项唯一的id  |
-| key | string | 当前配置项配置的功能名称 |
-| description | string | 当前配置项配置的功能说明 |
-| status | number | 当前配置项的开关状态， 1 - 开启， 0 - 关闭 |
-
-{% hint style="info" %}
-开发者需通过该配置表来控制前端的功能是否开启，常见的处理方式是在ui层面隐藏部分功能。
-{% endhint %}
+小游戏中的很多功能，通过天幕可以进行云端配置功能的开关，如微信审核过程中，开发者可以对一些功能进行隐藏，以提高通过审核的成功率。
 
 接入天幕的功能开关后，当小游戏加载时，天幕平台会下发一个配置表，包含部分功能的开启/关闭状态。而这些功能的状态，则在各个游戏的控制台进行配置。
 
@@ -31,7 +22,7 @@ description: 小游戏中的很多功能，通过天幕可以进行云端配置�
 
 ## **接入方式**
 
-使用SDK的 [**getJudgeConfig**](create-ad-position/api/get-ad-position-config.md) _\*\*_接口来实现。
+使用SDK的 [**getJudgeConfig**](create-ad-position/api/get-ad-position-config.md) 接口来实现。
 
 ## **描述**
 

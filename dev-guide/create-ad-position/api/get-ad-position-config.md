@@ -35,7 +35,7 @@ wx.tmSDK.getFlowConfig({
 * type为1时，positionId对应的是浮动窗类型
 * 如果创意列表creatives的show\_config中，只有image，则只需渲染该静态图
 
-```javascript
+```java
 {
     "isOpen":true,
     "type": 1, // 浮动icon类型
@@ -62,7 +62,7 @@ wx.tmSDK.getFlowConfig({
 
 * 如果创意列表creatives中，有fps，多个图片素材则需渲染为动态图片，按照1/fps每秒的时间切换每张图片
 
-```javascript
+```java
 {
     "isOpen":true,
     "type": 1,
@@ -82,6 +82,8 @@ wx.tmSDK.getFlowConfig({
 }
 ```
 
+#### \*\*\*\*
+
 ### **猜你喜欢**
 
 * type为7时，positionId对应的是猜你喜欢类型
@@ -90,7 +92,8 @@ wx.tmSDK.getFlowConfig({
 ```java
 {
     "isOpen":true,
-    "type": 7, 
+    "type": 1, // 浮动icon类型
+    "auto_change":10,
     "creatives":[
         {
             "creativeId":162,
@@ -112,6 +115,7 @@ wx.tmSDK.getFlowConfig({
 }
 ```
 
+#### \*\*\*\*
 
 ### **返回参数**
 

@@ -24,5 +24,7 @@
 
 {% page-ref page="createflow/cai-ni-xi-huan.md" %}
 
+{% page-ref page="createflow/interstitialAd.md" %}
+
 {% page-ref page="get-ad-position-status.md" %}
 

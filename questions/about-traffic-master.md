@@ -10,7 +10,7 @@
 
 具体的操作为：流量主后台-广告位管理-应用管理，点击新建应用，按要求填写appid，通过超级管理员的手机号或是app\_secret验证即可添加成功。
 
-![](../.gitbook/assets/image%20%2845%29.png)
+![](../.gitbook/assets/image%20%2847%29.png)
 
 ## 广告位ID要怎么查看？
 

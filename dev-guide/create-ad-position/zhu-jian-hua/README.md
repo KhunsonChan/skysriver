@@ -10,21 +10,17 @@
 
 通过组件化的形式接入，请参照以下内容：
 
-### creatFlow组件
+## creatFlow组件
 
 可以通过该组件自动渲染出对应类型的广告位，具体可参阅
 
 {% page-ref page="createflow/" %}
 
-### 浮动窗广告
-
-
+## 浮动窗广告
 
 {% page-ref page="createflow/icon.md" %}
 
 {% page-ref page="createflow/cai-ni-xi-huan.md" %}
-
-{% page-ref page="createflow/interstitialAd.md" %}
 
 {% page-ref page="get-ad-position-status.md" %}
 

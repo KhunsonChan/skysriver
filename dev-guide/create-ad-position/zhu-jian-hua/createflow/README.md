@@ -59,7 +59,7 @@ flowUI.onRender(function({message}){
 
 正常情况下，游戏场景切换时，该UI组件会自动销毁。如果需要在某些场景销毁该组件，请使用destroy方法。
 
-```text
+```javascript
 flowUI.destroy();
 ```
 

@@ -82,8 +82,6 @@ wx.tmSDK.getFlowConfig({
 }
 ```
 
-#### \*\*\*\*
-
 ### **猜你喜欢**
 
 * type为7时，positionId对应的是猜你喜欢类型

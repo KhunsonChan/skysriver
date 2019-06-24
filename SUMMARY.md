@@ -75,6 +75,7 @@
       * [.flowNavigate](dev-guide/create-ad-position/api/landing.md)
   * [性能分析](dev-guide/performance-analysis.md)
   * [转发素材](dev-guide/dev-sharing/README.md)
+    * [getShareTemplates](dev-guide/dev-sharing/getsharetemplates.md)
     * [.onShareAppMessage](dev-guide/dev-sharing/onshareappmessage.md)
     * [.shareAppMessage](dev-guide/dev-sharing/shareappmessage.md)
   * [功能开关](dev-guide/function-switch.md)

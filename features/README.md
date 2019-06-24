@@ -10,7 +10,7 @@
 
 {% page-ref page="ad-master.md" %}
 
-{% page-ref page="traffic-master.md" %}
+{% page-ref page="traffic-master/" %}
 
 {% page-ref page="financial-center.md" %}
 

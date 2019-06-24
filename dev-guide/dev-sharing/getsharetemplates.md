@@ -1,12 +1,10 @@
-# getShareTemplates
+# .getShareTemplates
 
+本篇为技术说明文档，具体业务详情，请参阅[转发素材配置](../../features/configuration-service/sharing-management.md)**，**使用前，请[初始化SDK](https://skysriver.gitbook.io/skysriver/ji-shu-zhi-nan/chu-shi-hua-ni-de-sdk)。
 
+开发者可通过这个接口接收保存在天幕上的分享素材相关数据，具体返回的数据，请参阅下文中的返回值样例。
 
-**前置条件**
-
-使用该接口前，必须先使用[init](https://www.skysriver.com/tianmu_sdk/api/sdk_init.html)方法初始化SDK
-
-**\#调用方法**
+### **调用方法**
 
 ```javascript
 wx.tmSDK.getShareTemplates().then((res) => {
@@ -14,7 +12,7 @@ wx.tmSDK.getShareTemplates().then((res) => {
 })
 ```
 
-## **返回值样列**
+### **返回值样例**
 
 ```javascript
 {

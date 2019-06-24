@@ -37,13 +37,11 @@
 
 分享素材的配置，均在天幕的后台可进行，请参阅配置说明：[转发素材配置。](../../features/configuration-service/sharing-management.md)
 
-
-
 以下是转发素材功能使用的两个接口，请参阅
+
+{% page-ref page="getsharetemplates.md" %}
 
 {% page-ref page="onshareappmessage.md" %}
 
 {% page-ref page="shareappmessage.md" %}
-
-
 

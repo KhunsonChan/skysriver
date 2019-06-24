@@ -8,7 +8,7 @@
 
 {% page-ref page="data-statistics/" %}
 
-{% page-ref page="ad-master.md" %}
+{% page-ref page="ad-master/" %}
 
 {% page-ref page="traffic-master/" %}
 

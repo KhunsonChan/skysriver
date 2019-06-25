@@ -1,8 +1,8 @@
 # 在线参数
 
-{% hint style="info" %}
-该接口用于获取天幕配置的在线参数配置
-{% endhint %}
+该接口主要用于获取在天幕后台配置的在线参数，本篇内容为技术说明文档，功能说明及配置方法请参阅：
+
+{% page-ref page="../features/configuration-service/json.md" %}
 
 ## **调用方法**
 

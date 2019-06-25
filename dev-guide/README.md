@@ -12,7 +12,5 @@
 
 {% page-ref page="function-switch.md" %}
 
-{% page-ref page="payment/" %}
-
 {% page-ref page="dev-demo.md" %}
 

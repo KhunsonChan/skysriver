@@ -12,7 +12,7 @@
 
 {% page-ref page="cai-ni-xi-huan.md" %}
 
-{% page-ref page="ran-cha-ping-guang-gao.md" %}
+{% page-ref page="screen-ad.md" %}
 
 ### **接口描述**
 

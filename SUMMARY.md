@@ -53,6 +53,8 @@
   * [广告主](features/ad-master/README.md)
     * [工具箱](features/ad-master/toolbox.md)
   * [流量主](features/traffic-master/README.md)
+    * [广告位管理](features/traffic-master/adposition-manage/README.md)
+      * [为广告位添加红点、角标](features/traffic-master/adposition-manage/red-point.md)
     * [工具箱](features/traffic-master/toolbox/README.md)
       * [广告位自测工具](features/traffic-master/toolbox/test-adposition.md)
       * [操作记录](features/traffic-master/toolbox/cao-zuo-ji-lu.md)

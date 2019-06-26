@@ -37,11 +37,17 @@
 
 分享素材的配置，均在天幕的后台可进行，请参阅配置说明：[转发素材配置。](../../features/configuration-service/sharing-management.md)
 
-以下是转发素材功能使用的两个接口，请参阅
+以下是转发素材功能使用的三个接口，请参阅
+
+1.接收保存在天幕上的分享素材相关数据
 
 {% page-ref page="getsharetemplates.md" %}
 
+2.用户点击右上角菜单的转发按钮时调用
+
 {% page-ref page="onshareappmessage.md" %}
+
+3.小游戏主动分享时调用
 
 {% page-ref page="shareappmessage.md" %}
 

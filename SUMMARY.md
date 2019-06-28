@@ -50,7 +50,7 @@
     * [收入增长](features/data-statistics/income.md)
     * [用户来源分析](features/data-statistics/user-from-analysis.md)
     * [性能调优](features/data-statistics/performance-tuning.md)
-  * [广告主](features/ad-master/README.md)
+  * [广告投放](features/ad-master/README.md)
     * [工具箱](features/ad-master/toolbox.md)
   * [流量主](features/traffic-master/README.md)
     * [广告位管理](features/traffic-master/adposition-manage/README.md)

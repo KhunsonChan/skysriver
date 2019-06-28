@@ -63,7 +63,7 @@ description: 天幕上常用名词的解析
 
 2. 猜你喜欢，类似抽屉的广告展示位，可向左滑动查看； 
 
-![](../.gitbook/assets/guang-gao-wei-xiao-guo-shi-yi-tu-22%20%281%29.jpg)
+![](../.gitbook/assets/guang-gao-wei-xiao-guo-shi-yi-tu-22%20%282%29.jpg)
 
 3. 伪视频，类似微信的激励视频广告； 
 
@@ -117,7 +117,7 @@ description: 天幕上常用名词的解析
 
 2. 猜你喜欢，类似抽屉的广告展示位，可向左滑动查看； 
 
-![](../.gitbook/assets/guang-gao-wei-xiao-guo-shi-yi-tu-22%20%281%29.jpg)
+![](../.gitbook/assets/guang-gao-wei-xiao-guo-shi-yi-tu-22%20%282%29.jpg)
 
 3. 伪视频，类似激励视频； 
 

@@ -12,7 +12,5 @@
 
 具体的技术说明文档，请参考：[接入天幕banner广告](../../dev-guide/create-ad-position/api/get-ad-position-config.md#banner)
 
-## 天幕浮动窗广告
 
-天幕
 

@@ -59,7 +59,7 @@ description: 天幕上常用名词的解析
 
 1. 浮动窗，类似icon挂件的形式，可展示静态图片广告，或是类似gif的动态图片； 
 
-![](../.gitbook/assets/guang-gao-wei-xiao-guo-shi-yi-tu-12.jpg)
+![](../.gitbook/assets/guang-gao-wei-xiao-guo-shi-yi-tu-12%20%281%29.jpg)
 
 2. 猜你喜欢，类似抽屉的广告展示位，可向左滑动查看； 
 
@@ -113,7 +113,7 @@ description: 天幕上常用名词的解析
 
 1. 浮动窗，类似icon挂件的形式，可展示静态图片广告，或是类似gif的动态图片；  
 
-![](../.gitbook/assets/guang-gao-wei-xiao-guo-shi-yi-tu-12.jpg)
+![](../.gitbook/assets/guang-gao-wei-xiao-guo-shi-yi-tu-12%20%281%29.jpg)
 
 2. 猜你喜欢，类似抽屉的广告展示位，可向左滑动查看； 
 

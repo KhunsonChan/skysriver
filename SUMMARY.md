@@ -98,6 +98,6 @@
   * [数据相关](questions/about-data.md)
   * [其他](questions/others.md)
 * [更新日志](change-log/README.md)
-  * [SDK更新日志](change-log/sdk-change-log.md)
   * [天幕更新日志](change-log/skysriver-change-log.md)
+  * [SDK更新日志](change-log/sdk-change-log.md)
 

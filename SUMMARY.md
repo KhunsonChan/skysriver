@@ -74,7 +74,6 @@
         * [渲染猜你喜欢广告](dev-guide/create-ad-position/zhu-jian-hua/createflow/cai-ni-xi-huan.md)
         * [渲染插屏广告](dev-guide/create-ad-position/zhu-jian-hua/createflow/screen-ad.md)
         * [渲染伪视频广告](dev-guide/create-ad-position/zhu-jian-hua/createflow/ran-wei-shi-pin-guang-gao.md)
-        * [渲染banner广告](dev-guide/create-ad-position/zhu-jian-hua/createflow/ran-banner-guang-gao.md)
       * [获取广告位开启状态](dev-guide/create-ad-position/zhu-jian-hua/get-ad-position-status.md)
     * [API方式接入广告位](dev-guide/create-ad-position/api/README.md)
       * [.getFlowConfig](dev-guide/create-ad-position/api/get-ad-position-config.md)

@@ -34,12 +34,14 @@ wx.tmSDK.getFlowConfig({
 
 * type为1时，positionId对应的是浮动窗类型
 * 如果创意列表creatives的show\_config中，只有image，则只需渲染该静态图
+* 浮动窗广告可在天幕设置角标功能
 
 ```java
 {
     "isOpen":true,
     "type": 1, // 浮动icon类型
     "auto_change":10,
+    "cornerOpen": true, // 角标是否开启
     "borderStyle": { // 当天幕后台配置了边框时，此处会出现边框样式属性
         "imageUrl": "https://cdn.kuaiyugo.com/plat/SDK/sdk_img_res/border3_title.png",
         "left": 32, // show_config中图片相对边框的左位置
@@ -54,7 +56,23 @@ wx.tmSDK.getFlowConfig({
                 "image": "https://cdn.kuaiyugo.com/appprogram/tiger/admin/2018-11-06_6fe2c240-e1a7-11e8-bc47-27d9eee1c822.png",
                 "show_type":0 // 动态效果
             },
-            "size":"190x270" // 广告位尺寸比例
+            "size":"190x270", // 广告位尺寸比例
+            "corner_style": { // 角标的样式
+                "left_top": { // 左上角
+                    "type": 1, // 1:红点，2:角标
+                    "image": "https://cdn.kuaiyugo.com/plat/SDK/test/static_files/corner_icon/200200/red_dot/left_top/red_dot_2.png",
+                    "width": 40,
+                    "height": 40
+                },
+                "left_bottom": { // 左下角
+                    "type": 2,
+                    "image": "https://cdn.kuaiyugo.com/plat/SDK/test/static_files/corner_icon/200200/red_dot/left_bottom/red_dot_1.png",
+                    "width": 75,
+                    "height": 75
+                },
+                "right_top": {}, // 右上角
+                "right_bottom": {} // 右下角
+            }
         }
     ]
 }
@@ -86,12 +104,14 @@ wx.tmSDK.getFlowConfig({
 
 * type为7时，positionId对应的是猜你喜欢类型
 * 猜你喜欢拥有多个创意，需要全部渲染处理
+* 猜你喜欢可在天幕设置角标功能
 
 ```java
 {
     "isOpen":true,
-    "type": 1, // 浮动icon类型
+    "type": 7, // 猜你喜欢类型
     "auto_change":10,
+    "cornerOpen": true, // 角标是否开启
     "creatives":[
         {
             "creativeId":162,
@@ -100,6 +120,22 @@ wx.tmSDK.getFlowConfig({
                 "image": "https://cdn.kuaiyugo.com/appprogram/tiger/admin/2018-11-06_6fe2c240-e1a7-11e8-bc47-27d9eee1c822.png",
                 "title": '游戏名' //游戏名称 
             },
+            "corner_style": { // 角标的样式
+                "left_top": { // 左上角
+                    "type": 1, // 1:红点，2:角标
+                    "image": "https://cdn.kuaiyugo.com/plat/SDK/test/static_files/corner_icon/200200/red_dot/left_top/red_dot_2.png",
+                    "width": 40,
+                    "height": 40
+                },
+                "left_bottom": { // 左下角
+                    "type": 2,
+                    "image": "https://cdn.kuaiyugo.com/plat/SDK/test/static_files/corner_icon/200200/red_dot/left_bottom/red_dot_1.png",
+                    "width": 75,
+                    "height": 75
+                },
+                "right_top": {}, // 右上角
+                "right_bottom": {} // 右下角
+            }
         },
          {
             "creativeId":162,
@@ -113,7 +149,34 @@ wx.tmSDK.getFlowConfig({
 }
 ```
 
-#### \*\*\*\*
+#### 
+
+### Banner
+
+* type为11时，positionId对应的是Banner类型
+
+```java
+{
+    "isOpen":true,
+    "type": 11, // Banner类型
+    "creatives":[
+        {
+            "creativeId":162,
+            "positionId":"1013280",
+            "show_config":{
+                "image": "https://cdn.kuaiyugo.com/test/tianmu/2019-06-26_959a525097be11e9aee7bfaee0856d23.jpg"
+            },
+        },
+         {
+            "creativeId":163,
+            "positionId":"1013280",
+            "show_config":{
+                "image": "https://cdn.kuaiyugo.com/test/tianmu/2019-06-26_959a525097be11e9aee7bfaee0856d23.jpg"
+            },
+        }
+    ]
+}
+```
 
 ### **返回参数**
 
@@ -134,4 +197,7 @@ wx.tmSDK.getFlowConfig({
 | show\_config.title | string | 素材对应渲染的标题 |
 | show\_config.image | string | 素材图片 |
 | title | string | 猜你喜欢的广告文案 |
+| cornerOpen | boolean | 角标是否开启 |
+
+
 

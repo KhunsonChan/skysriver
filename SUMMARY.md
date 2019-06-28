@@ -23,7 +23,7 @@
     * [创建广告位](start/traffic-start-order/create-ad-position.md)
     * [查看订单数据](start/traffic-start-order/view-order-data.md)
 * [功能介绍](features/README.md)
-  * [广告类型说明](features/guang-gao-lei-xing-shuo-ming.md)
+  * [广告类型说明](features/ad-types.md)
   * [数据指标说明](features/indicator-description/README.md)
     * [概览与核心数据](features/indicator-description/core-data.md)
     * [活跃用户](features/indicator-description/dau.md)

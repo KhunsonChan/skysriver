@@ -8,9 +8,9 @@
 
 请注意，在添加应用前，必须在主体下将这个应用添加，否则无法添加成功。
 
-![](../../../.gitbook/assets/image%20%2830%29.png)
+![](../../../.gitbook/assets/image%20%2831%29.png)
 
-![](../../../.gitbook/assets/image%20%2820%29.png)
+![](../../../.gitbook/assets/image%20%2821%29.png)
 
 ### 给应用添加标签
 
@@ -21,13 +21,13 @@
 3. 画风，可选两个；
 4. 特色，可选两个；
 
-![](../../../.gitbook/assets/image%20%2868%29.png)
+![](../../../.gitbook/assets/image%20%2870%29.png)
 
 ### 屏蔽广告位
 
 如果需要在某个版本对广告位进行屏蔽，即不展示，可在此设置，点击表格中的屏蔽版本，添加上需要屏蔽广告位的应用所在版本即可，支持多版本的屏蔽。
 
-![](../../../.gitbook/assets/image%20%2862%29.png)
+![](../../../.gitbook/assets/image%20%2864%29.png)
 
 ### 广告位的管理
 
@@ -41,7 +41,7 @@
 
 目前仅支持「浮动窗广告」的配置。
 
-![](../../../.gitbook/assets/image%20%2823%29.png)
+![](../../../.gitbook/assets/image%20%2824%29.png)
 
 ![](../../../.gitbook/assets/image%20%2814%29.png)
 

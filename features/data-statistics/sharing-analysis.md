@@ -16,7 +16,7 @@
 
 用户画像为运营团队提供了分享引入的用户使用的机型、系统以及所在城市数据，帮助运营团队更加细致的了解用户属性。
 
-![](../../.gitbook/assets/image%20%2863%29.png)
+![](../../.gitbook/assets/image%20%2865%29.png)
 
-![](../../.gitbook/assets/image%20%2829%29.png)
+![](../../.gitbook/assets/image%20%2830%29.png)
 

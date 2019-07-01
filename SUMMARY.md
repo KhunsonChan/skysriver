@@ -44,6 +44,7 @@
     * [流量主数据指标](features/indicator-description/traffic-master-data.md)
     * [性能分析](features/indicator-description/performance-analysis.md)
   * [云配置服务](features/configuration-service/README.md)
+    * [自定义事件](features/configuration-service/zi-ding-yi-shi-jian.md)
     * [在线参数](features/configuration-service/json.md)
     * [转发素材配置](features/configuration-service/sharing-management.md)
     * [功能开关](features/configuration-service/switch.md)

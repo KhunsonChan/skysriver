@@ -6,7 +6,7 @@
 
 下面将会从广告投放模块中的各个功能进行讲解。
 
-![](../../.gitbook/assets/image%20%2848%29.png)
+![](../../.gitbook/assets/image%20%2854%29.png)
 
 ## **首页**
 
@@ -48,7 +48,7 @@
 
 ![](https://cdn.nlark.com/yuque/0/2019/png/254569/1557233356515-24d78a52-587e-4ec1-a4b5-a740eda56603.png?x-oss-process=image/resize,w_2000)
 
-![](../../.gitbook/assets/image%20%2854%29.png)
+![](../../.gitbook/assets/image%20%2860%29.png)
 
 ### 渠道分析
 
@@ -62,7 +62,7 @@
 
 {% page-ref page="../indicator-description/" %}
 
-![](../../.gitbook/assets/image%20%2829%29.png)
+![](../../.gitbook/assets/image%20%2832%29.png)
 
 ### 创意数据
 
@@ -70,7 +70,7 @@
 
 在数据方面我们提供了每条创意的从曝光开始到最后的数据，以此快速的了解该条创意的表现情况如何。
 
-![](../../.gitbook/assets/image%20%2868%29.png)
+![](../../.gitbook/assets/image%20%2874%29.png)
 
 ### 渠道分析
 
@@ -78,7 +78,7 @@
 
 你也可以选择单个流量主游戏进行查看，广告计划在其游戏上的表现如何。
 
-![](../../.gitbook/assets/image%20%289%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
-![](../../.gitbook/assets/image%20%2858%29.png)
+![](../../.gitbook/assets/image%20%2864%29.png)
 

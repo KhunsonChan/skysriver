@@ -6,7 +6,7 @@
 
 广告效果图如下：
 
-![&#x5929;&#x5E55;&#x63D2;&#x5C4F;&#x5E7F;&#x544A;](../../.gitbook/assets/cha-ping-guang-gao-2%20%282%29.png)
+![&#x5929;&#x5E55;&#x63D2;&#x5C4F;&#x5E7F;&#x544A;](../../.gitbook/assets/cha-ping-guang-gao-2%20%283%29.png)
 
 插屏广告所需的素材尺寸：780\*960
 

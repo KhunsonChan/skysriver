@@ -4,7 +4,7 @@
 使用该接口前，请先进行[SDK初始化](https://skysriver.gitbook.io/skysriver/ji-shu-zhi-nan/chu-shi-hua-ni-de-sdk)
 {% endhint %}
 
-该接口用于获取广告位id对应配置详情，调用该接口后，请根据接口的返回值，采用对应的方式处理，下方会针对浮动窗广告和猜你喜欢广告位进行说明。
+该接口用于获取广告位id对应配置详情，调用该接口后，请根据接口的返回值，采用对应的方式处理，下方会针对浮动窗广告和多icon广告位进行说明。
 
 #### 创意ID的获取
 
@@ -100,16 +100,16 @@ wx.tmSDK.getFlowConfig({
 }
 ```
 
-### **猜你喜欢**
+### 多icon广告位
 
-* type为7时，positionId对应的是猜你喜欢类型
-* 猜你喜欢拥有多个创意，需要全部渲染处理
-* 猜你喜欢可在天幕设置角标功能
+* type为7时，positionId对应的是多icon广告类型
+* 多icon广告位拥有多个创意，需要全部渲染处理
+* 多icon广告位可在天幕设置角标功能
 
 ```java
 {
     "isOpen":true,
-    "type": 7, // 猜你喜欢类型
+    "type": 7, // 多icon广告类型
     "auto_change":10,
     "cornerOpen": true, // 角标是否开启
     "creatives":[
@@ -196,7 +196,7 @@ wx.tmSDK.getFlowConfig({
 | show\_config | object | 广告位素材详情 |
 | show\_config.title | string | 素材对应渲染的标题 |
 | show\_config.image | string | 素材图片 |
-| title | string | 猜你喜欢的广告文案 |
+| title | string | 多icon广告位的广告文案 |
 | cornerOpen | boolean | 角标是否开启 |
 
 

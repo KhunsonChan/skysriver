@@ -20,7 +20,7 @@
 
 {% page-ref page="createflow/icon.md" %}
 
-{% page-ref page="createflow/cai-ni-xi-huan.md" %}
+{% page-ref page="createflow/more-icon.md" %}
 
 {% page-ref page="get-ad-position-status.md" %}
 

@@ -71,7 +71,7 @@ description: 天幕上常用名词的解析
 
 4. 插屏广告，类似全屏弹窗广告； 
 
-![](../.gitbook/assets/cha-ping-guang-gao-2.png)
+![](../.gitbook/assets/cha-ping-guang-gao-2%20%281%29.png)
 
 ### 渠道
 
@@ -125,7 +125,7 @@ description: 天幕上常用名词的解析
 
  4. 插屏广告，类似全屏弹窗广告； 
 
-![](../.gitbook/assets/cha-ping-guang-gao-2.png)
+![](../.gitbook/assets/cha-ping-guang-gao-2%20%281%29.png)
 
 ### 活跃用户
 

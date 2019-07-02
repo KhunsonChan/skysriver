@@ -18,7 +18,7 @@
 
 广告效果图如下：
 
-![&#x5929;&#x5E55;&#x63D2;&#x5C4F;&#x5E7F;&#x544A;](../../.gitbook/assets/cha-ping-guang-gao-2%20%282%29.png)
+![&#x5929;&#x5E55;&#x63D2;&#x5C4F;&#x5E7F;&#x544A;](../../.gitbook/assets/cha-ping-guang-gao-2%20%283%29.png)
 
 具体广告位说明文档请参阅：[天幕插屏广告](interstitial.md)
 

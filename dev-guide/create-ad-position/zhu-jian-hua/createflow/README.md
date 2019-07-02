@@ -10,7 +10,7 @@
 
 {% page-ref page="icon.md" %}
 
-{% page-ref page="cai-ni-xi-huan.md" %}
+{% page-ref page="more-icon.md" %}
 
 {% page-ref page="screen-ad.md" %}
 

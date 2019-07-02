@@ -25,7 +25,7 @@
 * [功能介绍](features/README.md)
   * [广告类型说明](features/ad-types/README.md)
     * [天幕浮动窗广告](features/ad-types/icon.md)
-    * [天幕猜你喜欢广告](features/ad-types/more-icon.md)
+    * [天幕多Icon广告位](features/ad-types/more-icon.md)
     * [天幕插屏广告](features/ad-types/interstitial.md)
     * [天幕伪视频广告](features/ad-types/like-video.md)
     * [天幕Banner广告](features/ad-types/banner.md)

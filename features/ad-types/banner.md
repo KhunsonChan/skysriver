@@ -4,7 +4,7 @@
 
 ![&#x5929;&#x5E55;Banner&#x5E7F;&#x544A;](../../.gitbook/assets/banner-guang-11.png)
 
-天幕Banner广告需要的素材尺寸为：960\*334
+天幕Banner广告需要的素材尺寸为：960\*334，横竖屏都支持。
 
 天幕Banner广告暂时只支持API的方式接入，调用天幕提供的API接口，根据返回的数据自行渲染即可。
 

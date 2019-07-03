@@ -61,7 +61,7 @@ description: 天幕上常用名词的解析
 
 ![](../.gitbook/assets/guang-gao-wei-xiao-guo-shi-yi-tu-12%20%281%29.jpg)
 
-2. 猜你喜欢，类似抽屉的广告展示位，可向左滑动查看； 
+2. 多icon广告位，类似抽屉的广告展示位，可向左滑动查看； 
 
 ![](../.gitbook/assets/guang-gao-wei-xiao-guo-shi-yi-tu-22%20%282%29.jpg)
 
@@ -72,6 +72,10 @@ description: 天幕上常用名词的解析
 4. 插屏广告，类似全屏弹窗广告； 
 
 ![](../.gitbook/assets/cha-ping-guang-gao-2%20%281%29.png)
+
+5.天幕banner广告，类似微信的banner广告；
+
+![](../.gitbook/assets/banner-guang-11.png)
 
 ### 渠道
 

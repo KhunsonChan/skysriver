@@ -155,7 +155,7 @@ wx.tmSDK.getFlowConfig({
 
 * type为11时，positionId对应的是Banner类型
 
-```java
+```javascript
 {
     "isOpen":true,
     "type": 11, // Banner类型
@@ -165,15 +165,7 @@ wx.tmSDK.getFlowConfig({
             "positionId":"1013280",
             "show_config":{
                 "image": "https://cdn.kuaiyugo.com/test/tianmu/2019-06-26_959a525097be11e9aee7bfaee0856d23.jpg"
-            },
-        },
-         {
-            "creativeId":163,
-            "positionId":"1013280",
-            "show_config":{
-                "image": "https://cdn.kuaiyugo.com/test/tianmu/2019-06-26_959a525097be11e9aee7bfaee0856d23.jpg"
-            },
-        }
+            }
     ]
 }
 ```

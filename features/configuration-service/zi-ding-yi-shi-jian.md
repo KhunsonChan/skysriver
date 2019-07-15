@@ -12,9 +12,9 @@
 
 注意：一旦创建成功后，事件ID不可编辑，在设置时，请慎重。
 
-![](../../.gitbook/assets/image%20%2879%29.png)
+![](../../.gitbook/assets/image%20%2881%29.png)
 
-![](../../.gitbook/assets/image%20%2880%29.png)
+![](../../.gitbook/assets/image%20%2882%29.png)
 
 ## 导入事件excel
 
@@ -34,7 +34,7 @@ excel模板内容如下：
 
 点击参数配置，可以配置该事件的参数，并编辑参数的名称与类型（目前参数的类型仅支持次数，后续天幕会陆续支持），也可以将不需要的参数下架掉。
 
-![](../../.gitbook/assets/image%20%2846%29.png)
+![](../../.gitbook/assets/image%20%2848%29.png)
 
 ![](../../.gitbook/assets/image%20%2813%29.png)
 

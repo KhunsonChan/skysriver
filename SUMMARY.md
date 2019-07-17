@@ -59,7 +59,7 @@
     * [性能调优](features/data-statistics/performance-tuning.md)
   * [广告投放](features/ad-master/README.md)
     * [工具箱](features/ad-master/toolbox.md)
-  * [流量主](features/traffic-master/README.md)
+  * [流量变现](features/traffic-master/README.md)
     * [广告位管理](features/traffic-master/adposition-manage/README.md)
       * [为广告位添加红点、角标](features/traffic-master/adposition-manage/red-point.md)
     * [工具箱](features/traffic-master/toolbox/README.md)

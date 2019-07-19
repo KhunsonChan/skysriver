@@ -12,9 +12,9 @@
 
 注意：一旦创建成功后，事件ID不可编辑，在设置时，请慎重。
 
-![](../../.gitbook/assets/image%20%2894%29.png)
+![](../../.gitbook/assets/image%20%2898%29.png)
 
-![](../../.gitbook/assets/image%20%2895%29.png)
+![](../../.gitbook/assets/image%20%2899%29.png)
 
 ## 导入事件excel
 
@@ -34,9 +34,9 @@ excel模板内容如下：
 
 点击参数配置，可以配置该事件的参数，并编辑参数的名称与类型（目前参数的类型仅支持次数，后续天幕会陆续支持），也可以将不需要的参数下架掉。
 
-![](../../.gitbook/assets/image%20%2857%29.png)
+![](../../.gitbook/assets/image%20%2860%29.png)
 
-![](../../.gitbook/assets/image%20%2816%29.png)
+![](../../.gitbook/assets/image%20%2817%29.png)
 
 ## 查看事件数据
 
@@ -44,7 +44,7 @@ excel模板内容如下：
 
 在更详细的页面中，可查看整体事件的触发次数、人数，更可以查看参数明细，了解事件更细致的数据。
 
-![](../../.gitbook/assets/image%20%2826%29.png)
+![](../../.gitbook/assets/image%20%2827%29.png)
 
-![](../../.gitbook/assets/image%20%2840%29.png)
+![](../../.gitbook/assets/image%20%2841%29.png)
 

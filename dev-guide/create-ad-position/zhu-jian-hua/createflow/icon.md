@@ -66,3 +66,19 @@ let flowUI = wx.tmSDK.createFlow({
 });
 ```
 
+### **监听广告位跳转事件**
+
+```javascript
+flowUI.onNavigate(function(error) {
+    console.error(error);
+})
+```
+
+### **取消监听广告位跳转事件**
+
+```javascript
+let callBack = function(error){
+    console.log(error)
+};
+flowUI.offNavigate(callBack);  // 取消某个监听事件
+```

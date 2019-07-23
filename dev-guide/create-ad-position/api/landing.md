@@ -49,9 +49,13 @@ wx.tmSDK.flowNavigate({
 | positionId | Number | 当前点击的positionId |
 | creativeId | Number | 当前点击的creativeId |
 
-## **返回值**
+## **基本返回值**
 
-返回值和[getFlowConfig](https://www.yuque.com/eqrk37/gk0pcl/okpygt)结构一致, 请参考getFlowConfig文档
+返回值和[getFlowConfig](https://www.yuque.com/eqrk37/gk0pcl/okpygt)结构基本一致, 请参考getFlowConfig文档
 
+## **特有返回值**
 
+| 字段 | 字段类型 | 字段说明 |
+| :--- | :--- | :--- |
+| navigateMessage | Object | 触发跳转后微信的原始消息 |
 

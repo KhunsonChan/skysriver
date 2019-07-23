@@ -56,5 +56,21 @@ let callBack = function(error){ // 假设onError的时候绑定的为该函数
 flowUI.offError(callBack);  // 取消某个监听事件
 ```
 
+### **监听广告位跳转事件**
+
+```javascript
+flowUI.onNavigate(function(error) {
+    console.error(error);
+})
+```
+
+### **取消监听广告位跳转事件**
+
+```javascript
+let callBack = function(error){
+    console.log(error)
+};
+flowUI.offNavigate(callBack);  // 取消某个监听事件
+```
 
 

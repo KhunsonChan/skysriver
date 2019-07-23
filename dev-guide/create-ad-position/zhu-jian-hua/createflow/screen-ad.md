@@ -43,3 +43,20 @@ let callBack = function(error){ // 假设onError的时候绑定的为该函数
 flowUI.offError(callBack);  // 取消某个监听事件
 ```
 
+### **监听广告位跳转事件**
+1. 监听广告位是否触发点击跳转
+2. 回调参数中为返回的原始微信信息
+```javascript
+flowUI.onNavigate(function(msg) {
+    console.error(msg);
+})
+```
+
+### **取消监听广告位跳转事件**
+
+```javascript
+let callBack = function(error){
+    console.log(error)
+};
+flowUI.offNavigate(callBack);  // 取消某个监听事件
+```

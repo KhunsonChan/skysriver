@@ -73,7 +73,7 @@
   * [初始化SDK](dev-guide/init.md)
   * [登录](dev-guide/login/README.md)
     * [.login](dev-guide/login/get-user-info.md)
-    * [.updateUserInfo](dev-guide/login/get-user-info-from-wx.md)
+    * [.updateUserInfo](dev-guide/login/update-userinfo.md)
   * [在游戏中创建广告位](dev-guide/create-ad-position/README.md)
     * [组件化方式接入广告位](dev-guide/create-ad-position/zhu-jian-hua/README.md)
       * [.createFlow](dev-guide/create-ad-position/zhu-jian-hua/createflow/README.md)

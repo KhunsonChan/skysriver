@@ -99,7 +99,7 @@ bindUserLogin: function(e) {
 
 | 字段 | 字段类型 | 字段说明 |
 | :--- | :--- | :--- |
-| pid | string | 用户在星汉平台的统一索引，但可能变化 |
+| pid | string | 用户在天幕的统一索引，但可能变化 |
 | app\_id | string | 应用的appid |
 | open\_id | string | 用户在该应用下的openid |
 | union\_id | string | 用户的unionid,默认为空字符串，绑定主体后大授权方可获得。[`绑定主体`](https://developers.weixin.qq.com/miniprogram/dev/api/uinionID.html) |

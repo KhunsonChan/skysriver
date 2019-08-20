@@ -14,16 +14,16 @@
 
 {% page-ref page="screen-ad.md" %}
 
-### **接口描述**
+## **接口描述**
 
 * 调用该组件后，自动按照推广位类型渲染UI，并支持点击、动态效果等
 * cocos引擎中，请在画布初始化完毕后才调用createFlow
 
-### **使用标准屏幕坐标系定位**
+## **使用标准屏幕坐标系定位**
 
 ![](https://cdn.kuaiyugo.com/plat/SDK/prod/static_files/createTiger_coordinate.png)
 
-### **使用实例**
+## **使用实例**
 
 ```javascript
 let flowUI = wx.tmSDK.createFlow({
@@ -45,9 +45,9 @@ flowUI.onRender(function({message}){
 });
 ```
 
-### **参数**
+## **参数**
 
-| 参数 | 字段名称     | 字段说明 |
+| 参数 | 字段名称 | 字段说明 |
 | :--- | :--- | :--- |
 | positionId | 交叉推广位id | 交叉推广位id |
 | x | 渲染x轴位置 | 推广位在画布中的渲染X轴方向位置，坐标原点为视图左上角 |
@@ -55,7 +55,7 @@ flowUI.onRender(function({message}){
 | width\(可选参数\) | 渲染宽度 | 可选参数，设置后可调整推广位尺寸, 不设置则使用默认尺寸, 最小值为100,最大值为默认广告类型宽 |
 | zIndex\(可选参数\) | 渲染层级 | 可选参数，设置后可调整UI的渲染层级， 默认值为999999999 |
 
-### **销毁**
+## **销毁**
 
 正常情况下，游戏场景切换时，该UI组件会自动销毁。如果需要在某些场景销毁该组件，请使用destroy方法。
 
@@ -63,7 +63,7 @@ flowUI.onRender(function({message}){
 flowUI.destroy();
 ```
 
-### **可选参数: width**
+## **可选参数: width**
 
 * 1、浮动icon类型下，可等比例设置渲染宽度，最小值为100，比例固定为190:270。
 * 2、设置的宽度类型会根据当前尺寸画布与1080\*1920的标准尺寸画布进行缩放。
@@ -75,7 +75,7 @@ let flowUI = tm_sdk.createFlow({
 });
 ```
 
-### **可选参数: zIndex**
+## **可选参数: zIndex**
 
 * 1、可自定义设置渲染组件的层级
 * 2、闪屏类型默认值则为加999999999 + 1，其他类型默认值为999999999。
@@ -88,7 +88,7 @@ let flowUI = wx.tmSDK.createFlow({
 });
 ```
 
-### **onDestroy**
+## **onDestroy**
 
 * 1、监听组件的销毁
 * 2、可多个监听
@@ -100,7 +100,7 @@ flowUI.onDestroy(function({from, message}){
 });
 ```
 
-### **offDestroy**
+## **offDestroy**
 
 1. 取消监听组件的销毁事件
 2. 传入与监听相同的回调函数只取消该回调
@@ -113,7 +113,7 @@ flowUI.offDestroy(); // 取消所有销毁监听事件
 flowUI.offDestroy(destroyCallBack);  // 取消某个监听事件
 ```
 
-### **onRender**
+## **onRender**
 
 1. 监听组件的初始化
 2. 可多个监听
@@ -125,7 +125,7 @@ flowUI.onRender(function({message}){
 });
 ```
 
-### **offRender**
+## **offRender**
 
 1. 取消监听组件的初始化
 2. 传入与监听相同的回调函数只取消该回调
@@ -138,7 +138,7 @@ flowUI.offRender(); // 此取消所有销毁监听事件
 flowUI.offRender(renderCallBack);  // 取消某个监听事件
 ```
 
-### **onError**
+## **onError**
 
 1. 监听组件的错误信息
 2. 可多个监听
@@ -150,7 +150,7 @@ flowUI.onError(function({message}) {
 });
 ```
 
-### **offError**
+## **offError**
 
 1. 取消监听组件的初始化
 2. 传入与监听相同的回调函数只取消该回调
@@ -163,17 +163,18 @@ flowUI.offError(); // 此取消所有销毁监听事件
 flowUI.offError(errorCallBack);  // 只取消errorCallBack监听事件
 ```
 
+## **监听广告位跳转事件**
 
-### **监听广告位跳转事件**
 1. 监听广告位是否触发点击跳转
 2. 回调参数中为返回的原始微信信息
-```javascript
-flowUI.onNavigate(function(msg) {
-    console.error(msg);
-})
-```
 
-### **取消监听广告位跳转事件**
+   ```javascript
+   flowUI.onNavigate(function(msg) {
+    console.error(msg);
+   })
+   ```
+
+## **取消监听广告位跳转事件**
 
 ```javascript
 let callBack = function(error){

@@ -2,13 +2,13 @@
 
 本篇介绍如何使用createFlow进行伪视频广告的渲染。
 
-### **实机兼容性**
+## **实机兼容性**
 
 * 以下为通过实机测试的引擎以及版本，通常情况下，支持同一大版本下同一引擎的渲染（假设支持版本为1.0.0引擎，1.7.0，1.8.0，1.9.0版本的引擎可能都支持）。
 * cocos引擎中，请确保在画布渲染完毕之后调用createFlow
 * 实测1.9.3cocos引擎暂不支持该UI渲染
 
-### 支持的引擎
+## 支持的引擎
 
 | 引擎 | 版本号 |
 | :--- | :--- |
@@ -16,7 +16,7 @@
 | laya | v2.0.0beta5.1 |
 | cocos | v2.1.0 |
 
-### **使用实例**
+## **使用实例**
 
 ```javascript
 let flowUI = wx.tmSDK.createFlow({ // 调用createTiger时，立即显示视频广告
@@ -24,7 +24,7 @@ let flowUI = wx.tmSDK.createFlow({ // 调用createTiger时，立即显示视频�
 });
 ```
 
-#### **onClose**
+### **onClose**
 
 ```javascript
 flowUI.onClose(res => {
@@ -34,7 +34,7 @@ flowUI.onClose(res => {
 })
 ```
 
-#### offClose
+### offClose
 
 ```javascript
 let callBack = (error) => { // 假设onError的时候绑定的为该函数
@@ -43,7 +43,7 @@ let callBack = (error) => { // 假设onError的时候绑定的为该函数
 flowUI.offClose(callBack); // 取消某个监听事件
 ```
 
-#### **onError**
+### **onError**
 
 ```javascript
 flowUI.onError(function(error) {
@@ -51,7 +51,7 @@ flowUI.onError(function(error) {
 })
 ```
 
-#### **offError**
+### **offError**
 
 ```javascript
 let callBack = function(error){ // 假设onError的时候绑定的为该函数
@@ -60,7 +60,7 @@ let callBack = function(error){ // 假设onError的时候绑定的为该函数
 flowUI.offError(callBack);  // 取消某个监听事件
 ```
 
-### **监听广告位跳转事件**
+## **监听广告位跳转事件**
 
 ```javascript
 flowUI.onNavigate(function(error) {
@@ -68,7 +68,7 @@ flowUI.onNavigate(function(error) {
 })
 ```
 
-### **取消监听广告位跳转事件**
+## **取消监听广告位跳转事件**
 
 ```javascript
 let callBack = function(error){

@@ -1,4 +1,4 @@
-# 广告投放相关
+# 买量助手
 
 ## 在跑量中的广告计划，可以调整出价、预算吗？
 
@@ -6,19 +6,19 @@
 
 调整方式：广告主-投放管理界面。在对应的广告计划详情中，点击出价或者预算旁的编辑按钮，即可调整。
 
-![&#x8C03;&#x6574;&#x51FA;&#x4EF7;](../.gitbook/assets/image%20%2816%29.png)
+![&#x8C03;&#x6574;&#x51FA;&#x4EF7;](../.gitbook/assets/image%20%2821%29.png)
 
 ## 需要投放广告，怎么进行充值？
 
 目前暂未开放自主充值，请添加我们客服的微信，说明您的需求，这边会有专人为您处理。
 
-![](../.gitbook/assets/image%20%2853%29.png)
+![](../.gitbook/assets/image%20%2876%29.png)
 
 ## 广告位上展示创意是按怎样的顺序进行展示的？
 
 ### 广告位上展示创意的规则
 
-![](../.gitbook/assets/image%20%2855%29.png)
+![](../.gitbook/assets/image%20%2880%29.png)
 
 广告位上展示创意顺序的处理流程如下：
 
@@ -26,7 +26,7 @@
 2. 选出的创意，再根据每个创意的eCPM值，进行排序；
 3. 广告位按排序完的创意顺序，由高到低进行逐一展示，用户点击过后，切换至下一个创意；
 
-若是同时展示多个创意的广告位，例如多icon广告位，则展示的顺序也是按创意的排序的顺序进行展示，api方式接入的，请查看[返回值中创意的排序规则说明](../dev-guide/create-ad-position/api/#guang-gao-wei-shang-zhan-shi-chuang-yi-de-gui-ze)。
+若是同时展示多个创意的广告位，例如多icon广告位，则展示的顺序也是按创意的排序的顺序进行展示，api方式接入的，请查看[返回值中创意的排序规则说明](../mai-liang-zhu-shou-1/ji-shu-zhi-nan/zhu-jian-hua/api/#guang-gao-wei-shang-zhan-shi-chuang-yi-de-gui-ze)。
 
 ### 返回值中创意的排序规则
 

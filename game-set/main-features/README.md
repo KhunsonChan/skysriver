@@ -6,11 +6,11 @@
 
 以下为游戏配置内主要功能的详细说明，请参阅：
 
-{% page-ref page="zi-ding-yi-shi-jian.md" %}
+{% page-ref page="diy-event.md" %}
 
 {% page-ref page="sharing-management.md" %}
 
-{% page-ref page="switch.md" %}
+{% page-ref page="features-switch.md" %}
 
 {% page-ref page="json.md" %}
 

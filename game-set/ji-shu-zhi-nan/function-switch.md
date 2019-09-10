@@ -4,7 +4,7 @@ description: 开发者需通过该配置表来控制前端的功能是否开启�
 
 # 功能开关
 
-本篇内容为功能开关开发内容说明，关于功能开关的功能介绍请参阅：[功能开关功能说明](../main-features/switch.md)
+本篇内容为功能开关开发内容说明，关于功能开关的功能介绍请参阅：[功能开关功能说明](../main-features/features-switch.md)
 
 小游戏中的很多功能，通过天幕可以进行云端配置功能的开关，如微信审核过程中，开发者可以对一些功能进行隐藏，以提高通过审核的成功率。
 
@@ -18,7 +18,7 @@ description: 开发者需通过该配置表来控制前端的功能是否开启�
 
 功能开关的配置，均可通过天幕控制台的功能开关入口进行操作。
 
-请参阅[功能开关配置](../main-features/switch.md)
+请参阅[功能开关配置](../main-features/features-switch.md)
 
 ## **接入方式**
 
@@ -28,7 +28,7 @@ description: 开发者需通过该配置表来控制前端的功能是否开启�
 
 ## **前置条件**
 
-使用该接口前，必须先使用[init](../../mai-liang-zhu-shou-1/ji-shu-zhi-nan/init.md)方法初始化SDK
+使用该接口前，必须先使用[init](../../selling/ji-shu-zhi-nan/init.md)方法初始化SDK
 
 ## **调用方法**
 

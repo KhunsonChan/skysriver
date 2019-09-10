@@ -8,12 +8,12 @@
 
 ## **关联接口**
 
-* [onShareAppMessage](../../you-xi-pei-zhi/ji-shu-zhi-nan/dev-sharing/onshareappmessage.md)
-* [shareAppMessage](../../you-xi-pei-zhi/ji-shu-zhi-nan/dev-sharing/shareappmessage.md)
+* [onShareAppMessage](../../game-set/ji-shu-zhi-nan/dev-sharing/onshareappmessage.md)
+* [shareAppMessage](../../game-set/ji-shu-zhi-nan/dev-sharing/shareappmessage.md)
 * [createFlow](zhu-jian-hua/createflow/)
 * [checkFlowIsOpen](zhu-jian-hua/get-ad-position-status.md)
 * [getFlowConfig](zhu-jian-hua/api/get-ad-position-config.md)
-* [getJudgeConfig](../../you-xi-pei-zhi/ji-shu-zhi-nan/function-switch.md)
+* [getJudgeConfig](../../game-set/ji-shu-zhi-nan/function-switch.md)
 
 ## **调用方法**
 

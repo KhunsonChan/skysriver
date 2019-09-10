@@ -62,7 +62,7 @@
 ### Added
 
 * 【渠道配置】查看数据时会根据渠道的类型跳转至对应的渠道分析菜单；
-* 【广告主&流量主】新增Banner类型广告，目前仅支持api方式接入，请参考API接入技术文档：[API接入](../mai-liang-zhu-shou-1/ji-shu-zhi-nan/zhu-jian-hua/api/)
+* 【广告主&流量主】新增Banner类型广告，目前仅支持api方式接入，请参考API接入技术文档：[API接入](../selling/ji-shu-zhi-nan/zhu-jian-hua/api/)
 * 【广告主】渠道分析页面优化，新增用户画像展示，同时查看单条渠道的详细数据会更便捷；
 
 ![](../.gitbook/assets/image%20%2838%29.png)

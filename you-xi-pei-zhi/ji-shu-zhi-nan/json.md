@@ -2,7 +2,7 @@
 
 该接口主要用于获取在天幕后台配置的在线参数，本篇内容为技术说明文档，功能说明及配置方法请参阅：
 
-{% page-ref page="../zhu-yao-gong-neng-shuo-ming/json.md" %}
+{% page-ref page="../main-features/json.md" %}
 
 ## **调用方法**
 

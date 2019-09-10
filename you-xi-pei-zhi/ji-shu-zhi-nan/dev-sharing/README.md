@@ -1,6 +1,6 @@
 # 转发素材
 
-天幕提供了转发素材的管理功能，关于该功能的具体使用的业务场景或是天幕后台配置，请参阅：[转发素材配置](../../zhu-yao-gong-neng-shuo-ming/sharing-management.md)
+天幕提供了转发素材的管理功能，关于该功能的具体使用的业务场景或是天幕后台配置，请参阅：[转发素材配置](../../main-features/sharing-management.md)
 
 ## 使用**场景**
 
@@ -35,7 +35,7 @@
 
 ## **如何配置分享素材**
 
-分享素材的配置，均在天幕的后台可进行，请参阅配置说明：[转发素材配置。](../../zhu-yao-gong-neng-shuo-ming/sharing-management.md)
+分享素材的配置，均在天幕的后台可进行，请参阅配置说明：[转发素材配置。](../../main-features/sharing-management.md)
 
 以下是转发素材功能使用的三个接口，请参阅
 

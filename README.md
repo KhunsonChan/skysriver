@@ -4,7 +4,7 @@ description: 天幕是服务于微信小游戏开发者/运营者的一站式运
 
 # 新手入门
 
-![](.gitbook/assets/image%20%2899%29.png)
+![](.gitbook/assets/image%20%28100%29.png)
 
 天幕是服务于微信小游戏开发者/运营者的一站式运营方案，由四个模块组成：
 

@@ -6,7 +6,7 @@
 
 ### 高级设置
 
-![](../../.gitbook/assets/image%20%2880%29.png)
+![](../../.gitbook/assets/image%20%2881%29.png)
 
 ![](../../.gitbook/assets/image%20%2816%29.png)
 
@@ -18,11 +18,11 @@
 
 可通过该表格查看当前流量主游戏上在推广的产品有哪些，点击游戏名称，可进行详细查看，选择高级查询，可以添加更多查询条件，例如查询出现在在跑推广产品小于10款的游戏有哪些。
 
-![](../../.gitbook/assets/image%20%2869%29.png)
+![](../../.gitbook/assets/image%20%2870%29.png)
 
 ![](../../.gitbook/assets/image%20%2820%29.png)
 
-![](../../.gitbook/assets/image%20%2884%29.png)
+![](../../.gitbook/assets/image%20%2885%29.png)
 
 ## 
 

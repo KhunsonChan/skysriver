@@ -4,7 +4,7 @@
 
 在接入天幕SDK前，请先[注册天幕账号](https://www.skysriver.com)，进入控制台页面时，会看见主体，请进入【游戏管理】后台，为主体添加游戏。
 
-![](../../.gitbook/assets/image%20%28122%29.png)
+![](../../.gitbook/assets/image%20%28123%29.png)
 
 流程共有两个步骤，十分钟左右即可搞定SDK接入。
 
@@ -14,7 +14,7 @@
 
 确认添加完毕后，点击下一步。
 
-![](../../.gitbook/assets/image%20%28100%29.png)
+![](../../.gitbook/assets/image%20%28101%29.png)
 
 #### 注意：
 

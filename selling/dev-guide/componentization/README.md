@@ -14,7 +14,7 @@
 2. 选出的创意，再根据每个创意的eCPM值，进行排序；
 3. 广告位按排序完的创意顺序，由高到低进行逐一展示，用户点击过后，切换至下一个创意；
 
-若是同时展示多个创意的广告位，例如多icon广告位，则展示的顺序也是按创意的排序的顺序进行展示，api方式接入的，请查看[返回值中创意的排序规则说明](api/#hui-zhi-zhong-chuang-yi-de-pai-xu-gui-ze)。
+若是同时展示多个创意的广告位，例如多icon广告位，则展示的顺序也是按创意的排序的顺序进行展示，api方式接入的，请查看[返回值中创意的排序规则说明](../api/#hui-zhi-zhong-chuang-yi-de-pai-xu-gui-ze)。
 
 #### 请注意：
 
@@ -27,7 +27,7 @@
 1. 组件化的方式接入（仅支持cocos、laya引擎）
 2. api的方式接入，也就是本次内容说明的接入方式
 
-我们建议使用组件化的方式接入广告位，若你的游戏引擎非cocos，laya，或是有其他特殊的需求，SDK组件无法满足，则可通过[API的方式接入](api/)。
+我们建议使用组件化的方式接入广告位，若你的游戏引擎非cocos，laya，或是有其他特殊的需求，SDK组件无法满足，则可通过[API的方式接入](../api/)。
 
 通过组件化的形式接入，请继续阅读下方的内容。
 
@@ -43,5 +43,5 @@
 
 {% page-ref page="createflow/more-icon.md" %}
 
-{% page-ref page="get-ad-position-status.md" %}
+{% page-ref page="../ad-position-status.md" %}
 

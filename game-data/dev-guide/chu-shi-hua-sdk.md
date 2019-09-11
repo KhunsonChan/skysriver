@@ -6,11 +6,11 @@
 
 ## **关联接口**
 
-* [onShareAppMessage](../../game-set/dev-guide/dev-sharing/onshareappmessage.md)
-* [shareAppMessage](../../game-set/dev-guide/dev-sharing/shareappmessage.md)
+* [onShareAppMessage](../../game-set/dev-guide/sharing/onshareappmessage.md)
+* [shareAppMessage](../../game-set/dev-guide/sharing/shareappmessage.md)
 * [createFlow](../../selling/dev-guide/componentization/createflow/)
-* [checkFlowIsOpen](../../selling/dev-guide/componentization/get-ad-position-status.md)
-* [getFlowConfig](../../selling/dev-guide/componentization/api/get-ad-position-config.md)
+* [checkFlowIsOpen](../../selling/dev-guide/ad-position-status.md)
+* [getFlowConfig](../../selling/dev-guide/api/get-ad-position-config.md)
 * [getJudgeConfig](../../game-set/dev-guide/function-switch.md)
 
 ## **调用方法**

@@ -6,11 +6,11 @@
 
 ### **涉及的接口**
 
-* [onShareAppMessage](../../game-set/dev-guide/dev-sharing/onshareappmessage.md)
-* [shareAppMessage](../../game-set/dev-guide/dev-sharing/shareappmessage.md)
+* [onShareAppMessage](../../game-set/dev-guide/sharing/onshareappmessage.md)
+* [shareAppMessage](../../game-set/dev-guide/sharing/shareappmessage.md)
 * [createFlow](componentization/createflow/)
-* [checkFlowIsOpen](componentization/get-ad-position-status.md)
-* [getFlowConfig](componentization/api/get-ad-position-config.md)
+* [checkFlowIsOpen](ad-position-status.md)
+* [getFlowConfig](api/get-ad-position-config.md)
 * [getJudgeConfig](../../game-set/dev-guide/function-switch.md)
 
 ## **调用方法**

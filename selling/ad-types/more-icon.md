@@ -8,5 +8,5 @@
 
 所需素材尺寸：200\*200
 
-接入的方式推荐使用：[组件化接入](../dev-guide/componentization/)，若是有特殊需求的或是不满足组件化接入，可使用API的方式接入，具体请参阅技术说明文档：[API方式接入多Icon广告位](../dev-guide/componentization/api/)
+接入的方式推荐使用：[组件化接入](../dev-guide/componentization/)，若是有特殊需求的或是不满足组件化接入，可使用API的方式接入，具体请参阅技术说明文档：[API方式接入多Icon广告位](../dev-guide/api/)
 

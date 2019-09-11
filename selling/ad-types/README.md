@@ -54,7 +54,7 @@
 
 广告说明文档，请参阅：[天幕Banner广告](banner.md)
 
-具体的技术说明文档，请参考：[接入天幕banner广告](../dev-guide/componentization/api/get-ad-position-config.md#banner)
+具体的技术说明文档，请参考：[接入天幕banner广告](../dev-guide/api/get-ad-position-config.md#banner)
 
 ## 
 

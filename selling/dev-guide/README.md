@@ -12,9 +12,9 @@ SDK接入完成后，在使用某些接口时，需要进行SDK的初始化，�
 
 {% page-ref page="componentization/" %}
 
-{% page-ref page="componentization/api/" %}
+{% page-ref page="api/" %}
 
-{% page-ref page="componentization/get-ad-position-status.md" %}
+{% page-ref page="ad-position-status.md" %}
 
 
 

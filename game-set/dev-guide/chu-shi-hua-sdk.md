@@ -6,11 +6,11 @@
 
 ## **关联接口**
 
-* [onShareAppMessage](dev-sharing/onshareappmessage.md)
-* [shareAppMessage](dev-sharing/shareappmessage.md)
+* [onShareAppMessage](sharing/onshareappmessage.md)
+* [shareAppMessage](sharing/shareappmessage.md)
 * [createFlow](../../selling/dev-guide/componentization/createflow/)
-* [checkFlowIsOpen](../../selling/dev-guide/componentization/get-ad-position-status.md)
-* [getFlowConfig](../../selling/dev-guide/componentization/api/get-ad-position-config.md)
+* [checkFlowIsOpen](../../selling/dev-guide/ad-position-status.md)
+* [getFlowConfig](../../selling/dev-guide/api/get-ad-position-config.md)
 * [getJudgeConfig](function-switch.md)
 
 ## **调用方法**

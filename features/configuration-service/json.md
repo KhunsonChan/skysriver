@@ -19,11 +19,11 @@
 
 ## 创建配置
 
-![&#x914D;&#x7F6E;&#x5728;&#x7EBF;&#x53C2;&#x6570;](../../.gitbook/assets/image%20%2878%29.png)
+![&#x914D;&#x7F6E;&#x5728;&#x7EBF;&#x53C2;&#x6570;](../../.gitbook/assets/image%20%2879%29.png)
 
 点击创建按钮，在弹出的编辑窗口中，输入名称，键名以及Json配置。
 
-![&#x7F16;&#x8F91;&#x9875;&#x9762;](../../.gitbook/assets/image%20%2890%29.png)
+![&#x7F16;&#x8F91;&#x9875;&#x9762;](../../.gitbook/assets/image%20%2891%29.png)
 
 ###  Tips
 

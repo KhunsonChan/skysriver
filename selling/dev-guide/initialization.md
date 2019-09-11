@@ -13,7 +13,7 @@
 * [getFlowConfig](api/get-ad-position-config.md)
 * [getJudgeConfig](../../game-set/dev-guide/function-switch.md)
 
-## **调用方法**
+### **调用方法**
 
 调用[.init](initialization.md)方法实现，示例如下
 
@@ -24,7 +24,9 @@ wx.tmSDK.init({
 });
 ```
 
-## **传入参数**
+### **传入参数说明**
+
+请按实际情况，传入以下参数。
 
 | 字段 | 字段类型 | 说明 |
 | :--- | :--- | :--- |

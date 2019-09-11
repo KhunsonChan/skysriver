@@ -12,5 +12,5 @@
 
 插屏广告所需的素材尺寸：780\*960
 
-插屏广告目前支持组件化的方式接入，具体的接入方式，请参阅：[接入插屏广告](../ji-shu-zhi-nan/zhu-jian-hua/createflow/screen-ad.md)
+插屏广告目前支持组件化的方式接入，具体的接入方式，请参阅：[接入插屏广告](../dev-guide/componentization/createflow/screen-ad.md)
 

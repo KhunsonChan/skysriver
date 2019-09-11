@@ -28,7 +28,7 @@ description: 开发者需通过该配置表来控制前端的功能是否开启�
 
 ## **前置条件**
 
-使用该接口前，必须先使用[init](../../selling/ji-shu-zhi-nan/init.md)方法初始化SDK
+使用该接口前，必须先使用[init](../../selling/dev-guide/initialization.md)方法初始化SDK
 
 ## **调用方法**
 

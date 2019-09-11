@@ -8,5 +8,5 @@
 
 若要配置动态素材图，请根据需要实现的GIF效果，生成一定数量的190\*270素材图片，然后在天幕后台上传即可。
 
-推荐使用组件化的方式接入，具体的接入指南请参考：[接入浮动窗广告位](../ji-shu-zhi-nan/zhu-jian-hua/createflow/icon.md)
+推荐使用组件化的方式接入，具体的接入指南请参考：[接入浮动窗广告位](../dev-guide/componentization/createflow/icon.md)
 

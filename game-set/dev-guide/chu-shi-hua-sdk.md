@@ -1,23 +1,21 @@
 # 初始化SDK
 
-
-
 {% hint style="info" %}
 该接口用于初始化SDK，可配置当前应用的版本号等，某些接口必须初始化SDK之后才能使用
 {% endhint %}
 
 ## **关联接口**
 
-* [onShareAppMessage](../../game-set/ji-shu-zhi-nan/dev-sharing/onshareappmessage.md)
-* [shareAppMessage](../../game-set/ji-shu-zhi-nan/dev-sharing/shareappmessage.md)
-* [createFlow](zhu-jian-hua/createflow/)
-* [checkFlowIsOpen](zhu-jian-hua/get-ad-position-status.md)
-* [getFlowConfig](zhu-jian-hua/api/get-ad-position-config.md)
-* [getJudgeConfig](../../game-set/ji-shu-zhi-nan/function-switch.md)
+* [onShareAppMessage](dev-sharing/onshareappmessage.md)
+* [shareAppMessage](dev-sharing/shareappmessage.md)
+* [createFlow](../../selling/dev-guide/componentization/createflow/)
+* [checkFlowIsOpen](../../selling/dev-guide/componentization/get-ad-position-status.md)
+* [getFlowConfig](../../selling/dev-guide/componentization/api/get-ad-position-config.md)
+* [getJudgeConfig](function-switch.md)
 
 ## **调用方法**
 
-调用[.init](init.md)方法实现，示例如下
+调用[.init](../../selling/dev-guide/initialization.md)方法实现，示例如下
 
 ```javascript
 wx.tmSDK.init({

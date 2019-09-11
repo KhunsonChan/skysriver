@@ -12,5 +12,5 @@
 
 可为此设定封面图，若未设定，会默认使用第一张图作为封面图。
 
-此广告为仅支持通过组件化的方式接入，不可通过API方式接入，若需要接入，请参阅接入说明文档：[接入伪视频广告位](../ji-shu-zhi-nan/zhu-jian-hua/createflow/ran-wei-shi-pin-guang-gao.md)
+此广告为仅支持通过组件化的方式接入，不可通过API方式接入，若需要接入，请参阅接入说明文档：[接入伪视频广告位](../dev-guide/componentization/createflow/ran-wei-shi-pin-guang-gao.md)
 

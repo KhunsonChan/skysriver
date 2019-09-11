@@ -26,7 +26,7 @@
 2. 选出的创意，再根据每个创意的eCPM值，进行排序；
 3. 广告位按排序完的创意顺序，由高到低进行逐一展示，用户点击过后，切换至下一个创意；
 
-若是同时展示多个创意的广告位，例如多icon广告位，则展示的顺序也是按创意的排序的顺序进行展示，api方式接入的，请查看[返回值中创意的排序规则说明](../selling/ji-shu-zhi-nan/zhu-jian-hua/api/#guang-gao-wei-shang-zhan-shi-chuang-yi-de-gui-ze)。
+若是同时展示多个创意的广告位，例如多icon广告位，则展示的顺序也是按创意的排序的顺序进行展示，api方式接入的，请查看[返回值中创意的排序规则说明](../selling/dev-guide/componentization/api/#guang-gao-wei-shang-zhan-shi-chuang-yi-de-gui-ze)。
 
 ### 返回值中创意的排序规则
 

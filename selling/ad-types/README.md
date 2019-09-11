@@ -10,7 +10,7 @@
 
 具体说明文档请参阅：[天幕浮动窗广告](icon.md)
 
-推荐使用组件化的方式接入，具体的接入指南请参考：[接入浮动窗广告位](../ji-shu-zhi-nan/zhu-jian-hua/createflow/icon.md)
+推荐使用组件化的方式接入，具体的接入指南请参考：[接入浮动窗广告位](../dev-guide/componentization/createflow/icon.md)
 
 ## 天幕插屏广告
 
@@ -22,7 +22,7 @@
 
 具体广告位说明文档请参阅：[天幕插屏广告](interstitial.md)
 
-支持组件化的方式接入，具体的接入方式，请参阅：[接入插屏广告](../ji-shu-zhi-nan/zhu-jian-hua/createflow/screen-ad.md)
+支持组件化的方式接入，具体的接入方式，请参阅：[接入插屏广告](../dev-guide/componentization/createflow/screen-ad.md)
 
 ## 天幕伪视频广告
 
@@ -34,7 +34,7 @@
 
 具体广告位说明参阅：[天幕伪视频广告](like-video.md)
 
-此广告为仅支持通过组件化的方式接入，不可通过API方式接入，若需要接入，请参阅接入说明文档：[接入伪视频广告位](../ji-shu-zhi-nan/zhu-jian-hua/createflow/ran-wei-shi-pin-guang-gao.md)
+此广告为仅支持通过组件化的方式接入，不可通过API方式接入，若需要接入，请参阅接入说明文档：[接入伪视频广告位](../dev-guide/componentization/createflow/ran-wei-shi-pin-guang-gao.md)
 
 ## 天幕多Icon广告位
 
@@ -44,7 +44,7 @@
 
 具体广告位说明请参阅：[天幕多Icon广告位](more-icon.md)
 
-接入的方式推荐使用：[组件化接入](../ji-shu-zhi-nan/zhu-jian-hua/)
+接入的方式推荐使用：[组件化接入](../dev-guide/componentization/)
 
 ## 天幕Banner广告
 
@@ -54,7 +54,7 @@
 
 广告说明文档，请参阅：[天幕Banner广告](banner.md)
 
-具体的技术说明文档，请参考：[接入天幕banner广告](../ji-shu-zhi-nan/zhu-jian-hua/api/get-ad-position-config.md#banner)
+具体的技术说明文档，请参考：[接入天幕banner广告](../dev-guide/componentization/api/get-ad-position-config.md#banner)
 
 ## 
 

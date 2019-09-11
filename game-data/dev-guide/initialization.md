@@ -1,10 +1,10 @@
 # 初始化SDK
 
-{% hint style="info" %}
-该接口用于初始化SDK，可配置当前应用的版本号等，某些接口必须初始化SDK之后才能使用
-{% endhint %}
+### **概述**
 
-## **关联接口**
+该接口用于初始化SDK，在天幕SDK中，某些接口必须要进行SDK初始化后，才可正常使用，涉及的接口在下方会有说明，请根据使用需求进行查看。
+
+### **涉及的api**
 
 * [onShareAppMessage](../../game-set/dev-guide/sharing/onshareappmessage.md)
 * [shareAppMessage](../../game-set/dev-guide/sharing/shareappmessage.md)
@@ -13,7 +13,7 @@
 * [getFlowConfig](../../selling/dev-guide/api/get-ad-position-config.md)
 * [getJudgeConfig](../../game-set/dev-guide/function-switch.md)
 
-## **调用方法**
+### **调用方法**
 
 调用[.init](../../selling/dev-guide/initialization.md)方法实现，示例如下
 
@@ -24,7 +24,9 @@ wx.tmSDK.init({
 });
 ```
 
-## **传入参数**
+### **传入参数说明**
+
+请按实际情况，传入以下参数。
 
 | 字段 | 字段类型 | 说明 |
 | :--- | :--- | :--- |

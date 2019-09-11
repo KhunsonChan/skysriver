@@ -6,8 +6,8 @@
 
 本篇说明所涉及的api‌如下：
 
-* ​[login](https://skysriver.gitbook.io/skysriver/ji-shu-zhi-nan/deng-lu/shi-yong-login-huo-qu-deng-lu-yong-hu-xin-xi)​
-* ​[updateUserInfo](https://skysriver.gitbook.io/skysriver/ji-shu-zhi-nan/deng-lu/cong-wei-xin-huo-qu-yong-hu-xin-xi)​
+* ​[login](.login.md)​
+* ​[updateUserInfo](.updateuserinfo.md)​
 
 ### 静默登录
 
@@ -41,7 +41,7 @@
 
 #### **1.初次进入时大授权** <a id="chu-ci-jin-ru-shi-da-shou-quan"></a>
 
-仅在用户初次进入时进行大授权。 也就是在 [`login`](https://skysriver.gitbook.io/skysriver/ji-shu-zhi-nan/deng-lu/cong-wei-xin-huo-qu-yong-hu-xin-xi) 时，若返回值没有昵称、头像等信息，再使用 [`updateUserInfo`](https://skysriver.gitbook.io/skysriver/ji-shu-zhi-nan/deng-lu/cong-wei-xin-huo-qu-yong-hu-xin-xi) 向用户发起大授权。‌
+仅在用户初次进入时进行大授权。 也就是在 [`login`](.login.md) 时，若返回值没有昵称、头像等信息，再使用 [`updateUserInfo`](.updateuserinfo.md) 向用户发起大授权。‌
 
 若小游戏中需要使用用户头像、昵称，而不关心用户信息的更新（如用户换了昵称、头像），开发者可以采取该策略。‌
 

@@ -32,6 +32,7 @@
       * [.flowNavigate](selling/dev-guide/api/landing.md)
     * [获取广告位开启状态](selling/dev-guide/ad-position-status.md)
     * [开发demo](selling/dev-guide/dev-demo.md)
+    * [天幕创意下发策略](selling/dev-guide/creative-strategy.md)
 * [买量助手](channel/README.md)
   * [主要功能说明](channel/main-features/README.md)
     * [收支管理](channel/main-features/income-and-expenditure.md)

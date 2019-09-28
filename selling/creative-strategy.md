@@ -6,7 +6,7 @@ description: 此页将详细阐述天幕-卖量助手创意下发的策略，帮
 
 ## 1、概述
 
-基于eCPM的竞价排名
+基于eCPM的自动优化策略
 
 {% hint style="info" %}
 #### eCPM：

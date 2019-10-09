@@ -31,7 +31,7 @@ description: 天幕上常用名词的解析，建议首次使用前快速浏览
 广告主游戏区分内部/外部，主要原因为两者带来的收入不同：
 
 1. 只有外部游戏带来的收入才是真金白银。
-2. 但给内部广告主的新增同样有价值；内部互导是否进行结算，请根据公司自身需求进行设置。相关名词：内部结算。
+2. 但给内部广告主的新增同样有价值；内部互导是否进行结算，请根据公司自身需求进行设置。相关名词：[内部结算](https://app.gitbook.com/@skysriver/s/skysriver/glossary#6-2-nei-bu-jie-suan)。
 {% endhint %}
 
 ### 2.3、创意
@@ -107,7 +107,7 @@ description: 天幕上常用名词的解析，建议首次使用前快速浏览
 分为两种情况：
 
 1. 内部互导注册：广告主游戏在当前天幕主体内，自动计算（需接入SDK“[登录](https://doc.skysriver.com/game-data/dev-guide/deng-lu)”功能）
-2. 外部结算注册：除上述情况外，需在“游戏收支——卖量收入管理”中上传结算注册人数（[强烈建议上传](https://doc.skysriver.com/selling/creative-strategy#4-wei-shen-me-jian-yi-shang-chuan-shou-ru)）
+2. 外部结算注册：除上述情况外，需在“游戏收支——卖量收入管理”中上传结算注册人数（[强烈建议上传](https://doc.skysriver.com/selling/creative-strategy#4-wei-shi-mo-jian-yi-shang-chuan-shou-ru)）
 
 ### 2.9、卖量收入
 
@@ -117,7 +117,7 @@ description: 天幕上常用名词的解析，建议首次使用前快速浏览
    1. 广告主游戏在当前天幕主体内，自动计算；
    2. 需在“控制台——主体设置——内部结算配置”中进行设置；
    3. 当有内部结算需求时可使用此功能，此部分收入默认为0
-2. 外部结算收入：除上述情况外，需在“游戏收支——卖量收入管理”中上传结算收入（[强烈建议上传](https://doc.skysriver.com/selling/creative-strategy#4-wei-shen-me-jian-yi-shang-chuan-shou-ru)）
+2. 外部结算收入：除上述情况外，需在“游戏收支——卖量收入管理”中上传结算收入（[强烈建议上传](https://doc.skysriver.com/selling/creative-strategy#4-wei-shi-mo-jian-yi-shang-chuan-shou-ru)）
 
 ## 3、买量助手
 

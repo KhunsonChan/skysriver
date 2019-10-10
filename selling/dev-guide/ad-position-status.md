@@ -2,7 +2,7 @@
 
 ## **checkFlowIsOpen**
 
-{% hint style="info" %}
+{% hint style="warning" %}
 使用该接口前，请先进行[SDK初始化](https://skysriver.gitbook.io/skysriver/ji-shu-zhi-nan/chu-shi-hua-ni-de-sdk)
 {% endhint %}
 

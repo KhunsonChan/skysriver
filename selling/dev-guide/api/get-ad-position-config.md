@@ -1,12 +1,14 @@
 # .getFlowConfig
 
-## 概述：
+## 概述
+
+请先完成阅读：[API方式接入广告位](./)
 
 {% hint style="warning" %}
 使用该接口前，请先进行[SDK初始化](https://skysriver.gitbook.io/skysriver/ji-shu-zhi-nan/chu-shi-hua-ni-de-sdk)
 {% endhint %}
 
-该接口用于获取广告位id对应配置详情，调用该接口后，请根据接口的返回值，采用对应的方式处理，下方会针对浮动窗广告和多icon广告位进行说明。
+该接口用于获取广告位id对应配置详情，调用该接口后，请根据接口的返回值，采用对应的方式处理。
 
 #### 创意ID的获取
 
@@ -32,7 +34,7 @@ positionId将对应的不同类型返回值，使用前请确认当前使用的p
 
 ## **返回值与广告类型**
 
-### **浮动窗广告**
+### **浮动窗广告位**
 
 * type为1时，positionId对应的是浮动窗类型
 * 如果创意列表creatives的show\_config中，只有image，则只需渲染该静态图
@@ -152,9 +154,7 @@ positionId将对应的不同类型返回值，使用前请确认当前使用的p
 }
 ```
 
-#### 
-
-### Banner
+### Banner广告位
 
 * type为11时，positionId对应的是Banner类型
 

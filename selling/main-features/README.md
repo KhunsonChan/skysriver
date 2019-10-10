@@ -24,7 +24,7 @@ description: 卖量助手功能说明及使用指引，建议阅读者：流量�
 
 ## 流量主游戏管理
 
-集中管理流量主游戏
+集中管理流量主游戏，广告位开关控制
 
 {% page-ref page="flower-game-manage.md" %}
 

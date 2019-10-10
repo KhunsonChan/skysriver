@@ -12,7 +12,7 @@ description: 天幕目前5种广告位类型说明，建议阅读者：流量运
 
 具体广告位说明请参阅：[天幕多Icon广告位](more-icon.md)
 
-接入的方式使用：API接入、[组件化接入](../dev-guide/componentization/)
+接入方式：[API接入](../dev-guide/api/)、[组件化接入](../dev-guide/componentization/)
 
 ## 类型2：天幕浮动窗广告
 
@@ -22,7 +22,7 @@ description: 天幕目前5种广告位类型说明，建议阅读者：流量运
 
 具体说明文档请参阅：[天幕浮动窗广告](icon.md)
 
-推荐使用组件化的方式接入，具体的接入指南请参考：[接入浮动窗广告位](../dev-guide/componentization/createflow/icon.md)
+接入方式：[API接入](../dev-guide/api/)、[组件化接入](../dev-guide/componentization/)
 
 ## 类型3：天幕插屏广告
 
@@ -34,7 +34,7 @@ description: 天幕目前5种广告位类型说明，建议阅读者：流量运
 
 具体广告位说明文档请参阅：[天幕插屏广告](interstitial.md)
 
-支持组件化的方式接入，具体的接入方式，请参阅：[接入插屏广告](../dev-guide/componentization/createflow/screen-ad.md)
+此广告为仅支持通过组件化的方式接入，不可通过API方式接入，请参阅：[接入插屏广告](../dev-guide/componentization/createflow/screen-ad.md)
 
 ## 类型4：天幕伪视频广告
 
@@ -46,7 +46,7 @@ description: 天幕目前5种广告位类型说明，建议阅读者：流量运
 
 具体广告位说明参阅：[天幕伪视频广告](like-video.md)
 
-此广告为仅支持通过组件化的方式接入，不可通过API方式接入，若需要接入，请参阅接入说明文档：[接入伪视频广告位](../dev-guide/componentization/createflow/ran-wei-shi-pin-guang-gao.md)
+此广告为仅支持通过组件化的方式接入，不可通过API方式接入，请参阅：[接入伪视频广告位](../dev-guide/componentization/createflow/ran-wei-shi-pin-guang-gao.md)
 
 ## 类型5：天幕Banner广告
 
@@ -56,7 +56,7 @@ description: 天幕目前5种广告位类型说明，建议阅读者：流量运
 
 广告说明文档，请参阅：[天幕Banner广告](banner.md)
 
-具体的技术说明文档，请参考：[接入天幕banner广告](../dev-guide/api/get-ad-position-config.md#banner)
+接入的方式使用：[API接入](../dev-guide/api/)
 
 ## 
 

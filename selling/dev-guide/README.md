@@ -6,7 +6,9 @@ description: 建议阅读者：开发人员
 
 ## Step1
 
-为了更好的理解文档，建议开发人员首先阅读：[名词解释——卖量助手](../../glossary.md#2-mai-liang-zhu-shou)
+{% hint style="info" %}
+为了更好的理解文档，建议开发人员首先快速浏览：[名词解释——卖量助手](../../glossary.md#2-mai-liang-zhu-shou)
+{% endhint %}
 
 要完整使用天幕的卖量助手，需要进行SDK的接入，具体的接入技术说明文档请参阅：
 
@@ -22,7 +24,13 @@ SDK接入完成后，在使用某些接口时，需要进行SDK的初始化，�
 
 ## Step3
 
-卖量助手的SDK接入主要为为接入广告位，请参阅以下内容：
+{% hint style="info" %}
+卖量助手的SDK接入工作主要为：接入广告位；
+
+开始接入前，建议开发人员快速浏览：[广告位说明](../ad-types/)；
+{% endhint %}
+
+请参阅以下内容：
 
 {% page-ref page="componentization/" %}
 

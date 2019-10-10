@@ -3,7 +3,7 @@
 * [新手入门](README.md)
 * [名词解释](glossary.md)
 * [主模块1：卖量助手](selling/README.md)
-  * [主要功能说明](selling/main-features/README.md)
+  * [主要功能及操作说明](selling/main-features/README.md)
     * [投放管理](selling/main-features/advertising-manage.md)
     * [数据报表](selling/main-features/data.md)
     * [广告主游戏管理](selling/main-features/ad-game-manage.md)

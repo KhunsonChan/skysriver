@@ -1,18 +1,29 @@
+---
+description: 组件化接入广告位
+---
+
 # .createFlow
+
+## 概述
 
 {% hint style="info" %}
 使用该接口前，请先进行[SDK初始化](https://skysriver.gitbook.io/skysriver/ji-shu-zhi-nan/chu-shi-hua-ni-de-sdk)
 {% endhint %}
 
-该组件是用来实现广告位自动渲染，只要确定广告位的参数与需要渲染的位置即可，SDK会根据广告位ID自动渲染出对应类型的广告位，并支持点击后自动跳转，自动刷新创意等功能。
+该组件是用来实现广告位自动渲染：
+
+* 只要确定广告位的参数与需要渲染的位置即可，SDK会根据广告位ID自动渲染出对应类型的广告位
+* 支持点击后自动跳转，自动刷新创意等功能
 
 也可以参阅实例，看看如何在实际中使用createFlow渲染广告位。
 
-{% page-ref page="icon.md" %}
-
 {% page-ref page="more-icon.md" %}
 
+{% page-ref page="icon.md" %}
+
 {% page-ref page="screen-ad.md" %}
+
+{% page-ref page="ran-wei-shi-pin-guang-gao.md" %}
 
 ## **接口描述**
 

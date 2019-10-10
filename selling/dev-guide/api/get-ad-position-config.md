@@ -1,5 +1,7 @@
 # .getFlowConfig
 
+## 概述：
+
 {% hint style="warning" %}
 使用该接口前，请先进行[SDK初始化](https://skysriver.gitbook.io/skysriver/ji-shu-zhi-nan/chu-shi-hua-ni-de-sdk)
 {% endhint %}
@@ -22,7 +24,7 @@ wx.tmSDK.getFlowConfig({
 
 ## **传入参数**
 
-positionId将对应的不同类型返回值，使用前请确认当前使用的positionId类型
+positionId将对应的不同类型返回值，使用前请确认当前使用的positionId类型
 
 | 字段 | 字段类型 | 说明 |
 | :--- | :--- | :--- |
@@ -78,7 +80,8 @@ wx.tmSDK.getFlowConfig({
 }
 ```
 
-* 如果创意列表creatives中，有fps，多个图片素材则需渲染为动态图片，按照1/fps每秒的时间切换每张图片
+* 如果创意列表creatives中，有fps，多个图片素材则需渲染为动态图片，按照fps切换每张图片
+* 示例：fps=5，意味着每秒播放5张图片，即0.2秒切换一张
 
 ```java
 {
@@ -102,7 +105,7 @@ wx.tmSDK.getFlowConfig({
 
 ### 多icon广告位
 
-* type为7时，positionId对应的是多icon广告类型
+* type为7时，positionId对应的是多icon广告类型
 * 多icon广告位拥有多个创意，需要全部渲染处理
 * 多icon广告位可在天幕设置角标功能
 
@@ -153,7 +156,7 @@ wx.tmSDK.getFlowConfig({
 
 ### Banner
 
-* type为11时，positionId对应的是Banner类型
+* type为11时，positionId对应的是Banner类型
 
 ```javascript
 {

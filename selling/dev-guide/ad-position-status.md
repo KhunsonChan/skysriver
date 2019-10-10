@@ -1,10 +1,10 @@
 # 获取广告位开启状态
 
+## **checkFlowIsOpen**
+
 {% hint style="info" %}
 使用该接口前，请先进行[SDK初始化](https://skysriver.gitbook.io/skysriver/ji-shu-zhi-nan/chu-shi-hua-ni-de-sdk)
 {% endhint %}
-
-## **checkFlowIsOpen**
 
 该接口用于获取天幕后台配置的广告位是否正常开启，调用该接口时，只要传入对应广告位ID即可。
 
@@ -24,7 +24,7 @@ wx.tmSDK.checkFlowIsOpen({
 | :--- | :--- | :--- |
 | positionId | string | 广告位id |
 
-### **返回值样例**
+### **返回值样例**
 
 ```java
 {

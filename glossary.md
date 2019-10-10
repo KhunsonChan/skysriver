@@ -31,7 +31,7 @@ description: 天幕上常用名词的解析，建议首次使用前快速浏览
 广告主游戏区分内部/外部，主要原因为两者带来的收入不同：
 
 1. 只有外部游戏带来的收入才是真金白银。
-2. 但给内部广告主的新增同样有价值；内部互导是否进行结算，请根据公司自身需求进行设置。相关名词：[内部结算](https://app.gitbook.com/@skysriver/s/skysriver/glossary#6-2-nei-bu-jie-suan)。
+2. 但给内部广告主的新增同样有价值；内部互导是否进行结算，请根据公司自身需求进行设置。相关名词：[内部结算](https://doc.skysriver.com/glossary#6-2-nei-bu-jie-suan)。
 {% endhint %}
 
 ### 2.3、创意

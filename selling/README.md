@@ -52,5 +52,3 @@ description: 卖量助手入门指引
 
 {% page-ref page="dev-guide/" %}
 
-相关链接：[卖量助手——名词解释](https://doc.skysriver.com/glossary#2-mai-liang-zhu-shou)
-

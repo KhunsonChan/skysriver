@@ -16,7 +16,7 @@
     * [天幕Banner广告](selling/ad-types/banner.md)
   * [数据指标说明](selling/shu-ju-zhi-biao-shuo-ming.md)
   * [天幕创意下发策略](selling/creative-strategy.md)
-  * [技术指南](selling/dev-guide/README.md)
+  * [技术接入指南](selling/dev-guide/README.md)
     * [SDK接入](selling/dev-guide/add-sdk.md)
     * [初始化SDK](selling/dev-guide/initialization.md)
     * [登录](selling/dev-guide/login/README.md)

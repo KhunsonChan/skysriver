@@ -15,6 +15,7 @@
     * [天幕伪视频广告](selling/ad-types/like-video.md)
     * [天幕Banner广告](selling/ad-types/banner.md)
   * [数据指标说明](selling/shu-ju-zhi-biao-shuo-ming.md)
+  * [天幕创意下发策略](selling/creative-strategy.md)
   * [技术指南](selling/dev-guide/README.md)
     * [接入SDK](selling/dev-guide/add-sdk.md)
     * [初始化SDK](selling/dev-guide/initialization.md)
@@ -32,7 +33,6 @@
       * [.flowNavigate](selling/dev-guide/api/landing.md)
     * [获取广告位开启状态](selling/dev-guide/ad-position-status.md)
     * [开发demo](selling/dev-guide/dev-demo.md)
-  * [天幕创意下发策略](selling/creative-strategy.md)
 * [买量助手](channel/README.md)
   * [主要功能说明](channel/main-features/README.md)
     * [收支管理](channel/main-features/income-and-expenditure.md)
@@ -96,4 +96,5 @@
 * [更新日志](change-log/README.md)
   * [天幕更新日志](change-log/skysriver-change-log.md)
   * [SDK更新日志](change-log/sdk-change-log.md)
+* [联系我们](lian-xi-wo-men.md)
 

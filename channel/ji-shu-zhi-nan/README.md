@@ -1,8 +1,13 @@
 ---
-description: 请按照如下步骤完成买量助手的接入，建议阅读者：开发人员
+description: 请按照如下步骤完成“买量助手”的接入，建议阅读者：开发人员
 ---
 
 # 技术接入指南
+
+## 任务清单
+
+* [ ] SDK接入
+* [ ] 登录
 
 ## Step1
 
@@ -16,13 +21,15 @@ description: 请按照如下步骤完成买量助手的接入，建议阅读者�
 
 {% page-ref page="../../selling/dev-guide/login/" %}
 
-## 开发demo
+## 其他
+
+### 开发demo
 
 开发demo，请参阅：
 
 {% page-ref page="../../selling/dev-guide/dev-demo.md" %}
 
-## 技术支持
+### 技术支持
 
 接入过程中有任何问题，欢迎微信扫描下方二维码，咨询天幕对接人员
 

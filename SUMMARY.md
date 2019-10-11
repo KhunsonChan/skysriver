@@ -62,7 +62,7 @@
   * [技术接入指南](game-data/dev-guide/README.md)
     * [【通用】SDK接入](game-data/dev-guide/tong-yong-sdk-jie-ru.md)
     * [【通用】登录](game-data/dev-guide/deng-lu.md)
-    * [性能分析](game-data/dev-guide/performance-analysis.md)
+    * [性能分析 .sendLoadingLog](game-data/dev-guide/performance-analysis.md)
     * [微信广告分析](game-data/dev-guide/wei-xin-guang-gao-tong-ji/README.md)
       * [.createRewardedVideoAd](game-data/dev-guide/wei-xin-guang-gao-tong-ji/.createrewardedvideoad.md)
       * [.createBannerAd](game-data/dev-guide/wei-xin-guang-gao-tong-ji/.createbannerad.md)

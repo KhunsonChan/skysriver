@@ -12,12 +12,12 @@ description: 组件化接入广告位
 使用该接口前，请先进行[SDK初始化](../../initialization.md)
 {% endhint %}
 
-该组件是用来实现广告位自动渲染：
+`createFlow`组件是用来实现广告位自动渲染：
 
 * 只要确定广告位的参数与需要渲染的位置即可，SDK会根据广告位ID自动渲染出对应类型的广告位
 * 支持点击后自动跳转，自动刷新创意等功能
 
-也可以参阅实例，看看如何在实际中使用createFlow渲染广告位。
+也可以参阅实例，看看如何在实际中使用`createFlow`渲染广告位。
 
 {% page-ref page="more-icon.md" %}
 
@@ -30,7 +30,7 @@ description: 组件化接入广告位
 ## **接口描述**
 
 * 调用该组件后，自动按照推广位类型渲染UI，并支持点击、动态效果等
-* cocos引擎中，请在画布初始化完毕后才调用createFlow
+* cocos引擎中，请在画布初始化完毕后才调用`createFlow`
 
 ## **使用标准屏幕坐标系定位**
 
@@ -70,7 +70,7 @@ flowUI.onRender(function({message}){
 
 ## **销毁**
 
-正常情况下，游戏场景切换时，该UI组件会自动销毁。如果需要在某些场景销毁该组件，请使用destroy方法。
+正常情况下，游戏场景切换时，该UI组件会自动销毁。如果需要在某些场景销毁该组件，请使用`destroy`方法。
 
 ```javascript
 flowUI.destroy();

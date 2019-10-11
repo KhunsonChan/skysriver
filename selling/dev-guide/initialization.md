@@ -24,7 +24,7 @@
 
 ## **调用方法**
 
-调用`.init`方法实现，示例如下
+调用`init`方法实现，示例如下
 
 ```javascript
 wx.tmSDK.init({

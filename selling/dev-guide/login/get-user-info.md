@@ -6,9 +6,9 @@ description: 登录接口
 
 ## 概述
 
-该接口用于获取已经存放在天幕平台的用户信息，包含头像、昵称等。
+`login`接口用于获取已经存放在天幕平台的用户信息，包含头像、昵称等。
 
-请注意：若该接口返回值中无头像、昵称等微信信息，请调用 [updateUserinfo](update-userinfo.md) 更新用户信息。
+请注意：若该接口返回值中无头像、昵称等微信信息，请调用[`updateUserinfo`](update-userinfo.md) 更新用户信息。
 
 ## **调用方法**
 
@@ -59,7 +59,7 @@ wx.tmSDK.login().then(res=>{
 | pid | string | 用户在天幕的统一索引，但可能变化 |
 | app\_id | string | 应用的appid |
 | open\_id | string | 用户在该应用下的openid |
-| union\_id | string | 用户的unionid,默认为空字符串，绑定主体后大授权方可获得。[`绑定主体`](https://developers.weixin.qq.com/miniprogram/dev/api/uinionID.html) |
+| union\_id | string | 用户的unionid,默认为空字符串，绑定主体后大授权方可获得。[绑定主体](https://developers.weixin.qq.com/miniprogram/dev/api/uinionID.html) |
 | nick\_name | string | 用户的微信昵称，为空时需要调用 [`updateUserinfo`](update-userinfo.md) 获取 |
 | nick\_name | string | 用户的微信昵称，为空时需要调用 [`updateUserinfo`](update-userinfo.md) 获取 |
 | avatar\_url | string | 用户的微信头像，为空时需要调用 [`updateUserinfo`](update-userinfo.md) 获取 |

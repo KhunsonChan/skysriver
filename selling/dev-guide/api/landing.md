@@ -6,7 +6,7 @@
 使用该接口前，请先进行[SDK初始化](../initialization.md)
 {% endhint %}
 
-该接口用于实现点击推广创意后跳转到落地页的功能，例如
+`flowNavigate`接口用于实现点击推广创意后跳转到落地页的功能，例如
 
 1. 此功能的使用前提：调用了获取广告推广配置[getFlowConfig](https://www.yuque.com/eqrk37/gk0pcl/okpygt)
 2. 此接口需将当前需要跳转的appid添加到game.json配置列表中，请参阅[微信小程序跳转的规则文档](https://developers.weixin.qq.com/miniprogram/dev/api/open-api/miniprogram-navigate/wx.navigateToMiniProgram.html)

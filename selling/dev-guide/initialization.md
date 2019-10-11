@@ -11,7 +11,7 @@
 * [createFlow](componentization/createflow/)
 * [checkFlowIsOpen](ad-position-status.md)
 * [getFlowConfig](api/get-ad-position-config.md)
-* [.flowNavigate](api/landing.md)
+* [flowNavigate](api/landing.md)
 
 **游戏配置——分享功能：**
 

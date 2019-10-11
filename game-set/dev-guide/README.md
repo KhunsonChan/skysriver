@@ -1,86 +1,48 @@
+---
+description: 请按照如下步骤完成“游戏数据”的接入，建议阅读者：开发人员
+---
+
 # 技术接入指南
 
-### 概述
+## 任务清单
 
-若要使用完整的功能，需接入天幕SDK。在接入天幕SDK前请做好以下准备：
+* [ ] SDK接入
+* [ ] SDK初始化
+* [ ] 登录
 
-1. 是否有天幕账号，若无，请先[注册天幕账号](https://www.skysriver.com)，已有账号请登录；
-2. 添加游戏进入对应的主体，在控制台页面可见当前账号已加入的主体，请进入对应主体中的【游戏管理】后台进行添加。
+## Step1 <a id="step1"></a>
 
-![](../../.gitbook/assets/image%20%28129%29.png)
+要完整使用天幕的卖量助手，需要进行SDK的接入，请参阅：
 
-下面对接入流程进行详细说明，共有两个步骤，十分钟左右即可搞定SDK接入。
+{% page-ref page="../../selling/dev-guide/add-sdk.md" %}
 
-### \*\*\*\*
+## Step2 <a id="step2"></a>
 
-### **1.下载SDK**
+SDK接入完成后，在使用某些接口时，需要进行SDK的初始化，以及用户登录处理，请参阅：
 
-点击操作中的【下载/接入SDK】开始接入
+{% page-ref page="../../selling/dev-guide/initialization.md" %}
 
-请按要求配置微信的域名白名单，非常重要，务必添加，确认添加完毕后，点击下一步。
+{% page-ref page="../../selling/dev-guide/login/" %}
 
-![](../../.gitbook/assets/image%20%28107%29.png)
+## Step3（可选）
 
-#### 注意：
+以下功能请根据自身业务需求选择接入：
 
-* 请按页面流程完成SDK的下载；
-* 请勿多个游戏使用同一个SDK，每个游戏会对应一个单独的SDK；
-
-### \*\*\*\*
-
-### **2.接入SDK**
-
-将下载的sdk文件放置到小游戏工程中，在小游戏game.js中引入SDK，并在需要使用sdk功能的地方调用。
-
-#### 植入方式
-
-* TypeScript或ES6 JavaScript语法植入方式：import 'tm\_sdk.min.js';
-* ES5 JavaScript使用commonJs规范的植入方式：require\('tm\_sdk.min.js'\);
-
-#### 校验SDK
-
-* 植入SDK后，复制屏幕上的检测码，在小程序开发工具中将启动参数设为检测码，开始编译**;**
-* 设置好参数并完成了编译，请点击“开始检测”按钮进行检测接入状态;
-* 天幕将自动检测您的接入是否正常，即可了解SDK接入是否正常;
-
-![](../../.gitbook/assets/sdk-demo.c229fdba.gif)
-
-#### **注意：**
-
-小游戏引入SDK时必须遵守如下事项：
-
-* SDK必须放在主包中加载，切勿分包加载
-* 在laya引擎中，文件名必须为.min.js结尾，否则会导致编译报错
-
-
-
-### 更多内容
-
-#### 1.初始化SDK
-
-调用转发素材的某些接口需要对SDK进行初始化，具体请参阅：
-
-{% page-ref page="initialization.md" %}
-
-#### 2.登录
-
-关于用户登录的处理，请参阅：
-
-{% page-ref page="login/" %}
-
-#### 3.接入转发素材功能
+### 转发素材功能
 
 {% page-ref page="sharing/" %}
 
-#### 4.接入功能开关
-
-要使用功能开关，请先接入，具体请参阅：
+### 版本控制
 
 {% page-ref page="function-switch.md" %}
 
-#### 5.在线参数
+### 在线参数
 
 若要使用在线参数功能，需要进行功能接入，具体请参阅：
 
 {% page-ref page="json.md" %}
+
+### A/B test
+
+{% page-ref page="a-b-test.md" %}
 

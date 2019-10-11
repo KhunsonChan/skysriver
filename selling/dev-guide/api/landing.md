@@ -3,7 +3,7 @@
 ## 概述
 
 {% hint style="warning" %}
-使用该接口前，请先进行[SDK初始化](https://skysriver.gitbook.io/skysriver/ji-shu-zhi-nan/chu-shi-hua-ni-de-sdk)
+使用该接口前，请先进行[SDK初始化](../initialization.md)
 {% endhint %}
 
 该接口用于实现点击推广创意后跳转到落地页的功能，例如

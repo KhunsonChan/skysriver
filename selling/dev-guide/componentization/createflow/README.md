@@ -9,7 +9,7 @@ description: 组件化接入广告位
 请先完成阅读：[组件化方式接入广告位](../)
 
 {% hint style="warning" %}
-使用该接口前，请先进行[SDK初始化](https://skysriver.gitbook.io/skysriver/ji-shu-zhi-nan/chu-shi-hua-ni-de-sdk)
+使用该接口前，请先进行[SDK初始化](../../initialization.md)
 {% endhint %}
 
 该组件是用来实现广告位自动渲染：

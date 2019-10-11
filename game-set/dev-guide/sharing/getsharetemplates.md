@@ -1,6 +1,10 @@
 # .getShareTemplates
 
-本篇为技术说明文档，具体业务详情，请参阅[转发素材配置](../../main-features/sharing-management.md)**，**使用前，请[初始化SDK](https://skysriver.gitbook.io/skysriver/ji-shu-zhi-nan/chu-shi-hua-ni-de-sdk)。
+本篇为技术说明文档，具体业务详情，请参阅[转发素材配置](../../main-features/sharing-management.md)
+
+{% hint style="warning" %}
+使用该接口前，请先进行[SDK初始化](../../../selling/dev-guide/initialization.md)
+{% endhint %}
 
 开发者可通过这个接口接收保存在天幕上的分享素材相关数据，具体返回的数据，请参阅下文中的返回值样例。
 

@@ -1,6 +1,10 @@
 # .shareAppMessage
 
-本篇内容为技术说明文档，具体业务详情，请参阅[转发素材配置](../../main-features/sharing-management.md)，使用前，请[初始化SDK](https://www.yuque.com/eqrk37/gk0pcl/xbni48)。
+本篇内容为技术说明文档，具体业务详情，请参阅[转发素材配置](../../main-features/sharing-management.md)。
+
+{% hint style="warning" %}
+使用该接口前，请先进行[SDK初始化](../../../selling/dev-guide/initialization.md)
+{% endhint %}
 
 此方式用于小游戏主动分享时调用，传入参数与 [`wx.shareAppMessage`](https://developers.weixin.qq.com/minigame/dev/api/wx.shareAppMessage.html?search-key=wx.ShareAppMessage) 基本一致。
 

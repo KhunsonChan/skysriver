@@ -1,4 +1,4 @@
-# 性能分析 .sendLoadingLog
+# 性能分析 （.sendLoadingLog）
 
 ## 概述
 

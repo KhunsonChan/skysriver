@@ -2,7 +2,7 @@
 description: 开发者需通过该配置表来控制前端的功能是否开启
 ---
 
-# 版本控制
+# 版本控制 （.getJudgeConfig）
 
 本篇内容为功能开关开发内容说明，关于功能开关的功能介绍请参阅：[功能开关功能说明](../main-features/features-switch.md)
 
@@ -26,9 +26,9 @@ description: 开发者需通过该配置表来控制前端的功能是否开启
 
 此接口会返回一个配置表，包含小游戏中某些功能的状态，返回值均为布尔类型。 根据各项功能true/false状态，开发者可以对小游戏做业务处理（如隐藏抽奖功能入口）。
 
-## **前置条件**
-
-使用该接口前，必须先使用[init](../../selling/dev-guide/initialization.md)方法初始化SDK
+{% hint style="warning" %}
+使用该接口前，请先进行[SDK初始化](../../selling/dev-guide/initialization.md)
+{% endhint %}
 
 ## **调用方法**
 

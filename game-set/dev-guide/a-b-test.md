@@ -1,4 +1,4 @@
-# A/B test
+# A/B test （.abtest）
 
 本篇将说明如何接入天幕的A/B test功能，关于后台的设置，请参阅：[A/B test设置。](../main-features/ab-test.md)
 

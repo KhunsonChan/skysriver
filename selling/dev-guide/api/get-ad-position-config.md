@@ -5,7 +5,7 @@
 请先完成阅读：[API方式接入广告位](./)
 
 {% hint style="warning" %}
-使用该接口前，请先进行[SDK初始化](https://skysriver.gitbook.io/skysriver/ji-shu-zhi-nan/chu-shi-hua-ni-de-sdk)
+使用该接口前，请先进行[SDK初始化](../initialization.md)
 {% endhint %}
 
 该接口用于获取广告位id对应配置详情，调用该接口后，请根据接口的返回值，采用对应的方式处理。

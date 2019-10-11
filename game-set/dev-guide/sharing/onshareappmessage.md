@@ -1,6 +1,10 @@
 # .onShareAppMessage
 
-本篇为技术说明文档，具体业务详情，请参阅[转发素材配置](../../main-features/sharing-management.md)**，**使用前，请[初始化SDK](https://skysriver.gitbook.io/skysriver/ji-shu-zhi-nan/chu-shi-hua-ni-de-sdk)。
+本篇为技术说明文档，具体业务详情，请参阅[转发素材配置](../../main-features/sharing-management.md)。
+
+{% hint style="warning" %}
+使用该接口前，请先进行[SDK初始化](../../../selling/dev-guide/initialization.md)
+{% endhint %}
 
 此方式适用于用户点击右上角菜单的转发按钮时调用，传入参数与 [`wx.onShareAppMessage`](https://developers.weixin.qq.com/minigame/dev/api/wx.onShareAppMessage.html?search-key=wx.onShareAppMessage) 基本一致。
 

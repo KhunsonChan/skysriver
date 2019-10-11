@@ -17,7 +17,7 @@ description: 请按照如下步骤完成“游戏数据”的接入，建议阅�
 
 ## Step1 <a id="step1"></a>
 
-要完整使用天幕的卖量助手，需要进行SDK的接入，请参阅：
+要完整使用天幕的游戏配置，需要进行SDK的接入，请参阅：
 
 {% page-ref page="../../selling/dev-guide/add-sdk.md" %}
 

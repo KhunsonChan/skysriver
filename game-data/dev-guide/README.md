@@ -31,9 +31,9 @@ description: 请按照如下步骤完成“游戏数据”的接入，建议阅�
 
 {% page-ref page="../indicator-description/performance-analysis.md" %}
 
-若要接入微信广告统计功能，请参阅：
+若要接入微信广告分析功能，请参阅：
 
-{% page-ref page="wei-xin-guang-gao-tong-ji.md" %}
+{% page-ref page="wei-xin-guang-gao-tong-ji/" %}
 
 ## 其他
 

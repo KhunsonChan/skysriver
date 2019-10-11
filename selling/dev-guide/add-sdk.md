@@ -1,4 +1,4 @@
-# SDK接入
+# 【通用】SDK接入
 
 ## 概述
 
@@ -19,7 +19,7 @@
 
 ![](../../.gitbook/assets/image%20%28107%29.png)
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 注意：
 
 1. 请按页面流程完成SDK的下载；

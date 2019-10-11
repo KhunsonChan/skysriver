@@ -1,5 +1,5 @@
 ---
-description: 建议阅读者：开发人员
+description: 请按照如下步骤完成卖量助手的接入，建议阅读者：开发人员
 ---
 
 # 技术接入指南
@@ -10,13 +10,13 @@ description: 建议阅读者：开发人员
 为了更好的理解文档，建议开发人员首先快速浏览：[名词解释——卖量助手](../../glossary.md#2-mai-liang-zhu-shou)
 {% endhint %}
 
-要完整使用天幕的卖量助手，需要进行SDK的接入，具体的接入技术说明文档请参阅：
+要完整使用天幕的卖量助手，需要进行SDK的接入，请参阅：
 
 {% page-ref page="add-sdk.md" %}
 
 ## Step2
 
-SDK接入完成后，在使用某些接口时，需要进行SDK的初始化，以及用户登录处理；请参阅：
+SDK接入完成后，在使用某些接口时，需要进行SDK的初始化，以及用户登录处理，请参阅：
 
 {% page-ref page="initialization.md" %}
 
@@ -37,6 +37,12 @@ SDK接入完成后，在使用某些接口时，需要进行SDK的初始化，�
 {% page-ref page="api/" %}
 
 {% page-ref page="ad-position-status.md" %}
+
+## 开发Demo
+
+开发demo，请参阅：
+
+{% page-ref page="dev-demo.md" %}
 
 ## 技术支持
 

@@ -4,19 +4,17 @@ description: 使用updateUserInfo接口从微信获取用户信息（昵称、�
 
 # .updateUserInfo
 
-### 概述
+## 概述
 
 调用此接口后，下次调用 [`login`](get-user-info.md) 时，即可从天幕sdk获取上一次 `updateUserInfo` 中返回的用户信息。 关于用户信息的更新策略，开发者可参考 [用户信息授权](./#yong-hu-xin-xi-shou-quan) 中的 **何时触发大授权** 。
 
-### \*\*\*\*
-
-### **调用方法**
+## **调用方法**
 
 ```java
 wx.tmSDK.updateUserInfo({encryptedData,iv,signature}).then(res=>{})
 ```
 
-### **参数说明**
+## **参数说明**
 
 | 字段 | 字段类型 | 小程序 | 小游戏 |
 | :--- | :--- | :--- | :--- |
@@ -24,11 +22,9 @@ wx.tmSDK.updateUserInfo({encryptedData,iv,signature}).then(res=>{})
 | iv | string | 在点击事件e中获取 | 在 `UserInfoButton` 回调中获取 |
 | signature | string | 在点击事件e中获取 | 在 `UserInfoButton` 回调中获取 |
 
-### \*\*\*\*
+## **示例**
 
-### **示例**
-
-#### **小游戏**
+### **小游戏**
 
 ```java
 let button = wx.createUserInfoButton({
@@ -46,9 +42,7 @@ button.onTap(res = > {
 })
 ```
 
-#### \*\*\*\*
-
-#### **小程序**
+### **小程序**
 
 ```java
 <!-- wxml -->
@@ -71,11 +65,9 @@ bindUserLogin: function(e) {
 }
 ```
 
-### \*\*\*\*
+## **返回值说明**
 
-### **返回值说明**
-
-**返回值示例**
+### **返回值示例**
 
 ```java
 {
@@ -109,7 +101,7 @@ bindUserLogin: function(e) {
 }
 ```
 
-#### **返回值详解**
+### **返回值详解**
 
 | 字段 | 字段类型 | 字段说明 |
 | :--- | :--- | :--- |

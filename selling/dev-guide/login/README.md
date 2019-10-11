@@ -41,7 +41,7 @@
 
 #### **1.初次进入时大授权**
 
-仅在用户初次进入时进行大授权。 也就是在 [`login`](get-user-info.md) 时，若返回值没有昵称、头像等信息，再使用 [`updateUserInfo`](update-userinfo.md) 向用户发起大授权。
+仅在用户初次进入时进行大授权。 也就是在调用[`login`](get-user-info.md) 后，若返回值没有昵称、头像等信息，再使用 [`updateUserInfo`](update-userinfo.md) 向用户发起大授权。
 
 若小游戏中需要使用用户头像、昵称，而不关心用户信息的更新（如用户换了昵称、头像），开发者可以采取该策略。
 

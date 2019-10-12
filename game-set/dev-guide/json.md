@@ -1,10 +1,18 @@
 # 在线参数 （.getAppJSONConfig）
 
-`getAppJSONConfig`接口主要用于获取在天幕后台配置的在线参数，本篇内容为技术说明文档，功能说明及配置方法请参阅：
+## 概述
 
-{% page-ref page="../main-features/json.md" %}
+本篇为在线参数的开发说明，功能说明请参阅：[在线参数-功能说明](../main-features/json.md)
+
+主要实现逻辑为：SDK返回Json类型的参数，前端根据参数值控制游戏内容
+
+## **接入方式**
+
+使用SDK的`getAppJSONConfig`接口来实现。
 
 ## **调用方法**
+
+### **直接调用**
 
 ```javascript
 wx.tmSDK.getAppJSONConfig().then((res) => {
@@ -12,7 +20,7 @@ wx.tmSDK.getAppJSONConfig().then((res) => {
 });
 ```
 
-## 通过指定key获取制定配置
+### 通过指定key获取配置
 
 ```javascript
 wx.tmSDK.getAppJSONConfig('key').then((res) => {
@@ -20,17 +28,15 @@ wx.tmSDK.getAppJSONConfig('key').then((res) => {
 });
 ```
 
-上述的【key】对应为在线参数配置后台中的【参数ID】，将【参数ID】作为传入参数即可获取到对应ID的配置内容，具体可参考下方的【返回值说明】。
+上述的【key】对应为在线参数配置后台中的【参数ID】，将【参数ID】作为传入参数即可获取到对应ID的配置内容
 
 ## 返回值说明
 
-![](../../.gitbook/assets/image%20%288%29.png)
-
-根据你传入的参数不同，我们会返回不同的内容，请根据实际使用情况进行调整，以下为具体说明：
+根据你传入的参数不同，SDK会返回不同的内容
 
 #### 当传入的参数为空时
 
-在线参数配置后台如上图所示，参数为空时，会默认将该游戏下配置的所有【参数值Jason】中的内容返回。
+在线参数配置后台如上图所示，参数为空时，会默认将该游戏下配置的所有【参数值Json】中的内容返回。
 
 若配置的内容与实际需求的不相符，请在在线参数配置后台进行修改。
 

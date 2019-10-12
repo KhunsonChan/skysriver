@@ -81,7 +81,7 @@
     * [A/B test （.abtest）](game-set/dev-guide/a-b-test.md)
     * [自定义事件 （.sendEvent）](game-set/dev-guide/zi-ding-yi-shi-jian.md)
     * [版本控制 （.getJudgeConfig）](game-set/dev-guide/function-switch.md)
-    * [分享素材](game-set/dev-guide/sharing/README.md)
+    * [分享素材配置](game-set/dev-guide/sharing/README.md)
       * [.getShareTemplates](game-set/dev-guide/sharing/getsharetemplates.md)
       * [.onShareAppMessage](game-set/dev-guide/sharing/onshareappmessage.md)
       * [.shareAppMessage](game-set/dev-guide/sharing/shareappmessage.md)

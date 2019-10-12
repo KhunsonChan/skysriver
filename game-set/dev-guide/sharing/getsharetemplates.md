@@ -1,14 +1,14 @@
 # .getShareTemplates
 
-本篇为技术说明文档，具体业务详情，请参阅[转发素材配置](../../main-features/sharing-management.md)
+## 概述
+
+开发者可通过这个接口接收保存在天幕上的分享素材相关数据。
 
 {% hint style="warning" %}
 使用该接口前，请先进行[SDK初始化](../../../selling/dev-guide/initialization.md)
 {% endhint %}
 
-开发者可通过这个接口接收保存在天幕上的分享素材相关数据，具体返回的数据，请参阅下文中的返回值样例。
-
-### **调用方法**
+## **调用方法**
 
 ```javascript
 wx.tmSDK.getShareTemplates().then((res) => {
@@ -16,7 +16,7 @@ wx.tmSDK.getShareTemplates().then((res) => {
 })
 ```
 
-### **返回值样例**
+## **返回值样例**
 
 ```javascript
 {
@@ -25,14 +25,14 @@ wx.tmSDK.getShareTemplates().then((res) => {
         "title":"分享标题",
         "image":"分享图片",
         "path":"pages/index/index",         //跳转小程序路径
-        "scene":"scene_1",                  //使用的场景
+        "scene":"scene_1",                  //使用的分享位ID
     }],
     "scene_2":[{
         "channel_code": "channelB",         //渠道码
         "title":"分享标题",
         "image":"分享图片",
         "path":"pages/index/index",         //跳转小程序路径
-        "scene":"scene_2",                  //使用的场景
+        "scene":"scene_2",                  //使用的分享位ID
     }]
 }
 ```
@@ -45,5 +45,5 @@ wx.tmSDK.getShareTemplates().then((res) => {
 | title | String | 分享标题 |
 | image | String | 分享图片地址 |
 | path | String | 跳转小程序路径 |
-| scene | String | 场景值 |
+| scene | String | 分享位ID |
 

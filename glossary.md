@@ -117,7 +117,7 @@ description: 天幕上常用名词的解析，建议首次使用前快速浏览
    1. 广告主游戏在当前天幕主体内，自动计算；
    2. 需在“控制台——主体设置——内部结算配置”中进行设置；
    3. 当有内部结算需求时可使用此功能，此部分收入默认为0
-2. 外部结算收入：除上述情况外，需在“游戏收支——卖量收入管理”中上传结算收入（[强烈建议上传](https://doc.skysriver.com/selling/creative-strategy#4-wei-shi-mo-jian-yi-shang-chuan-shou-ru)）
+2. 外部结算收入：除上述情况外，需在“游戏收支——卖量收入管理”中上传结算收入（[强烈建议上传](selling/creative-strategy.md#4-wei-shen-me-jian-yi-shang-chuan-shou-ru)）
 
 ## 3、买量助手
 
@@ -242,11 +242,7 @@ UV：访问人数，因微信本身机制限定，UV的去重只能精确到单�
 
 流量主游戏（媒体）：多一笔收入
 
-详见[内部结算](https://doc.skysriver.com/internal-settlement)说明
-
-
-
-
+详见[内部结算](general-function/internal-settlement.md)说明
 
 
 

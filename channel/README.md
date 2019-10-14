@@ -34,5 +34,5 @@ description: 买量助手入门指引
 
 建议阅读者：技术人员
 
-{% page-ref page="ji-shu-zhi-nan/" %}
+{% page-ref page="dev-guide/" %}
 

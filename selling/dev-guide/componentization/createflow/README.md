@@ -25,7 +25,7 @@ description: 组件化接入广告位
 
 {% page-ref page="screen-ad.md" %}
 
-{% page-ref page="ran-wei-shi-pin-guang-gao.md" %}
+{% page-ref page="like-video.md" %}
 
 ## **接口描述**
 

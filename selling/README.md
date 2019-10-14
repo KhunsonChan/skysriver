@@ -36,7 +36,7 @@ description: 卖量助手入门指引
 
 建议阅读者：流量运营
 
-{% page-ref page="shu-ju-zhi-biao-shuo-ming.md" %}
+{% page-ref page="data-indicator.md" %}
 
 ### 4、【进阶2】创意的下发策略
 

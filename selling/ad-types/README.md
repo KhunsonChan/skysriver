@@ -46,7 +46,7 @@ description: 天幕目前的5种广告位说明，建议阅读者：流量运营
 
 具体广告位说明参阅：[天幕伪视频广告](like-video.md)
 
-此广告为仅支持通过组件化的方式接入，不可通过API方式接入，请参阅：[接入伪视频广告位](../dev-guide/componentization/createflow/ran-wei-shi-pin-guang-gao.md)
+此广告为仅支持通过组件化的方式接入，不可通过API方式接入，请参阅：[接入伪视频广告位](../dev-guide/componentization/createflow/like-video.md)
 
 ## 类型5：天幕Banner广告
 

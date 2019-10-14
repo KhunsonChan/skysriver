@@ -10,7 +10,7 @@
 
 只需切换视图，无需重复设定搜索条件、展示指标，以达到高效筛选数据的目的
 
-详情请参阅：[自定义视图](../../tong-yong-gong-neng-shuo-ming/zi-ding-yi-shi-tu.md)
+详情请参阅：[自定义视图](../../general-function/customized-view.md)
 
 ## 多维度数据报表
 

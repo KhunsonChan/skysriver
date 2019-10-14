@@ -18,7 +18,7 @@ description: 游戏数据入门指引
 
 建议阅读者：小游戏策划、运营
 
-{% page-ref page="gong-neng-shuo-ming.md" %}
+{% page-ref page="main-features.md" %}
 
 ### 2、数据指标说明
 

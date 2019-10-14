@@ -6,5 +6,5 @@
 
 {% page-ref page="about-data.md" %}
 
-{% page-ref page="others.md" %}
+{% page-ref page="game-manage.md" %}
 

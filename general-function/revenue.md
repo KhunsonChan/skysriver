@@ -4,7 +4,7 @@ description: 帮助产品矩阵运营人员了解产品收支
 
 # 游戏收支
 
-![&#x6E38;&#x620F;&#x6536;&#x652F;](../.gitbook/assets/image%20%2854%29.png)
+![&#x6E38;&#x620F;&#x6536;&#x652F;](../.gitbook/assets/image%20%2855%29.png)
 
 ### **概述**
 

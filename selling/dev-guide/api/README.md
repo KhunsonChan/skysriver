@@ -67,7 +67,7 @@ SDK组件无法满足，则可通过API的方式接入。
 如果创意列表creatives的show\_config中，只有image，则只需渲染该静态图。  
 
 
-![&#x6D6E;&#x52A8;&#x7A97;&#x5E7F;&#x544A;&#x6548;&#x679C;](../../../.gitbook/assets/image%20%2853%29.png)
+![&#x6D6E;&#x52A8;&#x7A97;&#x5E7F;&#x544A;&#x6548;&#x679C;](../../../.gitbook/assets/image%20%2854%29.png)
 
 ### **2、若返回值中存在fps**
 
@@ -99,7 +99,7 @@ SDK组件无法满足，则可通过API的方式接入。
 因影响广告位的展示效率，接入时建议与游戏策划人员进行沟通，相关链接：[天幕创意下发策略](../../creative-strategy.md)
 {% endhint %}
 
-![&#x731C;&#x4F60;&#x559C;&#x6B22;&#x5E7F;&#x544A;&#x6548;&#x679C;](../../../.gitbook/assets/image%20%28142%29.png)
+![&#x731C;&#x4F60;&#x559C;&#x6B22;&#x5E7F;&#x544A;&#x6548;&#x679C;](../../../.gitbook/assets/image%20%28143%29.png)
 
 ### **2、数据刷新规则及点击跳转**
 

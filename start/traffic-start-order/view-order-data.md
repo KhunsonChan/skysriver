@@ -2,9 +2,9 @@
 
 在广告订单开始跑量后，想要查询订单跑量的数据，可在流量主后台，数据报表的订单数据中查看订单数据。
 
-![](../../.gitbook/assets/image%20%28167%29.png)
+![](../../.gitbook/assets/image%20%28168%29.png)
 
-![](../../.gitbook/assets/image%20%28115%29.png)
+![](../../.gitbook/assets/image%20%28116%29.png)
 
 核心数据提供了以下指标的数据
 

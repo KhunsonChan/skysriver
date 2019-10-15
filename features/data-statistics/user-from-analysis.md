@@ -15,7 +15,7 @@
 1. **场景值** 根据新增用户以及访问用户，可以了解到用户主要的来源方式，结合访问次数进而了解到各种来源方式的次数，进行有针对性的分析，根据用户行为制定相应的运营策略。 
 2. **场景类型** 场景类型是微信以场景值为基础定义的各类访问来源场景，详细可参考[微信官方API文档-访问分布](https://developers.weixin.qq.com/miniprogram/dev/api-backend/analysis.getVisitDistribution.html)（内容在文档中部）场景类型的数据功能与场景值一致。
 
-![](../../.gitbook/assets/image%20%2849%29.png)
+![](../../.gitbook/assets/image%20%2850%29.png)
 
 
 

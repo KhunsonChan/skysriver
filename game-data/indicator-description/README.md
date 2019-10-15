@@ -24,7 +24,7 @@ description: 建议阅读者：小游戏策划、运营
 
 {% page-ref page="banner-analysis.md" %}
 
-{% page-ref page="ad-data.md" %}
+{% page-ref page="income.md" %}
 
 {% page-ref page="traffic-master-data.md" %}
 

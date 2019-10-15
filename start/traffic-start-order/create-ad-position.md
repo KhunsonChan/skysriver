@@ -4,7 +4,7 @@
 
 技术人员请参阅：[如何在游戏中接入广告位](../../dev-guide/create-ad-position/)，了解如何在游戏中创建需要的天幕广告位。
 
-![](../../.gitbook/assets/image%20%28112%29.png)
+![](../../.gitbook/assets/image%20%28113%29.png)
 
 ### **创建天幕广告位**
 

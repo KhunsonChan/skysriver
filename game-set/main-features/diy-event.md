@@ -12,9 +12,9 @@
 
 注意：一旦创建成功后，事件ID不可编辑，在设置时，请慎重。
 
-![](../../.gitbook/assets/image%20%28157%29.png)
-
 ![](../../.gitbook/assets/image%20%28158%29.png)
+
+![](../../.gitbook/assets/image%20%28159%29.png)
 
 ## 导入事件excel
 
@@ -36,7 +36,7 @@ excel模板内容如下：
 
 点击操作栏里的「复制代码」，复制开发需要的自定义事件埋点代码，在客户端中合适的位置加入此代码即可。
 
-![](../../.gitbook/assets/image%20%28155%29.png)
+![](../../.gitbook/assets/image%20%28156%29.png)
 
 若不理解此处，可发送给技术人员，技术人员知道会如何处理，请根据业务具体的需求使用。
 
@@ -44,7 +44,7 @@ excel模板内容如下：
 
 点击参数配置，可以配置该事件的参数，并编辑参数的名称与类型（目前参数的类型仅支持次数，后续天幕会陆续支持），也可以将不需要的参数下架掉。
 
-![](../../.gitbook/assets/image%20%2895%29.png)
+![](../../.gitbook/assets/image%20%2896%29.png)
 
 ![](../../.gitbook/assets/image%20%2826%29.png)
 
@@ -56,5 +56,5 @@ excel模板内容如下：
 
 ![](../../.gitbook/assets/image%20%2837%29.png)
 
-![](../../.gitbook/assets/image%20%2862%29.png)
+![](../../.gitbook/assets/image%20%2863%29.png)
 

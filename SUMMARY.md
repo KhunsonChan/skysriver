@@ -92,6 +92,7 @@
   * [内部结算](general-function/internal-settlement.md)
   * [成员权限](general-function/permission.md)
   * [游戏管理](general-function/game-manage.md)
+  * [游戏收支](general-function/revenue.md)
 * [常见问题](questions/README.md)
   * [卖量助手](questions/about-traffic-master.md)
   * [买量助手](questions/about-ad-master.md)

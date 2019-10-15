@@ -22,7 +22,7 @@ description: 本篇介绍如何使用createFlow进行多Icon广告的渲染。
 
 组件化接入样式如下，如无法满足需求，可使用[API方式接入](../../api/)
 
-![&#x591A;Icon&#x5E7F;&#x544A;&#x4F4D;&#x7EC4;&#x4EF6;&#x5C55;&#x793A;&#x6837;&#x5F0F;](../../../../.gitbook/assets/image%20%28140%29.png)
+![&#x591A;Icon&#x5E7F;&#x544A;&#x4F4D;&#x7EC4;&#x4EF6;&#x5C55;&#x793A;&#x6837;&#x5F0F;](../../../../.gitbook/assets/image%20%28142%29.png)
 
 ## **使用实例**
 

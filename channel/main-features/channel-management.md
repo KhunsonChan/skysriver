@@ -8,13 +8,13 @@
 
 点击【创建渠道】，进入渠道创建的弹窗，进行信息填写，按页面提示信息填写即可。
 
-![](../../.gitbook/assets/image%20%2880%29.png)
+![](../../.gitbook/assets/image%20%2881%29.png)
 
-![](../../.gitbook/assets/image%20%2897%29.png)
+![](../../.gitbook/assets/image%20%2898%29.png)
 
 ## 渠道商管理
 
 渠道商管理功能可以帮助管理各种投放渠道的渠道商，不管渠道商再多，也可进行统一管理。
 
-![](../../.gitbook/assets/image%20%28132%29.png)
+![](../../.gitbook/assets/image%20%28134%29.png)
 

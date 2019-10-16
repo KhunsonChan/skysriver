@@ -95,5 +95,5 @@ description: 帮助产品矩阵运营人员了解产品收支，计算毛利
 >
 > 5. 天幕承诺将不会使用与泄露您上传的任何数据与使用您上传的任何数据用于未声明的场景，同时不上传任何数据亦不会影响天幕任何功能的使用。
 
-相关链接：[内部结算](../internal-settlement.md)、[天幕创意下发策略](../../selling/creative-strategy.md)、[卖量助手](../../questions/about-traffic-master.md)、[买量助手](../../channel/)
+相关链接：[内部结算](../internal-settlement.md)、[天幕创意下发策略](../../selling/creative-strategy.md)、[卖量助手](../../selling/)、[买量助手](../../channel/)
 

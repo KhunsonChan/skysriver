@@ -30,6 +30,10 @@ SDK组件无法满足，则可通过API的方式接入。
 
 通过API接入，请参照本篇下方的内容完成接入。
 
+{% hint style="info" %}
+接入广告位时，所需要的广告位ID（positionID），请在“[卖量助手-流量主游戏管理](../../main-features/flower-game-manage.md#guang-gao-wei-guan-li)”中获取。
+{% endhint %}
+
 涉及到的接口：
 
 * 获取广告位开关：[checkFlowIsOpen](../ad-position-status.md)

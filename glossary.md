@@ -242,7 +242,11 @@ UV：访问人数，因微信本身机制限定，UV的去重只能精确到单�
 
 流量主游戏（媒体）：多一笔收入
 
-详见[内部结算](general-function/internal-settlement.md)说明
+详见[内部结算](general-function/internal-settlement.md)说明。
+
+### 6.3、自定义视图
+
+将搜索条件及显示指标（指标显示顺序）保存为自定义视图，只需切换视图，即可快速筛选数据。详见[自定义视图](general-function/customized-view.md)说明。
 
 
 

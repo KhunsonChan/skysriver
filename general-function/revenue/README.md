@@ -31,7 +31,7 @@ description: 帮助产品矩阵运营人员了解产品收支，计算毛利
 {% endhint %}
 
 {% hint style="success" %}
-另在使用卖量助手时，我们推荐上传外卖收入，这有助于提高卖量效率（最高30%的提升），[点击查看](../../selling/creative-strategy.md#4-wei-shen-me-jian-yi-shang-chuan-mai-liang-shou-ru)
+另在使用卖量助手时，即使没有查看游戏总体收支的需求，我们也推荐上传外卖收入，这有助于大幅度提高卖量效率（最高30%的提升），[点击查看](../../selling/creative-strategy.md#4-wei-shen-me-jian-yi-shang-chuan-mai-liang-shou-ru)
 {% endhint %}
 
 ### **微信收入**

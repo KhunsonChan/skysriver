@@ -30,6 +30,10 @@ SDK组件无法满足，则可通过[API的方式接入](../api/)。
 
 通过组件化的形式接入，请继续阅读下方的内容。
 
+{% hint style="info" %}
+接入广告位时，所需要的广告位ID（positionID），请在“[卖量助手-流量主游戏管理](../../main-features/flower-game-manage.md#guang-gao-wei-guan-li)”中获取。
+{% endhint %}
+
 ## 获取广告位开关状态
 
 天幕的所有广告位支持后台控制其开/关，具体可参阅

@@ -4,8 +4,6 @@
 
 本篇为转发素材配置的开发说明，功能说明请参阅：[分享素材配置-功能说明](../../main-features/sharing-management.md)
 
-建议参照[demo](../../../selling/dev-guide/dev-demo.md)，完成分享素材配置功能的接入
-
 ## **分享位**
 
 同一小程序/小游戏中，不同位置/功能下的分享，需要配置不同的内容。
@@ -39,15 +37,15 @@
 
 以下是分享素材功能使用的三个接口
 
-1.接收保存在天幕上的分享素材相关数据
-
-{% page-ref page="getsharetemplates.md" %}
-
-2.用户点击右上角菜单的转发按钮时调用
+1.用户点击右上角菜单的转发按钮时调用
 
 {% page-ref page="onshareappmessage.md" %}
 
-3.小游戏主动分享时调用
+2.小游戏主动分享时调用
 
 {% page-ref page="shareappmessage.md" %}
+
+3.一次性接收所有分享位的分享素材相关数据（可选，非必接）
+
+{% page-ref page="getsharetemplates.md" %}
 

@@ -4,6 +4,12 @@
 
 开发者可通过这个接口接收保存在天幕上的分享素材相关数据。
 
+{% hint style="info" %}
+此接口用于一次性获取当前游戏所有分享位上的分享素材，**非必接**，请根据自身需求选择接入；
+
+在明确知道所有分享位ID时，通过[onShareAppMessage](onshareappmessage.md)、[shareAppMessage](shareappmessage.md)即可实现获取特定分享位上的分享素材。
+{% endhint %}
+
 {% hint style="warning" %}
 使用该接口前，请先进行[SDK初始化](../../../selling/dev-guide/initialization.md)
 {% endhint %}

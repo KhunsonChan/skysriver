@@ -35,3 +35,7 @@ wx.tmSDK.sendEvent('buyStuff', {
 简单的事件可以不包含参数。
 {% endhint %}
 
+{% hint style="danger" %}
+事件中的参数一定要在后台事先配置，未配置但上传了的参数都会被归类为未定义参数，统计不到对应参数的数据。
+{% endhint %}
+

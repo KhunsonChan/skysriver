@@ -23,7 +23,7 @@ description: 组件化接入说明，建议详细阅读
 我们建议优先使用组件化的方式接入广告位：
 
 1. 若你的游戏引擎非cocos，laya
-2. 或是组件的样式不满足需求（此情况常见于多Icon广告位）
+2. 或是组件的样式不满足需求（此情况常见于[多Icon广告位](createflow/more-icon.md#zu-jian-yang-shi)）
 
 SDK组件无法满足，则可通过[API的方式接入](../api/)。
 {% endhint %}

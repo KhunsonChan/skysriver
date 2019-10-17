@@ -115,7 +115,6 @@ positionId将对应的不同类型返回值，使用前请确认当前使用的p
 {
     "isOpen":true,
     "type": 7, // 多icon广告类型
-    "auto_change":10,
     "cornerOpen": true, // 角标是否开启
     "creatives":[
         {

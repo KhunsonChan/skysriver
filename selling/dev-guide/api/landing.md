@@ -55,6 +55,10 @@ wx.tmSDK.flowNavigate({
 
 基本返回值和[`getFlowConfig`](get-ad-position-config.md)结构基本一致, 请参考[`getFlowConfig`](get-ad-position-config.md)文档
 
+{% hint style="info" %}
+使用该返回值重新刷新创意的展示，可实现点击刷新的效果，[点击查看详情](./#2-dian-ji-shua-xin)
+{% endhint %}
+
 ### **特有返回值**
 
 | 字段 | 字段类型 | 字段说明 |
@@ -63,5 +67,9 @@ wx.tmSDK.flowNavigate({
 
 {% hint style="info" %}
 可使用此值判断：二次确认弹窗中，用户是否点击了取消
+
+用户点击取消操作，SDK不提供回调，可自行监听，实现方案可参考下方文件（请自行转为.js格式）；请根据自身业务需求，决定是否添加此部分逻辑。
 {% endhint %}
+
+{% file src="../../../.gitbook/assets/er-ci-que-ren-dian-ji-qu-xiao-jian-ting.txt" caption="二次确认点击取消监听" %}
 

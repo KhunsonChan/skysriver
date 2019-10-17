@@ -1,0 +1,37 @@
+/** 只监听一次跳转失败错误，这样不会导致重复触发 */
+let checkNavigate = () => new Promise((resolve, reject) => {
+    let wxOriginFn = wx.navigateToMiniProgram;
+    Object.defineProperty(wx, 'navigateToMiniProgram', {
+        writable: true,
+        value(params) {
+            let originFail = params.fail;
+            let originSuccess = params.success;
+            /** 监听微信小游戏跳成功 */
+            params.success = (args) => {
+                /** 保留其他地方调用时原有的成功处理函数 */
+                originSuccess && originSuccess(args);
+                /** 执行返回本次成功*/
+                resolve(args);
+            };
+            /** 监听微信小游戏跳转失败 */
+            params.fail = (args) => {
+                /** 保留其他地方调用时原有的失败处理函数 */
+                originFail && originFail(args);
+                /** 执行返回本次错误*/
+                reject(args);
+            };
+            wxOriginFn(params);
+        }
+    });
+    // 关掉可写权限
+    Object.defineProperty(wx, 'navigateToMiniProgram', {
+        writable: false
+    });
+});
+
+/** 每次触发跳转之前都可以执行一次监听跳转是否失败 */
+checkNavigate().then((res) => {
+    console.log(res.errMsg, '跳转成功信息');
+}).catch(() => {
+    console.error(res.errMsg, '跳转失败信息');
+});

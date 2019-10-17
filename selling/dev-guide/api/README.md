@@ -59,7 +59,7 @@ SDK组件无法满足，则可通过API的方式接入。
 每次调用[`getFlowConfig`](get-ad-position-config.md)，对应广告位都会视作**产生曝光**，所以为了数据准确性：
 
 1. 请先获取广告位的开关状态，广告位开启时再调用[`getFlowConfig`](get-ad-position-config.md)\`\`
-2. **只有**在每次需要展示创意的时候才调用该接口，不要**提前加载**或**复用上一次的接口返回值**
+2. **只有**在每次需要展示创意的时候才调用该接口，不要**提前加载**或**缓存上一次的接口返回值（不展示请进行销毁）**
 {% endhint %}
 
 ## 浮动窗广告位接入
@@ -121,15 +121,21 @@ SDK组件无法满足，则可通过API的方式接入。
 
 ### **2、数据刷新规则及点击跳转**
 
-数据刷新规则请参照：[数据刷新规则](./#shu-ju-shua-xin-gui-ze)
-
 点击后跳转请参照：[点击后跳转](./#dian-ji-hou-tiao-zhuan)
 
 ## **数据刷新规则**
 
+{% hint style="info" %}
+此部分规则用于自动及用户点击后，刷新创意的显示，以实现最大化创意展示效率；
+
+接入时，只需按下方提示，获取接口数据并展示即可，其他由天幕SDK实现。
+{% endhint %}
+
 ### **1、自动刷新**
 
-根据`auto_change`的值，自动刷新广告内容；
+根据`auto_change`的值，自动刷新广告内容。
+
+该“自动刷新”策略，仅适用于[type=1浮动窗广告位](./#fu-dong-chuang-guang-gao-wei-jie-ru)
 
 #### **实现方法**
 
@@ -143,9 +149,11 @@ SDK组件无法满足，则可通过API的方式接入。
 
 根据在上述自动刷新说明的`auto_change`返回值设定的时间内，点击广告，自动刷新广告内容。
 
+该“点击刷新”策略，仅适用于[type=1浮动窗广告位](./#fu-dong-chuang-guang-gao-wei-jie-ru)、[type=7多Icon广告位](./#duo-icon-guang-gao-wei-jie-ru)。
+
 **实现方法**
 
-1. 点击后调用[`flowNavigate`](landing.md)，展示接口返回的创意配置。
+1. 点击后调用[`flowNavigate`](landing.md)，利用该接口返回的创意配置刷新显示的创意。
 2. 执行了此刷新后，自动刷新中的timer重新计时。
 
 #### **自测方法**
@@ -156,17 +164,13 @@ SDK组件无法满足，则可通过API的方式接入。
 
 点击后跳转的功能由SDK实现，开发者只需调用SDK中的[`flowNavigate`](landing.md)接口，传入对应的广告位ID和创意ID即可。
 
-### **1、**广告位ID获取
-
-在天幕-流量主后台的广告位管理页面，可找到对应广告位ID。
-
-![](../../../.gitbook/assets/image%20%284%29.png)
-
-### 2、创意ID的获取
+### 1、创意ID的获取
 
 在调用了[`getFlowConfig`](get-ad-position-config.md)后，返回的`creativeId`的值即为创意ID。
 
-### **3、.flowNavigate**
+（创意ID中包含了要跳转小游戏的appid等信息，无需额外传入appid）
+
+### **2、.flowNavigate**
 
 {% hint style="info" %}
 此功能的使用前提：调用了获取广告推广配置的[`getFlowConfig`](get-ad-position-config.md)；
@@ -177,8 +181,6 @@ SDK组件无法满足，则可通过API的方式接入。
 > 例如，用户在a游戏某广告位上点击了推广b产品的创意，那么在用户点击后，可以跳转至b产品，这个跳转需要通过[`flowNavigate`](landing.md)接口来实现。
 
 {% hint style="info" %}
-注意：
-
-请提前将需要跳转的appid添加只game.json配置列表中，若对此不了解请参阅[微信小程序跳转的规则文档](https://developers.weixin.qq.com/miniprogram/dev/api/open-api/miniprogram-navigate/wx.navigateToMiniProgram.html)，否则会导致跳转不成功
+添加跳转列表：请提前将需要跳转的appid添加到game.json配置列表中，若对此不了解请参阅[微信小程序跳转的规则文档](https://developers.weixin.qq.com/miniprogram/dev/api/open-api/miniprogram-navigate/wx.navigateToMiniProgram.html)，否则会导致跳转不成功。
 {% endhint %}
 

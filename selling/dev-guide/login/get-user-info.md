@@ -1,5 +1,5 @@
 ---
-description: 登录接口
+description: 获取用户信息
 ---
 
 # .login

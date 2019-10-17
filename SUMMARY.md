@@ -95,6 +95,7 @@
   * [成员权限](general-function/permission.md)
   * [游戏管理](general-function/game-manage.md)
 * [常见问题](questions/README.md)
+  * [游戏提审发版](questions/you-xi-ti-shen-fa-ban.md)
   * [卖量助手](questions/about-traffic-master.md)
   * [买量助手](questions/about-ad-master.md)
   * [游戏数据](questions/about-data.md)

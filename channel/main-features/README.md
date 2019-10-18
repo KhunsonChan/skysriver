@@ -16,5 +16,7 @@ description: 买量助手功能说明及使用指引，建议阅读者：流量�
 
 {% page-ref page="channel-management.md" %}
 
-## 收支管理
+## 功能接入指南
+
+{% page-ref page="../dev-guide/" %}
 

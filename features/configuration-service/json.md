@@ -6,7 +6,7 @@
 
 ## 实现方式
 
-![&#x5728;&#x7EBF;&#x53C2;&#x6570;&#x914D;&#x7F6E;&#x9875;&#x9762;](../../.gitbook/assets/image%20%283%29.png)
+![&#x5728;&#x7EBF;&#x53C2;&#x6570;&#x914D;&#x7F6E;&#x9875;&#x9762;](../../.gitbook/assets/image%20%284%29.png)
 
 在天幕后台创建JSON格式的配置参数，游戏端口通过SDK接口来获取该配置。 
 
@@ -19,11 +19,11 @@
 
 ## 创建配置
 
-![&#x914D;&#x7F6E;&#x5728;&#x7EBF;&#x53C2;&#x6570;](../../.gitbook/assets/image%20%2890%29.png)
+![&#x914D;&#x7F6E;&#x5728;&#x7EBF;&#x53C2;&#x6570;](../../.gitbook/assets/image%20%2892%29.png)
 
 点击创建按钮，在弹出的编辑窗口中，输入名称，键名以及Json配置。
 
-![&#x7F16;&#x8F91;&#x9875;&#x9762;](../../.gitbook/assets/image%20%28104%29.png)
+![&#x7F16;&#x8F91;&#x9875;&#x9762;](../../.gitbook/assets/image%20%28106%29.png)
 
 ###  Tips
 

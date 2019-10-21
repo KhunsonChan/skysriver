@@ -65,7 +65,9 @@ wx.tmSDK.flowNavigate({
 | :--- | :--- | :--- |
 | navigateMessage | Object | 触发跳转后微信的原始消息 |
 
+TIPS：用户**取消跳转**时，该值为：`errMsg:"navigateToMiniProgram:fail cancel"`
+
 {% hint style="info" %}
-可使用此值判断用户取消跳转
+可使用此值判断用户是否取消了跳转。
 {% endhint %}
 

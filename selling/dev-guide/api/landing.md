@@ -65,11 +65,3 @@ wx.tmSDK.flowNavigate({
 | :--- | :--- | :--- |
 | navigateMessage | Object | 触发跳转后微信的原始消息 |
 
-{% hint style="info" %}
-可使用此值判断：二次确认弹窗中，用户是否点击了取消
-
-用户点击取消操作，SDK不提供回调，可自行监听，实现方案可参考下方文件（请自行转为.js格式）；请根据自身业务需求，决定是否添加此部分逻辑。
-{% endhint %}
-
-{% file src="../../../.gitbook/assets/er-ci-que-ren-dian-ji-qu-xiao-jian-ting.txt" caption="二次确认点击取消监听" %}
-

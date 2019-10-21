@@ -48,3 +48,5 @@ wx.tmSDK.getJudgeConfig().then(res=>{
 | description | string | 当前配置项的说明 |
 | status | number | 当前配置项的状态， 1 - TRUE， 0 - FALSE |
 
+相关链接：[如何获取用户信息](../../questions/game-manage.md#ru-he-huo-qu-dang-qian-yong-hu-de-ji-ben-xin-xi)
+

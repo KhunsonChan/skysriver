@@ -44,3 +44,5 @@ wx.tmSDK.getAppJSONConfig('key').then((res) => {
 
 将在线参数后台的【配置ID】字段值作为传入参数，会将该ID所对应【参数值Jason】的内容返回。
 
+相关链接：[如何获取用户信息](../../questions/game-manage.md#ru-he-huo-qu-dang-qian-yong-hu-de-ji-ben-xin-xi)
+

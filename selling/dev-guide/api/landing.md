@@ -65,3 +65,7 @@ wx.tmSDK.flowNavigate({
 | :--- | :--- | :--- |
 | navigateMessage | Object | 触发跳转后微信的原始消息 |
 
+{% hint style="info" %}
+可使用此值判断用户取消跳转
+{% endhint %}
+

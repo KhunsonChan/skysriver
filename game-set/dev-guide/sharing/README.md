@@ -37,6 +37,10 @@
 
 以下是分享素材功能使用的三个接口
 
+{% hint style="info" %}
+强烈建议参照[开发demo](../../../selling/dev-guide/dev-demo.md)，完成接入
+{% endhint %}
+
 1.用户点击右上角菜单的转发按钮时调用
 
 {% page-ref page="onshareappmessage.md" %}

@@ -20,11 +20,14 @@
 ![](../../.gitbook/assets/image%20%28116%29.png)
 
 {% hint style="danger" %}
-注意：
+1. 请勿多个游戏使用同一个SDK，每个游戏会对应一个单独的SDK；
+2. 微信小游戏转为qq小游戏时，请将其视为接入一个新游戏
+{% endhint %}
 
-1. 请按页面流程完成SDK的下载；
-2. 请勿多个游戏使用同一个SDK，每个游戏会对应一个单独的SDK；
-3. 微信小游戏转为qq小游戏时，请将其视为接入一个新游戏
+{% hint style="danger" %}
+如果接入时，报错：小程序session解析错误
+
+请检查接入的SDK与小游戏本身是否对应（SDK及SDK所在项目的appid/appsecret，与小游戏实际是否一致）
 {% endhint %}
 
 ## **Step2.接入SDK**

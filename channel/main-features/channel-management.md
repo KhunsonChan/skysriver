@@ -48,3 +48,7 @@
 
 ![&#x521B;&#x5EFA;&#x6E20;&#x9053;&#x5546;](../../.gitbook/assets/image.png)
 
+{% hint style="info" %}
+拓展阅读：渠道商与开放数据管理
+{% endhint %}
+

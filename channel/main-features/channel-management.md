@@ -24,23 +24,23 @@
 
 点击【创建渠道】，进入渠道创建的弹窗，进行信息填写，按页面提示信息填写，点击保存后生成渠道ID。
 
-![](../../.gitbook/assets/image%20%2888%29.png)
+![](../../.gitbook/assets/image%20%2889%29.png)
 
-![](../../.gitbook/assets/image%20%28105%29.png)
+![](../../.gitbook/assets/image%20%28106%29.png)
 
 ### 渠道信息的发送
 
 点击操作中的发送渠道物料功能后会弹出一个窗口由您确认渠道投放产品等信息是否有误，可点击预览链接查看网页中呈现的信息，确认无误后点击复制链接即可将物料网页发送给合作方。
 
-![&#x53D1;&#x9001;&#x6E20;&#x9053;&#x7269;&#x6599;&#x529F;&#x80FD;&#x5165;&#x53E3;](../../.gitbook/assets/image%20%2865%29.png)
+![&#x53D1;&#x9001;&#x6E20;&#x9053;&#x7269;&#x6599;&#x529F;&#x80FD;&#x5165;&#x53E3;](../../.gitbook/assets/image%20%2866%29.png)
 
-![&#x786E;&#x8BA4;&#x7269;&#x6599;&#x4FE1;&#x606F;](../../.gitbook/assets/image%20%28156%29.png)
+![&#x786E;&#x8BA4;&#x7269;&#x6599;&#x4FE1;&#x606F;](../../.gitbook/assets/image%20%28158%29.png)
 
 ## 渠道商管理
 
 渠道商管理功能可以帮助管理各种投放渠道的渠道商，不管渠道商再多，也可进行统一管理。
 
-![&#x6E20;&#x9053;&#x5546;&#x5217;&#x8868;](../../.gitbook/assets/image%20%28141%29.png)
+![&#x6E20;&#x9053;&#x5546;&#x5217;&#x8868;](../../.gitbook/assets/image%20%28143%29.png)
 
 ### 渠道商的创建与管理
 
@@ -49,6 +49,6 @@
 ![&#x521B;&#x5EFA;&#x6E20;&#x9053;&#x5546;](../../.gitbook/assets/image.png)
 
 {% hint style="info" %}
-拓展阅读：渠道商与开放数据管理
+拓展阅读：[渠道商与开放数据管理](https://doc.skysriver.com/channel/main-features/distributor)
 {% endhint %}
 

@@ -22,7 +22,7 @@ description: 云存储Json参数，用于在线控制游戏内容
 
 点击“新建参数”按钮，在弹出的编辑窗口中，输入参数ID，参数说明以及Json配置。
 
-![&#x7F16;&#x8F91;&#x9875;&#x9762;](../../.gitbook/assets/image%20%28106%29.png)
+![&#x7F16;&#x8F91;&#x9875;&#x9762;](../../.gitbook/assets/image%20%28107%29.png)
 
 ###  Tips
 

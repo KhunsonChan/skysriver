@@ -12,7 +12,7 @@
 
 展示主体下所有广告计划的跑量整体情况，以及收入和收入趋势，把握整体情况。
 
-![](../../.gitbook/assets/image%20%2871%29.png)
+![](../../.gitbook/assets/image%20%2872%29.png)
 
 ## **广告位管理**
 
@@ -34,7 +34,7 @@
 
 不清楚如何新增广告位，可参阅[创建广告位](../../start/traffic-start-order/create-ad-position.md)
 
-![](../../.gitbook/assets/image%20%28132%29.png)
+![](../../.gitbook/assets/image%20%28133%29.png)
 
 ## **变现相关**
 
@@ -62,7 +62,7 @@
 
 在这个页面，你可以了解到已添加进入流量变现所有的游戏的数据情况，包括收入，广告位上的曝光点击等核心数据，把握整体情况。
 
-![](../../.gitbook/assets/image%20%28145%29.png)
+![](../../.gitbook/assets/image%20%28147%29.png)
 
 ![](../../.gitbook/assets/image%20%2835%29.png)
 
@@ -78,5 +78,5 @@
 
 ![](../../.gitbook/assets/image%20%2819%29.png)
 
-![](../../.gitbook/assets/image%20%28103%29.png)
+![](../../.gitbook/assets/image%20%28104%29.png)
 
